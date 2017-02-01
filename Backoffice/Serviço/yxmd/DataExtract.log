@@ -1,0 +1,404 @@
+2017-01-27 08:26:24.152 (4632): -----------------------------------------------------------------------------
+2017-01-27 08:26:24.152 (4632): Initializing fault reporting
+2017-01-27 08:26:24.152 (4632): Fault reporting log pathname: C:\DSM\Serviço\yxmd\tdeserver64-error00000d6c.log
+2017-01-27 08:26:24.152 (4632): Initializing MiniDump
+2017-01-27 08:26:24.152 (4632): Loading 'DbgHelp.dll'
+2017-01-27 08:26:24.152 (4632): Loaded 'C:\Windows\system32\DbgHelp.dll'
+2017-01-27 08:26:24.152 (4632):   Product Name: Microsoft® Windows® Operating System
+2017-01-27 08:26:24.152 (4632):   File Version: 6.1.7601.17514 (win7sp1_rtm.101119-1850)
+2017-01-27 08:26:24.152 (4632):   Product Version: 6.1.7601.17514
+2017-01-27 08:26:24.152 (4632): Finding function 'MiniDumpWriteDump'
+2017-01-27 08:26:24.152 (4632): Success
+2017-01-27 08:26:24.152 (4632): Registering unhandled exception filter
+2017-01-27 08:26:24.152 (4632): -----------------------------------------------------------------------------
+2017-01-27 08:26:24.152 (4632): Machine Configuration
+2017-01-27 08:26:24.152 (4632):   Max Descriptors: -1
+2017-01-27 08:26:24.152 (4632): tdeserver: server listening for incoming connections at: tab.pipe://./pipe/{0A82E08A-47D3-4F7B-9888-D458A0A5D7CA}
+2017-01-27 08:26:24.152 (4632): tdeserver: accepting new connection
+2017-01-27 08:26:24.152 (3284): beginthread: recv, connection=tab.pipe://./pipe/{0A82E08A-47D3-4F7B-9888-D458A0A5D7CA}
+2017-01-27 08:26:24.152 (4632): tdeserver: new connection, connection=tab.pipe://./pipe/{0A82E08A-47D3-4F7B-9888-D458A0A5D7CA}
+2017-01-27 08:26:24.152 (6996): beginthread: send, connection=tab.pipe://./pipe/{0A82E08A-47D3-4F7B-9888-D458A0A5D7CA}
+2017-01-27 08:26:24.152 (3284): tdeserver: open session, connection=tab.pipe://./pipe/{0A82E08A-47D3-4F7B-9888-D458A0A5D7CA}, sess_guid=1
+2017-01-27 08:26:24.152 (5612): Session1: QueryExecute:
+2017-01-27 08:26:24.152 (5612): (create database "C:\\DSM\\Serviço\\Dados\\Serviço_JAN.tde")
+2017-01-27 08:26:25.321 (5612): Session1: QueryExecute: OK
+2017-01-27 08:26:25.321 (2004): Session1: QueryExecute:
+2017-01-27 08:26:25.321 (2004): (create schema [Extract])
+2017-01-27 08:26:25.336 (2004): Session1: QueryExecute: OK
+2017-01-27 08:26:25.336 (5612): Session1: QueryExecute:
+2017-01-27 08:26:25.336 (5612): (create table [Extract].[Extract])
+2017-01-27 08:26:25.351 (5612): Session1: QueryExecute: OK
+2017-01-27 08:26:25.366 (2004): Session1: QueryExecute:
+2017-01-27 08:26:25.366 (2004): (create column [Extract].[Extract].[Consultor] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "0" ) ( "scale" "2" ) ( "storagewidth" "8" ) ))
+2017-01-27 08:26:25.381 (2004): Session1: QueryExecute: OK
+2017-01-27 08:26:25.381 (5612): Session1: QueryExecute:
+2017-01-27 08:26:25.381 (5612): (create column [Extract].[Extract].[FAT. TIM CONSULTOR] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "1" ) ))
+2017-01-27 08:26:25.397 (5612): Session1: QueryExecute: OK
+2017-01-27 08:26:25.397 (2004): Session1: QueryExecute:
+2017-01-27 08:26:25.397 (2004): (create column [Extract].[Extract].[FAT. AP CONSULTOR] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "2" ) ))
+2017-01-27 08:26:25.412 (2004): Session1: QueryExecute: OK
+2017-01-27 08:26:25.412 (5612): Session1: QueryExecute:
+2017-01-27 08:26:25.412 (5612): (create column [Extract].[Extract].[Segmento] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "3" ) ( "scale" "2" ) ( "storagewidth" "8" ) ))
+2017-01-27 08:26:25.427 (5612): Session1: QueryExecute: OK
+2017-01-27 08:26:25.427 (2004): Session1: QueryExecute:
+2017-01-27 08:26:25.427 (2004): (create column [Extract].[Extract].[Valor Meta Consultor] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "4" ) ))
+2017-01-27 08:26:25.442 (2004): Session1: QueryExecute: OK
+2017-01-27 08:26:25.442 (5612): Session1: QueryExecute:
+2017-01-27 08:26:25.442 (5612): (create column [Extract].[Extract].[DTAtivacao] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "5" ) ( "scale" "2" ) ( "storagewidth" "8" ) ))
+2017-01-27 08:26:25.457 (5612): Session1: QueryExecute: OK
+2017-01-27 08:26:25.457 (2004): Session1: QueryExecute:
+2017-01-27 08:26:25.457 (2004): (create column [Extract].[Extract].[DTVenda] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "6" ) ( "scale" "2" ) ( "storagewidth" "8" ) ))
+2017-01-27 08:26:25.472 (2004): Session1: QueryExecute: OK
+2017-01-27 08:26:25.472 (5612): Session1: QueryExecute:
+2017-01-27 08:26:25.472 (5612): (create column [Extract].[Extract].[StatusLinha] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "7" ) ( "scale" "2" ) ( "storagewidth" "8" ) ))
+2017-01-27 08:26:25.488 (5612): Session1: QueryExecute: OK
+2017-01-27 08:26:25.488 (2004): Session1: QueryExecute:
+2017-01-27 08:26:25.488 (2004): (create column [Extract].[Extract].[Pedido] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "8" ) ( "scale" "2" ) ( "storagewidth" "8" ) ))
+2017-01-27 08:26:25.503 (2004): Session1: QueryExecute: OK
+2017-01-27 08:26:25.503 (5612): Session1: QueryExecute:
+2017-01-27 08:26:25.503 (5612): (create column [Extract].[Extract].[Filial] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "9" ) ( "scale" "2" ) ( "storagewidth" "8" ) ))
+2017-01-27 08:26:25.518 (5612): Session1: QueryExecute: OK
+2017-01-27 08:26:25.518 (2004): Session1: QueryExecute:
+2017-01-27 08:26:25.518 (2004): (create column [Extract].[Extract].[GSM] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "10" ) ( "scale" "2" ) ( "storagewidth" "8" ) ))
+2017-01-27 08:26:25.533 (2004): Session1: QueryExecute: OK
+2017-01-27 08:26:25.533 (5612): Session1: QueryExecute:
+2017-01-27 08:26:25.533 (5612): (create column [Extract].[Extract].[Modalidade] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "11" ) ( "scale" "2" ) ( "storagewidth" "8" ) ))
+2017-01-27 08:26:25.548 (5612): Session1: QueryExecute: OK
+2017-01-27 08:26:25.548 (2004): Session1: QueryExecute:
+2017-01-27 08:26:25.548 (2004): (create column [Extract].[Extract].[PlaAntigo] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "12" ) ( "scale" "2" ) ( "storagewidth" "8" ) ))
+2017-01-27 08:26:25.563 (2004): Session1: QueryExecute: OK
+2017-01-27 08:26:25.563 (5612): Session1: QueryExecute:
+2017-01-27 08:26:25.563 (5612): (create column [Extract].[Extract].[ValorCaixa] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "13" ) ( "scale" "2" ) ( "storagewidth" "8" ) ))
+2017-01-27 08:26:25.579 (5612): Session1: QueryExecute: OK
+2017-01-27 08:26:25.579 (2004): Session1: QueryExecute:
+2017-01-27 08:26:25.579 (2004): (create column [Extract].[Extract].[IMEI] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "14" ) ( "scale" "2" ) ( "storagewidth" "8" ) ))
+2017-01-27 08:26:25.594 (2004): Session1: QueryExecute: OK
+2017-01-27 08:26:25.594 (5612): Session1: QueryExecute:
+2017-01-27 08:26:25.594 (5612): (create column [Extract].[Extract].[DTCancelamento] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "15" ) ( "scale" "2" ) ( "storagewidth" "8" ) ))
+2017-01-27 08:26:25.609 (5612): Session1: QueryExecute: OK
+2017-01-27 08:26:25.609 (2004): Session1: QueryExecute:
+2017-01-27 08:26:25.609 (2004): (create column [Extract].[Extract].[DTConfirmacao] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "16" ) ( "scale" "2" ) ( "storagewidth" "8" ) ))
+2017-01-27 08:26:25.639 (2004): Session1: QueryExecute: OK
+2017-01-27 08:26:25.639 (5612): Session1: QueryExecute:
+2017-01-27 08:26:25.639 (5612): (create column [Extract].[Extract].[Tipo Modalidade] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "17" ) ( "scale" "2" ) ( "storagewidth" "8" ) ))
+2017-01-27 08:26:25.655 (5612): Session1: QueryExecute: OK
+2017-01-27 08:26:25.655 (2004): Session1: QueryExecute:
+2017-01-27 08:26:25.655 (2004): (create column [Extract].[Extract].[PLANO] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "18" ) ( "scale" "2" ) ( "storagewidth" "8" ) ))
+2017-01-27 08:26:25.670 (2004): Session1: QueryExecute: OK
+2017-01-27 08:26:25.670 (5612): Session1: QueryExecute:
+2017-01-27 08:26:25.670 (5612): (create column [Extract].[Extract].[Franquia] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "19" ) ))
+2017-01-27 08:26:25.685 (5612): Session1: QueryExecute: OK
+2017-01-27 08:26:25.685 (2004): Session1: QueryExecute:
+2017-01-27 08:26:25.685 (2004): (create column [Extract].[Extract].[FAT. TIM] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "20" ) ))
+2017-01-27 08:26:25.715 (2004): Session1: QueryExecute: OK
+2017-01-27 08:26:25.715 (5612): Session1: QueryExecute:
+2017-01-27 08:26:25.715 (5612): (create column [Extract].[Extract].[FAT. AP] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "21" ) ))
+2017-01-27 08:26:25.730 (5612): Session1: QueryExecute: OK
+2017-01-27 08:26:25.730 (2004): Session1: QueryExecute:
+2017-01-27 08:26:25.730 (2004): (create column [Extract].[Extract].[Meta TIM] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "22" ) ))
+2017-01-27 08:26:25.730 (2004): Session1: QueryExecute: OK
+2017-01-27 08:26:25.730 (5612): Session1: QueryExecute:
+2017-01-27 08:26:25.730 (5612): (create column [Extract].[Extract].[Meta Loja] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "23" ) ))
+2017-01-27 08:26:25.746 (5612): Session1: QueryExecute: OK
+2017-01-27 08:26:25.746 (2004): Session1: QueryExecute:
+2017-01-27 08:26:25.746 (2004): (create column [Extract].[Extract].[Meta TIM Grupo] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "24" ) ))
+2017-01-27 08:26:25.761 (2004): Session1: QueryExecute: OK
+2017-01-27 08:26:25.761 (5612): Session1: QueryExecute:
+2017-01-27 08:26:25.761 (5612): (create column [Extract].[Extract].[Dias] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "25" ) ))
+2017-01-27 08:26:25.776 (5612): Session1: QueryExecute: OK
+2017-01-27 08:26:25.776 (2004): Session1: QueryExecute:
+2017-01-27 08:26:25.776 (2004): (create column [Extract].[Extract].[Data Aterior] ( ( "builtin" "datetime" ) ( "factory" "builtin" ) ( "ordinal" "26" ) ))
+2017-01-27 08:26:25.791 (2004): Session1: QueryExecute: OK
+2017-01-27 08:26:25.791 (5612): Session1: QueryExecute:
+2017-01-27 08:26:25.791 (5612): (create column [Extract].[Extract].[data calculo] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "27" ) ( "scale" "2" ) ( "storagewidth" "8" ) ))
+2017-01-27 08:26:25.806 (5612): Session1: QueryExecute: OK
+2017-01-27 08:26:25.806 (2004): Session1: QueryExecute:
+2017-01-27 08:26:25.806 (2004): (create column [Extract].[Extract].[dias passados rua] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "28" ) ))
+2017-01-27 08:26:25.821 (2004): Session1: QueryExecute: OK
+2017-01-27 08:26:25.821 (5612): Session1: QueryExecute:
+2017-01-27 08:26:25.821 (5612): (create column [Extract].[Extract].[dias passados shop] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "29" ) ))
+2017-01-27 08:26:25.837 (5612): Session1: QueryExecute: OK
+2017-01-27 08:26:25.837 (2004): Session1: QueryExecute:
+2017-01-27 08:26:25.837 (2004): (create column [Extract].[Extract].[dias totais ruas] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "30" ) ))
+2017-01-27 08:26:25.852 (2004): Session1: QueryExecute: OK
+2017-01-27 08:26:25.852 (5612): Session1: QueryExecute:
+2017-01-27 08:26:25.852 (5612): (create column [Extract].[Extract].[dias totais shop] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "31" ) ))
+2017-01-27 08:26:25.867 (5612): Session1: QueryExecute: OK
+2017-01-27 08:26:25.867 (2004): Session1: QueryExecute:
+2017-01-27 08:26:25.867 (2004): (create column [Extract].[Extract].[dias faltam rua] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "32" ) ))
+2017-01-27 08:26:25.882 (2004): Session1: QueryExecute: OK
+2017-01-27 08:26:25.882 (5612): Session1: QueryExecute:
+2017-01-27 08:26:25.882 (5612): (create column [Extract].[Extract].[dias faltam shop] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "33" ) ))
+2017-01-27 08:26:25.897 (5612): Session1: QueryExecute: OK
+2017-01-27 08:26:25.897 (2004): Session1: QueryExecute:
+2017-01-27 08:26:25.897 (2004): (create column [Extract].[Extract].[Meta] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "34" ) ))
+2017-01-27 08:26:25.912 (2004): Session1: QueryExecute: OK
+2017-01-27 08:26:25.912 (5612): Session1: QueryExecute:
+2017-01-27 08:26:25.912 (5612): (create column [Extract].[Extract].[Count_Segmento] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "35" ) ))
+2017-01-27 08:26:25.928 (5612): Session1: QueryExecute: OK
+2017-01-27 08:26:25.928 (2004): Session1: QueryExecute:
+2017-01-27 08:26:25.928 (2004): (create column [Extract].[Extract].[Ano] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "36" ) ))
+2017-01-27 08:26:25.943 (2004): Session1: QueryExecute: OK
+2017-01-27 08:26:25.943 (5612): Session1: QueryExecute:
+2017-01-27 08:26:25.943 (5612): (create column [Extract].[Extract].[Mês] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "37" ) ( "scale" "2" ) ( "storagewidth" "8" ) ))
+2017-01-27 08:26:25.958 (5612): Session1: QueryExecute: OK
+2017-01-27 08:26:25.958 (2004): Session1: QueryExecute:
+2017-01-27 08:26:25.958 (2004): (create column [Extract].[Extract].[FAT. TIM GRUPO] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "38" ) ))
+2017-01-27 08:26:25.973 (2004): Session1: QueryExecute: OK
+2017-01-27 08:26:25.973 (5612): Session1: QueryExecute:
+2017-01-27 08:26:25.973 (5612): (create column [Extract].[Extract].[Tendencia] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "39" ) ))
+2017-01-27 08:26:25.988 (5612): Session1: QueryExecute: OK
+2017-01-27 08:26:25.988 (2004): Session1: QueryExecute:
+2017-01-27 08:26:25.988 (2004): (create column [Extract].[Extract].[Tend. Grupo] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "40" ) ))
+2017-01-27 08:26:26.004 (2004): Session1: QueryExecute: OK
+2017-01-27 08:26:26.004 (5612): Session1: QueryExecute:
+2017-01-27 08:26:26.004 (5612): (create column [Extract].[Extract].[Tendencia Abs.] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "41" ) ))
+2017-01-27 08:26:26.019 (5612): Session1: QueryExecute: OK
+2017-01-27 08:26:26.019 (2004): Session1: QueryExecute:
+2017-01-27 08:26:26.019 (2004): (create column [Extract].[Extract].[Tendencia Abs. Fat Tim] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "42" ) ))
+2017-01-27 08:26:26.034 (2004): Session1: QueryExecute: OK
+2017-01-27 08:26:26.034 (5612): Session1: QueryExecute:
+2017-01-27 08:26:26.034 (5612): (create column [Extract].[Extract].[Tendencia Fat TIM] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "43" ) ))
+2017-01-27 08:26:26.049 (5612): Session1: QueryExecute: OK
+2017-01-27 08:26:26.049 (2004): Session1: QueryExecute:
+2017-01-27 08:26:26.049 (2004): (create column [Extract].[Extract].[Tendencia Grupo Fat TIM] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "44" ) ))
+2017-01-27 08:26:26.064 (2004): Session1: QueryExecute: OK
+2017-01-27 08:26:26.064 (5612): Session1: QueryExecute:
+2017-01-27 08:26:26.064 (5612): (create column [Extract].[Extract].[Regra] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "45" ) ))
+2017-01-27 08:26:26.079 (5612): Session1: QueryExecute: OK
+2017-01-27 08:26:26.186 (2004): Session1: InsertOpen: table="Extract schema="Extract"
+2017-01-27 08:26:26.186 (2004):   column[0]="Consultor"
+2017-01-27 08:26:26.186 (2004):   column[1]="FAT. TIM CONSULTOR"
+2017-01-27 08:26:26.186 (2004):   column[2]="FAT. AP CONSULTOR"
+2017-01-27 08:26:26.186 (2004):   column[3]="Segmento"
+2017-01-27 08:26:26.186 (2004):   column[4]="Valor Meta Consultor"
+2017-01-27 08:26:26.186 (2004):   column[5]="DTAtivacao"
+2017-01-27 08:26:26.186 (2004):   column[6]="DTVenda"
+2017-01-27 08:26:26.186 (2004):   column[7]="StatusLinha"
+2017-01-27 08:26:26.186 (2004):   column[8]="Pedido"
+2017-01-27 08:26:26.186 (2004):   column[9]="Filial"
+2017-01-27 08:26:26.186 (2004):   column[10]="GSM"
+2017-01-27 08:26:26.186 (2004):   column[11]="Modalidade"
+2017-01-27 08:26:26.186 (2004):   column[12]="PlaAntigo"
+2017-01-27 08:26:26.186 (2004):   column[13]="ValorCaixa"
+2017-01-27 08:26:26.186 (2004):   column[14]="IMEI"
+2017-01-27 08:26:26.186 (2004):   column[15]="DTCancelamento"
+2017-01-27 08:26:26.186 (2004):   column[16]="DTConfirmacao"
+2017-01-27 08:26:26.186 (2004):   column[17]="Tipo Modalidade"
+2017-01-27 08:26:26.186 (2004):   column[18]="PLANO"
+2017-01-27 08:26:26.186 (2004):   column[19]="Franquia"
+2017-01-27 08:26:26.186 (2004):   column[20]="FAT. TIM"
+2017-01-27 08:26:26.186 (2004):   column[21]="FAT. AP"
+2017-01-27 08:26:26.186 (2004):   column[22]="Meta TIM"
+2017-01-27 08:26:26.186 (2004):   column[23]="Meta Loja"
+2017-01-27 08:26:26.186 (2004):   column[24]="Meta TIM Grupo"
+2017-01-27 08:26:26.186 (2004):   column[25]="Dias"
+2017-01-27 08:26:26.186 (2004):   column[26]="Data Aterior"
+2017-01-27 08:26:26.186 (2004):   column[27]="data calculo"
+2017-01-27 08:26:26.186 (2004):   column[28]="dias passados rua"
+2017-01-27 08:26:26.186 (2004):   column[29]="dias passados shop"
+2017-01-27 08:26:26.186 (2004):   column[30]="dias totais ruas"
+2017-01-27 08:26:26.186 (2004):   column[31]="dias totais shop"
+2017-01-27 08:26:26.186 (2004):   column[32]="dias faltam rua"
+2017-01-27 08:26:26.186 (2004):   column[33]="dias faltam shop"
+2017-01-27 08:26:26.186 (2004):   column[34]="Meta"
+2017-01-27 08:26:26.186 (2004):   column[35]="Count_Segmento"
+2017-01-27 08:26:26.186 (2004):   column[36]="Ano"
+2017-01-27 08:26:26.186 (2004):   column[37]="Mês"
+2017-01-27 08:26:26.186 (2004):   column[38]="FAT. TIM GRUPO"
+2017-01-27 08:26:26.186 (2004):   column[39]="Tendencia"
+2017-01-27 08:26:26.186 (2004):   column[40]="Tend. Grupo"
+2017-01-27 08:26:26.186 (2004):   column[41]="Tendencia Abs."
+2017-01-27 08:26:26.186 (2004):   column[42]="Tendencia Abs. Fat Tim"
+2017-01-27 08:26:26.186 (2004):   column[43]="Tendencia Fat TIM"
+2017-01-27 08:26:26.186 (2004):   column[44]="Tendencia Grupo Fat TIM"
+2017-01-27 08:26:26.186 (2004):   column[45]="Regra"
+2017-01-27 08:26:26.383 (2004): Session1: InsertCommit: insert_guid=1
+2017-01-27 08:26:26.975 (2004): Session1: InsertCommit: OK
+2017-01-27 08:26:26.975 (5612): Session1: InsertClose: insert_guid=1
+2017-01-27 08:26:26.975 (5612): Session1: InsertClose: OK
+2017-01-27 08:26:26.975 (2004): Session1: QueryExecute:
+2017-01-27 08:26:26.975 (2004): (package)
+2017-01-27 08:26:26.975 (2004): PackageDatabase: in-place package of "C:\DSM\Serviço\Dados\Serviço_JAN.tde"
+2017-01-27 08:26:27.521 (2004): PackageDatabase: finished
+2017-01-27 08:26:27.521 (2004): Session1: QueryExecute: OK
+2017-01-27 08:26:27.521 (5612): Session1: QueryExecute:
+2017-01-27 08:26:27.521 (5612): (database "C:\\DSM\\Serviço\\Dados\\Serviço_JAN.tde")
+2017-01-27 08:26:27.521 (5612): Session1: QueryExecute: OK
+2017-01-27 08:26:27.521 (2004): Session1: QueryExecute:
+2017-01-27 08:26:27.521 (2004): (show schemas)
+2017-01-27 08:26:27.521 (2004): Elapsed time:0.001 sec
+2017-01-27 08:26:27.521 (2004): Compilation time:0.000 sec
+2017-01-27 08:26:27.521 (2004): Execution time:0.001 sec
+2017-01-27 08:26:27.521 (2004): Session1: QueryExecute: OK rowset_guid=2 n_columns=1
+2017-01-27 08:26:27.521 (2004): Session1: QueryExecute:
+2017-01-27 08:26:27.521 (2004): (show tables [Extract])
+2017-01-27 08:26:27.521 (2004): Elapsed time:0.002 sec
+2017-01-27 08:26:27.521 (2004): Compilation time:0.000 sec
+2017-01-27 08:26:27.521 (2004): Execution time:0.002 sec
+2017-01-27 08:26:27.521 (2004): Session1: QueryExecute: OK rowset_guid=3 n_columns=1
+2017-01-27 08:26:27.521 (2004): Session1: QueryExecute:
+2017-01-27 08:26:27.521 (2004): (top (table [Extract].[Extract]) () 0)
+2017-01-27 08:26:27.536 (2004): Elapsed time:0.024 sec
+2017-01-27 08:26:27.536 (2004): Compilation time:0.015 sec
+2017-01-27 08:26:27.536 (2004): Execution time:0.009 sec
+2017-01-27 08:26:27.551 (2004): Session1: QueryExecute: OK rowset_guid=4 n_columns=46
+2017-01-27 08:26:27.551 (2004): Session1: QueryExecute:
+2017-01-27 08:26:27.551 (2004): (alter column [Extract].[Extract].[Consultor] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-01-27 08:26:27.566 (2004): Session1: QueryExecute: OK
+2017-01-27 08:26:27.566 (5612): Session1: QueryExecute:
+2017-01-27 08:26:27.566 (5612): (alter column [Extract].[Extract].[FAT. TIM CONSULTOR] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-01-27 08:26:27.582 (5612): Session1: QueryExecute: OK
+2017-01-27 08:26:27.582 (2004): Session1: QueryExecute:
+2017-01-27 08:26:27.582 (2004): (alter column [Extract].[Extract].[FAT. AP CONSULTOR] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-01-27 08:26:27.597 (2004): Session1: QueryExecute: OK
+2017-01-27 08:26:27.597 (5612): Session1: QueryExecute:
+2017-01-27 08:26:27.597 (5612): (alter column [Extract].[Extract].[Segmento] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-01-27 08:26:27.612 (5612): Session1: QueryExecute: OK
+2017-01-27 08:26:27.612 (2004): Session1: QueryExecute:
+2017-01-27 08:26:27.612 (2004): (alter column [Extract].[Extract].[Valor Meta Consultor] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-01-27 08:26:27.627 (2004): Session1: QueryExecute: OK
+2017-01-27 08:26:27.627 (5612): Session1: QueryExecute:
+2017-01-27 08:26:27.627 (5612): (alter column [Extract].[Extract].[DTAtivacao] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-01-27 08:26:27.642 (5612): Session1: QueryExecute: OK
+2017-01-27 08:26:27.642 (2004): Session1: QueryExecute:
+2017-01-27 08:26:27.642 (2004): (alter column [Extract].[Extract].[DTVenda] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-01-27 08:26:27.658 (2004): Session1: QueryExecute: OK
+2017-01-27 08:26:27.658 (5612): Session1: QueryExecute:
+2017-01-27 08:26:27.658 (5612): (alter column [Extract].[Extract].[StatusLinha] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-01-27 08:26:27.673 (5612): Session1: QueryExecute: OK
+2017-01-27 08:26:27.673 (2004): Session1: QueryExecute:
+2017-01-27 08:26:27.673 (2004): (alter column [Extract].[Extract].[Pedido] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-01-27 08:26:27.703 (2004): Session1: QueryExecute: OK
+2017-01-27 08:26:27.703 (5612): Session1: QueryExecute:
+2017-01-27 08:26:27.703 (5612): (alter column [Extract].[Extract].[Filial] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-01-27 08:26:27.718 (5612): Session1: QueryExecute: OK
+2017-01-27 08:26:27.718 (2004): Session1: QueryExecute:
+2017-01-27 08:26:27.718 (2004): (alter column [Extract].[Extract].[GSM] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-01-27 08:26:27.733 (2004): Session1: QueryExecute: OK
+2017-01-27 08:26:27.733 (5612): Session1: QueryExecute:
+2017-01-27 08:26:27.733 (5612): (alter column [Extract].[Extract].[Modalidade] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-01-27 08:26:27.749 (5612): Session1: QueryExecute: OK
+2017-01-27 08:26:27.749 (2004): Session1: QueryExecute:
+2017-01-27 08:26:27.749 (2004): (alter column [Extract].[Extract].[PlaAntigo] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-01-27 08:26:27.764 (2004): Session1: QueryExecute: OK
+2017-01-27 08:26:27.764 (5612): Session1: QueryExecute:
+2017-01-27 08:26:27.764 (5612): (alter column [Extract].[Extract].[ValorCaixa] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-01-27 08:26:27.779 (5612): Session1: QueryExecute: OK
+2017-01-27 08:26:27.779 (2004): Session1: QueryExecute:
+2017-01-27 08:26:27.779 (2004): (alter column [Extract].[Extract].[IMEI] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-01-27 08:26:27.794 (2004): Session1: QueryExecute: OK
+2017-01-27 08:26:27.794 (5612): Session1: QueryExecute:
+2017-01-27 08:26:27.794 (5612): (alter column [Extract].[Extract].[DTCancelamento] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-01-27 08:26:27.809 (5612): Session1: QueryExecute: OK
+2017-01-27 08:26:27.809 (2004): Session1: QueryExecute:
+2017-01-27 08:26:27.809 (2004): (alter column [Extract].[Extract].[DTConfirmacao] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-01-27 08:26:27.824 (2004): Session1: QueryExecute: OK
+2017-01-27 08:26:27.824 (5612): Session1: QueryExecute:
+2017-01-27 08:26:27.824 (5612): (alter column [Extract].[Extract].[Tipo Modalidade] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-01-27 08:26:27.840 (5612): Session1: QueryExecute: OK
+2017-01-27 08:26:27.840 (2004): Session1: QueryExecute:
+2017-01-27 08:26:27.840 (2004): (alter column [Extract].[Extract].[PLANO] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-01-27 08:26:27.855 (2004): Session1: QueryExecute: OK
+2017-01-27 08:26:27.855 (5612): Session1: QueryExecute:
+2017-01-27 08:26:27.855 (5612): (alter column [Extract].[Extract].[Franquia] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-01-27 08:26:27.870 (5612): Session1: QueryExecute: OK
+2017-01-27 08:26:27.870 (2004): Session1: QueryExecute:
+2017-01-27 08:26:27.870 (2004): (alter column [Extract].[Extract].[FAT. TIM] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-01-27 08:26:27.885 (2004): Session1: QueryExecute: OK
+2017-01-27 08:26:27.885 (5612): Session1: QueryExecute:
+2017-01-27 08:26:27.885 (5612): (alter column [Extract].[Extract].[FAT. AP] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-01-27 08:26:27.900 (5612): Session1: QueryExecute: OK
+2017-01-27 08:26:27.900 (2004): Session1: QueryExecute:
+2017-01-27 08:26:27.900 (2004): (alter column [Extract].[Extract].[Meta TIM] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-01-27 08:26:27.915 (2004): Session1: QueryExecute: OK
+2017-01-27 08:26:27.915 (5612): Session1: QueryExecute:
+2017-01-27 08:26:27.915 (5612): (alter column [Extract].[Extract].[Meta Loja] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-01-27 08:26:27.946 (5612): Session1: QueryExecute: OK
+2017-01-27 08:26:27.946 (2004): Session1: QueryExecute:
+2017-01-27 08:26:27.946 (2004): (alter column [Extract].[Extract].[Meta TIM Grupo] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-01-27 08:26:27.961 (2004): Session1: QueryExecute: OK
+2017-01-27 08:26:27.961 (5612): Session1: QueryExecute:
+2017-01-27 08:26:27.961 (5612): (alter column [Extract].[Extract].[Dias] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-01-27 08:26:27.976 (5612): Session1: QueryExecute: OK
+2017-01-27 08:26:27.976 (2004): Session1: QueryExecute:
+2017-01-27 08:26:27.976 (2004): (alter column [Extract].[Extract].[Data Aterior] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-01-27 08:26:28.007 (2004): Session1: QueryExecute: OK
+2017-01-27 08:26:28.007 (5612): Session1: QueryExecute:
+2017-01-27 08:26:28.007 (5612): (alter column [Extract].[Extract].[data calculo] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-01-27 08:26:28.022 (5612): Session1: QueryExecute: OK
+2017-01-27 08:26:28.022 (2004): Session1: QueryExecute:
+2017-01-27 08:26:28.022 (2004): (alter column [Extract].[Extract].[dias passados rua] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-01-27 08:26:28.052 (2004): Session1: QueryExecute: OK
+2017-01-27 08:26:28.052 (5612): Session1: QueryExecute:
+2017-01-27 08:26:28.052 (5612): (alter column [Extract].[Extract].[dias passados shop] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-01-27 08:26:28.067 (5612): Session1: QueryExecute: OK
+2017-01-27 08:26:28.067 (2004): Session1: QueryExecute:
+2017-01-27 08:26:28.067 (2004): (alter column [Extract].[Extract].[dias totais ruas] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-01-27 08:26:28.082 (2004): Session1: QueryExecute: OK
+2017-01-27 08:26:28.082 (5612): Session1: QueryExecute:
+2017-01-27 08:26:28.082 (5612): (alter column [Extract].[Extract].[dias totais shop] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-01-27 08:26:28.098 (5612): Session1: QueryExecute: OK
+2017-01-27 08:26:28.098 (2004): Session1: QueryExecute:
+2017-01-27 08:26:28.098 (2004): (alter column [Extract].[Extract].[dias faltam rua] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-01-27 08:26:28.113 (2004): Session1: QueryExecute: OK
+2017-01-27 08:26:28.113 (5612): Session1: QueryExecute:
+2017-01-27 08:26:28.113 (5612): (alter column [Extract].[Extract].[dias faltam shop] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-01-27 08:26:28.128 (5612): Session1: QueryExecute: OK
+2017-01-27 08:26:28.128 (2004): Session1: QueryExecute:
+2017-01-27 08:26:28.128 (2004): (alter column [Extract].[Extract].[Meta] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-01-27 08:26:28.143 (2004): Session1: QueryExecute: OK
+2017-01-27 08:26:28.143 (5612): Session1: QueryExecute:
+2017-01-27 08:26:28.143 (5612): (alter column [Extract].[Extract].[Count_Segmento] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-01-27 08:26:28.173 (5612): Session1: QueryExecute: OK
+2017-01-27 08:26:28.173 (2004): Session1: QueryExecute:
+2017-01-27 08:26:28.173 (2004): (alter column [Extract].[Extract].[Ano] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-01-27 08:26:28.189 (2004): Session1: QueryExecute: OK
+2017-01-27 08:26:28.189 (5612): Session1: QueryExecute:
+2017-01-27 08:26:28.189 (5612): (alter column [Extract].[Extract].[Mês] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-01-27 08:26:28.204 (5612): Session1: QueryExecute: OK
+2017-01-27 08:26:28.204 (2004): Session1: QueryExecute:
+2017-01-27 08:26:28.204 (2004): (alter column [Extract].[Extract].[FAT. TIM GRUPO] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-01-27 08:26:28.219 (2004): Session1: QueryExecute: OK
+2017-01-27 08:26:28.219 (5612): Session1: QueryExecute:
+2017-01-27 08:26:28.219 (5612): (alter column [Extract].[Extract].[Tendencia] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-01-27 08:26:28.234 (5612): Session1: QueryExecute: OK
+2017-01-27 08:26:28.234 (2004): Session1: QueryExecute:
+2017-01-27 08:26:28.234 (2004): (alter column [Extract].[Extract].[Tend. Grupo] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-01-27 08:26:28.249 (2004): Session1: QueryExecute: OK
+2017-01-27 08:26:28.249 (5612): Session1: QueryExecute:
+2017-01-27 08:26:28.249 (5612): (alter column [Extract].[Extract].[Tendencia Abs.] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-01-27 08:26:28.264 (5612): Session1: QueryExecute: OK
+2017-01-27 08:26:28.264 (2004): Session1: QueryExecute:
+2017-01-27 08:26:28.264 (2004): (alter column [Extract].[Extract].[Tendencia Abs. Fat Tim] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-01-27 08:26:28.280 (2004): Session1: QueryExecute: OK
+2017-01-27 08:26:28.280 (5612): Session1: QueryExecute:
+2017-01-27 08:26:28.280 (5612): (alter column [Extract].[Extract].[Tendencia Fat TIM] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-01-27 08:26:28.295 (5612): Session1: QueryExecute: OK
+2017-01-27 08:26:28.295 (2004): Session1: QueryExecute:
+2017-01-27 08:26:28.295 (2004): (alter column [Extract].[Extract].[Tendencia Grupo Fat TIM] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-01-27 08:26:28.325 (2004): Session1: QueryExecute: OK
+2017-01-27 08:26:28.325 (5612): Session1: QueryExecute:
+2017-01-27 08:26:28.325 (5612): (alter column [Extract].[Extract].[Regra] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-01-27 08:26:28.325 (5612): Session1: QueryExecute: OK
+2017-01-27 08:26:28.325 (2004): Session1: QueryExecute:
+2017-01-27 08:26:28.325 (2004): (top (table [Extract].[Extract]) () 0)
+2017-01-27 08:26:28.340 (2004): Elapsed time:0.015 sec
+2017-01-27 08:26:28.340 (2004): Compilation time:0.007 sec
+2017-01-27 08:26:28.340 (2004): Execution time:0.007 sec
+2017-01-27 08:26:28.356 (2004): Session1: QueryExecute: OK rowset_guid=5 n_columns=46
+2017-01-27 08:26:28.356 (2004): Session1: QueryExecute:
+2017-01-27 08:26:28.356 (2004): (sort [Extract].[Extract] ( ( [Data Aterior] asc) ( [Tipo Modalidade] asc) ( [dias passados rua] asc) ( [dias passados shop] asc) ( [dias faltam rua] asc) ( [dias faltam shop] asc) ( [Ano] asc) ( [Mês] asc) ( [FAT. TIM GRUPO] asc) ( [StatusLinha] asc) ( [Dias] asc) ( [Tendencia Abs.] asc) ( [Segmento] asc) ( [data calculo] asc) ( [Filial] asc) ( [PlaAntigo] asc) ( [Meta TIM Grupo] asc) ( [DTConfirmacao] asc) ( [FAT. AP] asc) ( [Tend. Grupo] asc) ( [FAT. TIM] asc) ( [FAT. AP CONSULTOR] asc) ( [Franquia] asc) ( [FAT. TIM CONSULTOR] asc) ( [DTCancelamento] asc) ( [PLANO] asc) ( [Valor Meta Consultor] asc) ( [Modalidade] asc) ( [Meta TIM] asc) ( [Meta] asc) ( [Meta Loja] asc) ( [Tendencia] asc) ( [Consultor] asc) ( [Tendencia Abs. Fat Tim] asc) ( [DTAtivacao] asc) ( [DTVenda] asc) ( [Tendencia Grupo Fat TIM] asc) ( [ValorCaixa] asc) ( [Tendencia Fat TIM] asc) ( [IMEI] asc) ( [GSM] asc) ( [Pedido] asc) ) )
+2017-01-27 08:26:28.962 (2004): Session1: QueryExecute: OK
+2017-01-27 08:26:28.962 (5612): Session1: QueryExecute:
+2017-01-27 08:26:28.962 (5612): (package)
+2017-01-27 08:26:28.962 (5612): PackageDatabase: in-place package of "C:\DSM\Serviço\Dados\Serviço_JAN.tde"
+2017-01-27 08:26:29.129 (5612): PackageDatabase: finished
+2017-01-27 08:26:29.129 (5612): Session1: QueryExecute: OK
+2017-01-27 08:26:29.129 (3284): tdeserver: close session, connection=tab.pipe://./pipe/{0A82E08A-47D3-4F7B-9888-D458A0A5D7CA}, sess_guid=1
+2017-01-27 08:26:29.129 (3284): tdeserver: connection dead: O pipe foi finalizado.
+2017-01-27 08:26:29.129 (3284):  - IPC_NamedPipe::Recv(ReadFile)
+2017-01-27 08:26:29.129 (3284): tdeserver: closing connection, connection=tab.pipe://./pipe/{0A82E08A-47D3-4F7B-9888-D458A0A5D7CA}
+2017-01-27 08:26:29.129 (3284): endthread: recv, connection=tab.pipe://./pipe/{0A82E08A-47D3-4F7B-9888-D458A0A5D7CA}
+2017-01-27 08:26:29.129 (6996): endthread: send, connection=tab.pipe://./pipe/{0A82E08A-47D3-4F7B-9888-D458A0A5D7CA}
+2017-01-27 08:26:29.129 (4632): tdeserver: exit (0)

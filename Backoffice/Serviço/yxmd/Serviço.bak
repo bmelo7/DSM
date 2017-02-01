@@ -1,0 +1,1474 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="10.5">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="30" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="8">Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <NoProgress>False</NoProgress>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>relPlanilhaVendasTimExportOUT.16.xls
+Table=`relPlanilhaVendasTimExport$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Área" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Regional" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Filial" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="GSM" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="GSM Portado" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Contrato" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Número PV" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Data Pedido" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="DateTime" />
+            <Field name="Tipo Pedido" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Cupom Fiscal" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Nota Fiscal" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Cod Produto" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Descrição Comercial" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Descrição" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Grupo Estoque" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Sub Grupo" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Família" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Fabricante" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Categoria" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Tipo Produto" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Serial" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Qtde" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="Double" />
+            <Field name="Valor Tabela" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_String" />
+            <Field name="Valor Plano" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_String" />
+            <Field name="Valor Caixa" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="Double" />
+            <Field name="Descontos" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_String" />
+            <Field name="Juros" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_String" />
+            <Field name="Total Item" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_String" />
+            <Field name="Voucher" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_String" />
+            <Field name="Custo Inicial" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="Double" />
+            <Field name="Impostos" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_String" />
+            <Field name="Desconto Compra" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_String" />
+            <Field name="Custo Total" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_String" />
+            <Field name="Fornecedor" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="DT Compra" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="DateTime" />
+            <Field name="NF Compra" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Financeira" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Forma Pgto 1" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Valor Pgto 1" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="Double" />
+            <Field name="Forma Pgto 2" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Valor Pgto 2" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="Double" />
+            <Field name="Forma Pgto 3" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Valor Pgto 3" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="Double" />
+            <Field name="Forma Pgto 4" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Valor Pgto 4" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="Double" />
+            <Field name="Forma Pgto 5" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Valor Pgto 5" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="Double" />
+            <Field name="Forma Pgto 6" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Valor Pgto 6" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="Double" />
+            <Field name="Forma Pgto 7" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Valor Pgto 7" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="Double" />
+            <Field name="Forma Pgto 8" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Valor Pgto 8" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="Double" />
+            <Field name="Forma Pgto 9" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Valor Pgto 9" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="Double" />
+            <Field name="Forma Pgto 10" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Valor Pgto 10" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="Double" />
+            <Field name="CPF Vendedor" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Nome Vendedor" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="CPF Cliente" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Nome Cliente" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="UF Cliente" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Cidade Cliente" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Email Cliente" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Fone Cliente" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Plano Habilitação" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Claro Sim" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Tipo Habilitação" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Grade Preços" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Tipo Pacote" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Modalidade Venda" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Operadora Origem" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Desconto Plano" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_String" />
+            <Field name="MP do Bem" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Valor Pre" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_String" />
+            <Field name="Combo" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Logradouro" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Número" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Complemento" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Bairro" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Cidade" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="CEP" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="UF" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="TV" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Fixo" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Móvel" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Internet" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Item" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="Double" />
+            <Field name="MPB" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Valor Plano Anterior" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_String" />
+            <Field name="Qtde Pontos" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Score cliente" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Plano Antigo" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Dia Vencimento" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="Double" />
+            <Field name="Status ASPIX" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportOUT.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="606" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">Z:\BRENO\base_criterios.xlsx|`modalidades$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>base_criterios.xlsx
+Table=`modalidades$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Modalidade Venda" size="255" source="File: Z:\BRENO\base_criterios.xlsx|`modalidades$`" type="V_String" />
+            <Field name="Tipo" size="255" source="File: Z:\BRENO\base_criterios.xlsx|`modalidades$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="834" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Modalidade Venda" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Modalidade Venda" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="Right_Modalidade Venda" selected="True" rename="Right_Modalidade Venda" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="630" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="162" y="606" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="930" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\BRENO~1.MEL\AppData\Local\Temp\Engine_4832_021741209fba41e5a3815de55593858a_\Engine_6540_2d7afee91cd14320812dc902eb491ebb_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1170" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\BRENO~1.MEL\AppData\Local\Temp\Engine_4832_021741209fba41e5a3815de55593858a_\Engine_6540_e20f1ecdab5941b7a04ec69e7a727084_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="966" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\BRENO~1.MEL\AppData\Local\Temp\Engine_4832_021741209fba41e5a3815de55593858a_\Engine_6540_22c88b5a31a348cf91adffe69b80e163_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
+        <Position x="726" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldType>Text</FieldType>
+          <Fields orderChanged="False">
+            <Field name="Área" />
+            <Field name="Regional" />
+            <Field name="Filial" />
+            <Field name="GSM" />
+            <Field name="GSM Portado" />
+            <Field name="Contrato" />
+            <Field name="Número PV" />
+            <Field name="Tipo Pedido" />
+            <Field name="Cupom Fiscal" />
+            <Field name="Nota Fiscal" />
+            <Field name="Cod Produto" />
+            <Field name="Descrição Comercial" />
+            <Field name="Descrição" />
+            <Field name="Grupo Estoque" />
+            <Field name="Sub Grupo" />
+            <Field name="Família" />
+            <Field name="Fabricante" />
+            <Field name="Categoria" />
+            <Field name="Tipo Produto" />
+            <Field name="Serial" />
+            <Field name="Valor Tabela" />
+            <Field name="Valor Plano" />
+            <Field name="Descontos" />
+            <Field name="Juros" />
+            <Field name="Total Item" />
+            <Field name="Voucher" />
+            <Field name="Impostos" />
+            <Field name="Desconto Compra" />
+            <Field name="Custo Total" />
+            <Field name="Fornecedor" />
+            <Field name="NF Compra" />
+            <Field name="Financeira" />
+            <Field name="Forma Pgto 1" />
+            <Field name="Forma Pgto 2" />
+            <Field name="Forma Pgto 3" />
+            <Field name="Forma Pgto 4" />
+            <Field name="Forma Pgto 5" />
+            <Field name="Forma Pgto 6" />
+            <Field name="Forma Pgto 7" />
+            <Field name="Forma Pgto 8" />
+            <Field name="Forma Pgto 9" />
+            <Field name="Forma Pgto 10" />
+            <Field name="CPF Vendedor" />
+            <Field name="Nome Vendedor" />
+            <Field name="CPF Cliente" />
+            <Field name="Nome Cliente" />
+            <Field name="UF Cliente" />
+            <Field name="Cidade Cliente" />
+            <Field name="Email Cliente" />
+            <Field name="Fone Cliente" />
+            <Field name="Plano Habilitação" />
+            <Field name="Claro Sim" />
+            <Field name="Tipo Habilitação" />
+            <Field name="Grade Preços" />
+            <Field name="Tipo Pacote" />
+            <Field name="Modalidade Venda" />
+            <Field name="Operadora Origem" />
+            <Field name="Desconto Plano" />
+            <Field name="MP do Bem" />
+            <Field name="Valor Pre" />
+            <Field name="Combo" />
+            <Field name="Logradouro" />
+            <Field name="Número" />
+            <Field name="Complemento" />
+            <Field name="Bairro" />
+            <Field name="Cidade" />
+            <Field name="CEP" />
+            <Field name="UF" />
+            <Field name="TV" />
+            <Field name="Fixo" />
+            <Field name="Móvel" />
+            <Field name="Internet" />
+            <Field name="MPB" />
+            <Field name="Valor Plano Anterior" />
+            <Field name="Qtde Pontos" />
+            <Field name="Score cliente" />
+            <Field name="Plano Antigo" />
+            <Field name="Status ASPIX" />
+            <Field name="*Unknown" />
+          </Fields>
+          <CopyOutput value="False" />
+          <Expression>uppercase(DecomposeUnicodeForMatch([_CurrentField_]))</Expression>
+          <ChangeFieldType value="True" />
+          <OutputFieldType type="V_WString" size="255" scale="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>uppercase(DecomposeUnicodeForMatch([_CurrentField_]))</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiFieldFormula" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
+        <Position x="258" y="606" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldType>Text</FieldType>
+          <Fields orderChanged="False">
+            <Field name="Modalidade Venda" />
+            <Field name="Tipo" />
+            <Field name="*Unknown" />
+          </Fields>
+          <CopyOutput value="False" />
+          <Expression>uppercase(DecomposeUnicodeForMatch([_CurrentField_]))</Expression>
+          <ChangeFieldType value="True" />
+          <OutputFieldType type="V_String" size="255" scale="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>uppercase(DecomposeUnicodeForMatch([_CurrentField_]))</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiFieldFormula" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="822" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\BRENO~1.MEL\AppData\Local\Temp\Engine_4832_021741209fba41e5a3815de55593858a_\Engine_6540_c75ea9e51eff468e9fa11fdb5730ec65_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="462" y="666" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\BRENO~1.MEL\AppData\Local\Temp\Engine_4832_021741209fba41e5a3815de55593858a_\Engine_6540_0760aca68089409cabb8f1be71cecee9_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1110" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <SelectFields>
+            <SelectField field="Área" selected="True" />
+            <SelectField field="Regional" selected="True" />
+            <SelectField field="Filial" selected="True" />
+            <SelectField field="GSM" selected="True" />
+            <SelectField field="GSM Portado" selected="True" />
+            <SelectField field="Contrato" selected="True" />
+            <SelectField field="Número PV" selected="True" />
+            <SelectField field="Data Pedido" selected="True" />
+            <SelectField field="Tipo Pedido" selected="True" />
+            <SelectField field="Cupom Fiscal" selected="True" />
+            <SelectField field="Nota Fiscal" selected="True" />
+            <SelectField field="Cod Produto" selected="True" />
+            <SelectField field="Descrição Comercial" selected="True" />
+            <SelectField field="Descrição" selected="True" />
+            <SelectField field="Grupo Estoque" selected="True" />
+            <SelectField field="Sub Grupo" selected="True" />
+            <SelectField field="Família" selected="True" />
+            <SelectField field="Fabricante" selected="True" />
+            <SelectField field="Categoria" selected="True" />
+            <SelectField field="Tipo Produto" selected="True" />
+            <SelectField field="Serial" selected="True" />
+            <SelectField field="Qtde" selected="True" />
+            <SelectField field="Valor Tabela" selected="True" />
+            <SelectField field="Valor Plano" selected="True" />
+            <SelectField field="Valor Caixa" selected="True" />
+            <SelectField field="Descontos" selected="True" />
+            <SelectField field="Juros" selected="True" />
+            <SelectField field="Total Item" selected="True" />
+            <SelectField field="Voucher" selected="True" />
+            <SelectField field="Custo Inicial" selected="True" />
+            <SelectField field="Impostos" selected="True" />
+            <SelectField field="Desconto Compra" selected="True" />
+            <SelectField field="Custo Total" selected="True" />
+            <SelectField field="Fornecedor" selected="True" />
+            <SelectField field="DT Compra" selected="True" />
+            <SelectField field="NF Compra" selected="True" />
+            <SelectField field="Financeira" selected="True" />
+            <SelectField field="Forma Pgto 1" selected="True" />
+            <SelectField field="Valor Pgto 1" selected="True" />
+            <SelectField field="Forma Pgto 2" selected="True" />
+            <SelectField field="Valor Pgto 2" selected="True" />
+            <SelectField field="Forma Pgto 3" selected="True" />
+            <SelectField field="Valor Pgto 3" selected="True" />
+            <SelectField field="Forma Pgto 4" selected="True" />
+            <SelectField field="Valor Pgto 4" selected="True" />
+            <SelectField field="Forma Pgto 5" selected="True" />
+            <SelectField field="Valor Pgto 5" selected="True" />
+            <SelectField field="Forma Pgto 6" selected="True" />
+            <SelectField field="Valor Pgto 6" selected="True" />
+            <SelectField field="Forma Pgto 7" selected="True" />
+            <SelectField field="Valor Pgto 7" selected="True" />
+            <SelectField field="Forma Pgto 8" selected="True" />
+            <SelectField field="Valor Pgto 8" selected="True" />
+            <SelectField field="Forma Pgto 9" selected="True" />
+            <SelectField field="Valor Pgto 9" selected="True" />
+            <SelectField field="Forma Pgto 10" selected="True" />
+            <SelectField field="Valor Pgto 10" selected="True" />
+            <SelectField field="CPF Vendedor" selected="True" />
+            <SelectField field="Nome Vendedor" selected="True" />
+            <SelectField field="CPF Cliente" selected="True" />
+            <SelectField field="Nome Cliente" selected="True" />
+            <SelectField field="UF Cliente" selected="True" />
+            <SelectField field="Cidade Cliente" selected="True" />
+            <SelectField field="Email Cliente" selected="True" />
+            <SelectField field="Fone Cliente" selected="True" />
+            <SelectField field="Plano Habilitação" selected="True" />
+            <SelectField field="Claro Sim" selected="True" />
+            <SelectField field="Tipo Habilitação" selected="True" />
+            <SelectField field="Grade Preços" selected="True" />
+            <SelectField field="Tipo Pacote" selected="True" />
+            <SelectField field="Modalidade Venda" selected="True" />
+            <SelectField field="Tipo" selected="True" rename="Tipo Modalidade" />
+            <SelectField field="Operadora Origem" selected="True" />
+            <SelectField field="Desconto Plano" selected="True" />
+            <SelectField field="MP do Bem" selected="True" />
+            <SelectField field="Valor Pre" selected="True" />
+            <SelectField field="Combo" selected="True" />
+            <SelectField field="Logradouro" selected="True" />
+            <SelectField field="Número" selected="True" />
+            <SelectField field="Complemento" selected="True" />
+            <SelectField field="Bairro" selected="True" />
+            <SelectField field="Cidade" selected="True" />
+            <SelectField field="CEP" selected="True" />
+            <SelectField field="UF" selected="True" />
+            <SelectField field="TV" selected="True" />
+            <SelectField field="Fixo" selected="True" />
+            <SelectField field="Móvel" selected="True" />
+            <SelectField field="Internet" selected="True" />
+            <SelectField field="Item" selected="True" />
+            <SelectField field="MPB" selected="True" />
+            <SelectField field="Valor Plano Anterior" selected="True" />
+            <SelectField field="Qtde Pontos" selected="True" />
+            <SelectField field="Score cliente" selected="True" />
+            <SelectField field="Plano Antigo" selected="True" />
+            <SelectField field="Dia Vencimento" selected="True" />
+            <SelectField field="Status ASPIX" selected="True" />
+            <SelectField field="Right_Modalidade Venda" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="186" y="762" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">Z:\BRENO\base_criterios.xlsx|`planos$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>base_criterios.xlsx
+Table=`planos$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="PLANO" size="255" source="File: Z:\BRENO\base_criterios.xlsx|`planos$`" type="V_String" />
+            <Field name="SEGMENTO Flat" size="255" source="File: Z:\BRENO\base_criterios.xlsx|`planos$`" type="V_String" />
+            <Field name="Franquia" source="File: Z:\BRENO\base_criterios.xlsx|`planos$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="294" y="762" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
+        <Position x="390" y="762" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldType>Text</FieldType>
+          <Fields orderChanged="False">
+            <Field name="PLANO" />
+            <Field name="SEGMENTO Flat" />
+            <Field name="*Unknown" />
+          </Fields>
+          <CopyOutput value="False" />
+          <Expression>uppercase(DecomposeUnicodeForMatch([_CurrentField_]))</Expression>
+          <ChangeFieldType value="True" />
+          <OutputFieldType type="V_String" size="255" scale="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>uppercase(DecomposeUnicodeForMatch([_CurrentField_]))</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiFieldFormula" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1302" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Plano Habilitação" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="PLANO" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1398" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\BRENO~1.MEL\AppData\Local\Temp\Engine_4832_021741209fba41e5a3815de55593858a_\Engine_6540_bb73805ce0664fbea432f0e64fd5064c_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1398" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\BRENO~1.MEL\AppData\Local\Temp\Engine_4832_021741209fba41e5a3815de55593858a_\Engine_6540_c6783addb355409f8e1aec0e1168373c_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="474" y="762" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="PLANO" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Unique: PLANO</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="354" y="606" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="Modalidade Venda" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Unique: Modalidade Venda</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1650" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <SelectFields>
+            <SelectField field="Área" selected="True" />
+            <SelectField field="Regional" selected="True" />
+            <SelectField field="Filial" selected="True" />
+            <SelectField field="GSM" selected="True" />
+            <SelectField field="GSM Portado" selected="True" />
+            <SelectField field="Contrato" selected="True" />
+            <SelectField field="Número PV" selected="True" />
+            <SelectField field="Data Pedido" selected="True" />
+            <SelectField field="Tipo Pedido" selected="True" />
+            <SelectField field="Cupom Fiscal" selected="True" />
+            <SelectField field="Nota Fiscal" selected="True" />
+            <SelectField field="Cod Produto" selected="True" />
+            <SelectField field="Descrição Comercial" selected="True" />
+            <SelectField field="Descrição" selected="True" />
+            <SelectField field="Grupo Estoque" selected="True" />
+            <SelectField field="Sub Grupo" selected="True" />
+            <SelectField field="Família" selected="True" />
+            <SelectField field="Fabricante" selected="True" />
+            <SelectField field="Categoria" selected="True" />
+            <SelectField field="Tipo Produto" selected="True" />
+            <SelectField field="Serial" selected="True" />
+            <SelectField field="Qtde" selected="True" />
+            <SelectField field="Valor Tabela" selected="True" />
+            <SelectField field="Valor Plano" selected="True" />
+            <SelectField field="Valor Caixa" selected="True" />
+            <SelectField field="Descontos" selected="True" />
+            <SelectField field="Juros" selected="True" />
+            <SelectField field="Total Item" selected="True" />
+            <SelectField field="Voucher" selected="True" />
+            <SelectField field="Custo Inicial" selected="True" />
+            <SelectField field="Impostos" selected="True" />
+            <SelectField field="Desconto Compra" selected="True" />
+            <SelectField field="Custo Total" selected="True" />
+            <SelectField field="Fornecedor" selected="True" />
+            <SelectField field="DT Compra" selected="True" />
+            <SelectField field="NF Compra" selected="True" />
+            <SelectField field="Financeira" selected="True" />
+            <SelectField field="Forma Pgto 1" selected="True" />
+            <SelectField field="Valor Pgto 1" selected="True" />
+            <SelectField field="Forma Pgto 2" selected="True" />
+            <SelectField field="Valor Pgto 2" selected="True" />
+            <SelectField field="Forma Pgto 3" selected="True" />
+            <SelectField field="Valor Pgto 3" selected="True" />
+            <SelectField field="Forma Pgto 4" selected="True" />
+            <SelectField field="Valor Pgto 4" selected="True" />
+            <SelectField field="Forma Pgto 5" selected="True" />
+            <SelectField field="Valor Pgto 5" selected="True" />
+            <SelectField field="Forma Pgto 6" selected="True" />
+            <SelectField field="Valor Pgto 6" selected="True" />
+            <SelectField field="Forma Pgto 7" selected="True" />
+            <SelectField field="Valor Pgto 7" selected="True" />
+            <SelectField field="Forma Pgto 8" selected="True" />
+            <SelectField field="Valor Pgto 8" selected="True" />
+            <SelectField field="Forma Pgto 9" selected="True" />
+            <SelectField field="Valor Pgto 9" selected="True" />
+            <SelectField field="Forma Pgto 10" selected="True" />
+            <SelectField field="Valor Pgto 10" selected="True" />
+            <SelectField field="CPF Vendedor" selected="True" />
+            <SelectField field="Nome Vendedor" selected="True" />
+            <SelectField field="CPF Cliente" selected="True" />
+            <SelectField field="Nome Cliente" selected="True" />
+            <SelectField field="UF Cliente" selected="True" />
+            <SelectField field="Cidade Cliente" selected="True" />
+            <SelectField field="Email Cliente" selected="True" />
+            <SelectField field="Fone Cliente" selected="True" />
+            <SelectField field="Plano Habilitação" selected="True" />
+            <SelectField field="SEGMENTO Flat" selected="True" />
+            <SelectField field="Franquia" selected="True" />
+            <SelectField field="Claro Sim" selected="True" />
+            <SelectField field="Tipo Habilitação" selected="True" />
+            <SelectField field="Grade Preços" selected="True" />
+            <SelectField field="Tipo Pacote" selected="True" />
+            <SelectField field="Modalidade Venda" selected="True" />
+            <SelectField field="Tipo Modalidade" selected="True" />
+            <SelectField field="Operadora Origem" selected="True" />
+            <SelectField field="Desconto Plano" selected="True" />
+            <SelectField field="MP do Bem" selected="True" />
+            <SelectField field="Valor Pre" selected="True" />
+            <SelectField field="Combo" selected="True" />
+            <SelectField field="Logradouro" selected="True" />
+            <SelectField field="Número" selected="True" />
+            <SelectField field="Complemento" selected="True" />
+            <SelectField field="Bairro" selected="True" />
+            <SelectField field="Cidade" selected="True" />
+            <SelectField field="CEP" selected="True" />
+            <SelectField field="UF" selected="True" />
+            <SelectField field="TV" selected="True" />
+            <SelectField field="Fixo" selected="True" />
+            <SelectField field="Móvel" selected="True" />
+            <SelectField field="Internet" selected="True" />
+            <SelectField field="Item" selected="True" />
+            <SelectField field="MPB" selected="True" />
+            <SelectField field="Valor Plano Anterior" selected="True" />
+            <SelectField field="Qtde Pontos" selected="True" />
+            <SelectField field="Score cliente" selected="True" />
+            <SelectField field="Plano Antigo" selected="True" />
+            <SelectField field="Dia Vencimento" selected="True" />
+            <SelectField field="Status ASPIX" selected="True" />
+            <SelectField field="PLANO" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1662" y="498" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="42" MaxRecords="">D:\usuario\Desktop\Serviço.tde</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <OutputOption>Overwrite</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Serviço.tde</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="978" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="1458" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="1554" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="GSM" />
+            <Field field="Tipo Modalidade" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Unique: GSM, Tipo Modalidade</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="162" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Field>Data Pedido</Field>
+            <Operator>&gt;=</Operator>
+            <Operands>
+              <Operand>2016-10-01</Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DateTimeFormat([Data Pedido],"%Y-%m-%d") &gt;= "2016-10-01"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="42" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="8">Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <NoProgress>False</NoProgress>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>relPlanilhaVendasTimExportNOV.16.xls
+Table=`relPlanilhaVendasTimExport$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Área" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Regional" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Filial" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="GSM" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="GSM Portado" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Contrato" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Número PV" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Data Pedido" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="DateTime" />
+            <Field name="Tipo Pedido" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Cupom Fiscal" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Nota Fiscal" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Cod Produto" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Descrição Comercial" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Descrição" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Grupo Estoque" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Sub Grupo" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Família" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Fabricante" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Categoria" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Tipo Produto" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Serial" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Qtde" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="Double" />
+            <Field name="Valor Tabela" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_String" />
+            <Field name="Valor Plano" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_String" />
+            <Field name="Valor Caixa" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="Double" />
+            <Field name="Descontos" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_String" />
+            <Field name="Juros" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_String" />
+            <Field name="Total Item" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_String" />
+            <Field name="Voucher" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_String" />
+            <Field name="Custo Inicial" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="Double" />
+            <Field name="Impostos" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Desconto Compra" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Custo Total" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Fornecedor" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="DT Compra" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="NF Compra" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Financeira" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Forma Pgto 1" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Valor Pgto 1" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="Double" />
+            <Field name="Forma Pgto 2" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Valor Pgto 2" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="Double" />
+            <Field name="Forma Pgto 3" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Valor Pgto 3" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="Double" />
+            <Field name="Forma Pgto 4" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Valor Pgto 4" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="Double" />
+            <Field name="Forma Pgto 5" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Valor Pgto 5" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="Double" />
+            <Field name="Forma Pgto 6" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Valor Pgto 6" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="Double" />
+            <Field name="Forma Pgto 7" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Valor Pgto 7" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="Double" />
+            <Field name="Forma Pgto 8" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Valor Pgto 8" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="Double" />
+            <Field name="Forma Pgto 9" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Valor Pgto 9" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="Double" />
+            <Field name="Forma Pgto 10" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Valor Pgto 10" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="Double" />
+            <Field name="CPF Vendedor" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Nome Vendedor" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="CPF Cliente" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Nome Cliente" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="UF Cliente" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Cidade Cliente" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Email Cliente" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Fone Cliente" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Plano Habilitação" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Claro Sim" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Tipo Habilitação" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Grade Preços" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Tipo Pacote" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Modalidade Venda" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Operadora Origem" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Desconto Plano" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_String" />
+            <Field name="MP do Bem" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Valor Pre" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_String" />
+            <Field name="Combo" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Logradouro" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Número" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Complemento" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Bairro" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Cidade" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="CEP" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="UF" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="TV" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Fixo" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Móvel" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Internet" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Item" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="Double" />
+            <Field name="MPB" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Valor Plano Anterior" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_String" />
+            <Field name="Qtde Pontos" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Score cliente" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Plano Antigo" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Dia Vencimento" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Status ASPIX" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportNOV.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="174" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Field>Data Pedido</Field>
+            <Operator>&lt;=</Operator>
+            <Operands>
+              <Operand>2016-10-31</Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DateTimeFormat([Data Pedido],"%Y-%m-%d") &lt;= "2016-10-31"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="42" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="8">Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <NoProgress>False</NoProgress>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>relPlanilhaVendasTimExportDEZ.16.xls
+Table=`relPlanilhaVendasTimExport$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Área" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Regional" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Filial" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="GSM" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="GSM Portado" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Contrato" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Número PV" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Data Pedido" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="DateTime" />
+            <Field name="Tipo Pedido" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Cupom Fiscal" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Nota Fiscal" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Cod Produto" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Descrição Comercial" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Descrição" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Grupo Estoque" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Sub Grupo" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Família" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Fabricante" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Categoria" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Tipo Produto" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Serial" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Qtde" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="Double" />
+            <Field name="Valor Tabela" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_String" />
+            <Field name="Valor Plano" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_String" />
+            <Field name="Valor Caixa" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_String" />
+            <Field name="Descontos" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_String" />
+            <Field name="Juros" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_String" />
+            <Field name="Total Item" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_String" />
+            <Field name="Voucher" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_String" />
+            <Field name="Custo Inicial" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_String" />
+            <Field name="Impostos" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_String" />
+            <Field name="Desconto Compra" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_String" />
+            <Field name="Custo Total" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_String" />
+            <Field name="Fornecedor" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="DT Compra" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="DateTime" />
+            <Field name="NF Compra" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Financeira" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Forma Pgto 1" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Valor Pgto 1" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_String" />
+            <Field name="Forma Pgto 2" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Valor Pgto 2" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_String" />
+            <Field name="Forma Pgto 3" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Valor Pgto 3" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_String" />
+            <Field name="Forma Pgto 4" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Valor Pgto 4" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Forma Pgto 5" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Valor Pgto 5" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Forma Pgto 6" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Valor Pgto 6" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Forma Pgto 7" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Valor Pgto 7" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Forma Pgto 8" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Valor Pgto 8" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Forma Pgto 9" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Valor Pgto 9" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Forma Pgto 10" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Valor Pgto 10" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="CPF Vendedor" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Nome Vendedor" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="CPF Cliente" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Nome Cliente" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="UF Cliente" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Cidade Cliente" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Email Cliente" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Fone Cliente" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Plano Habilitação" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Claro Sim" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Tipo Habilitação" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Grade Preços" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Tipo Pacote" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Modalidade Venda" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Operadora Origem" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Desconto Plano" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_String" />
+            <Field name="MP do Bem" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Valor Pre" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_String" />
+            <Field name="Combo" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Logradouro" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Número" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Complemento" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Bairro" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Cidade" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="CEP" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="UF" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="TV" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Fixo" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Móvel" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Internet" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Item" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="Double" />
+            <Field name="MPB" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Valor Plano Anterior" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_String" />
+            <Field name="Qtde Pontos" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Score cliente" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Plano Antigo" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="Dia Vencimento" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="Double" />
+            <Field name="Status ASPIX" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+            <Field name="F96" size="255" source="File: Z:\BRENO\relPlanilhaVendasTimExportDEZ.16.xls|`relPlanilhaVendasTimExport$`" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="186" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Field>Data Pedido</Field>
+            <Operator>&lt;=</Operator>
+            <Operands>
+              <Operand>2016-10-31</Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DateTimeFormat([Data Pedido],"%Y-%m-%d") &lt;= "2016-10-31"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="462" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Left" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Right" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="4" Connection="Join" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="4" Connection="Left" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="4" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Unique" />
+      <Destination ToolID="4" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="20" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Unique" />
+      <Destination ToolID="20" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Left" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Right" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="20" Connection="Join" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="20" Connection="Left" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Unique" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Unique" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="32" Connection="True" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="34" Connection="True" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="36" Connection="True" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Output" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Output" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Serviço</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

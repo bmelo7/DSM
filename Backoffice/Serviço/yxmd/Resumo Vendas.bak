@@ -1,0 +1,2037 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="10.5">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords>44CC39D39B5CB2C75DC82BF961F90898062EA9845</Passwords>
+          <File RecordLimit="" FileFormat="23">odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM "backoffice"."tb_baixar_vendas"</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DSN=DW
+Table=SELECT * FROM "backoffice"."tb_baixar_vendas"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="id" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM &quot;backoffice&quot;.&quot;tb_baixar_vendas&quot;" type="Double" />
+            <Field name="gsm" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM &quot;backoffice&quot;.&quot;tb_baixar_vendas&quot;" type="V_WString" />
+            <Field name="gsmportado" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM &quot;backoffice&quot;.&quot;tb_baixar_vendas&quot;" type="V_WString" />
+            <Field name="contrato" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM &quot;backoffice&quot;.&quot;tb_baixar_vendas&quot;" type="V_WString" />
+            <Field name="area" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM &quot;backoffice&quot;.&quot;tb_baixar_vendas&quot;" type="V_WString" />
+            <Field name="regional" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM &quot;backoffice&quot;.&quot;tb_baixar_vendas&quot;" type="V_WString" />
+            <Field name="filial" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM &quot;backoffice&quot;.&quot;tb_baixar_vendas&quot;" type="V_WString" />
+            <Field name="Numero Pedido" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM &quot;backoffice&quot;.&quot;tb_baixar_vendas&quot;" type="V_WString" />
+            <Field name="Data Pedido" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM &quot;backoffice&quot;.&quot;tb_baixar_vendas&quot;" type="DateTime" />
+            <Field name="hora" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM &quot;backoffice&quot;.&quot;tb_baixar_vendas&quot;" type="V_WString" />
+            <Field name="Tipo Pedido" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM &quot;backoffice&quot;.&quot;tb_baixar_vendas&quot;" type="V_WString" />
+            <Field name="Cupom Fiscal" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM &quot;backoffice&quot;.&quot;tb_baixar_vendas&quot;" type="V_WString" />
+            <Field name="Cod Produto" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM &quot;backoffice&quot;.&quot;tb_baixar_vendas&quot;" type="V_WString" />
+            <Field name="Descricao Comercial" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM &quot;backoffice&quot;.&quot;tb_baixar_vendas&quot;" type="V_WString" />
+            <Field name="descricao" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM &quot;backoffice&quot;.&quot;tb_baixar_vendas&quot;" type="V_WString" />
+            <Field name="Grupo Estoque" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM &quot;backoffice&quot;.&quot;tb_baixar_vendas&quot;" type="V_WString" />
+            <Field name="subgrupo" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM &quot;backoffice&quot;.&quot;tb_baixar_vendas&quot;" type="V_WString" />
+            <Field name="familia" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM &quot;backoffice&quot;.&quot;tb_baixar_vendas&quot;" type="V_WString" />
+            <Field name="fabricante" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM &quot;backoffice&quot;.&quot;tb_baixar_vendas&quot;" type="V_WString" />
+            <Field name="categoria" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM &quot;backoffice&quot;.&quot;tb_baixar_vendas&quot;" type="V_WString" />
+            <Field name="Tipo Produto" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM &quot;backoffice&quot;.&quot;tb_baixar_vendas&quot;" type="V_WString" />
+            <Field name="serial" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM &quot;backoffice&quot;.&quot;tb_baixar_vendas&quot;" type="V_WString" />
+            <Field name="qtde" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM &quot;backoffice&quot;.&quot;tb_baixar_vendas&quot;" type="V_WString" />
+            <Field name="Valor Tabela" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM &quot;backoffice&quot;.&quot;tb_baixar_vendas&quot;" type="Double" />
+            <Field name="Valor Plano" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM &quot;backoffice&quot;.&quot;tb_baixar_vendas&quot;" type="Double" />
+            <Field name="Valor Caixa" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM &quot;backoffice&quot;.&quot;tb_baixar_vendas&quot;" type="Double" />
+            <Field name="descontos" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM &quot;backoffice&quot;.&quot;tb_baixar_vendas&quot;" type="Double" />
+            <Field name="juros" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM &quot;backoffice&quot;.&quot;tb_baixar_vendas&quot;" type="Double" />
+            <Field name="Total Item" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM &quot;backoffice&quot;.&quot;tb_baixar_vendas&quot;" type="Double" />
+            <Field name="voucher" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM &quot;backoffice&quot;.&quot;tb_baixar_vendas&quot;" type="Double" />
+            <Field name="Custo Inicial" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM &quot;backoffice&quot;.&quot;tb_baixar_vendas&quot;" type="Double" />
+            <Field name="impostos" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM &quot;backoffice&quot;.&quot;tb_baixar_vendas&quot;" type="Double" />
+            <Field name="Desconto Compra" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM &quot;backoffice&quot;.&quot;tb_baixar_vendas&quot;" type="Double" />
+            <Field name="Custo Total" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM &quot;backoffice&quot;.&quot;tb_baixar_vendas&quot;" type="Double" />
+            <Field name="fornecedor" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM &quot;backoffice&quot;.&quot;tb_baixar_vendas&quot;" type="V_WString" />
+            <Field name="DT Compra" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM &quot;backoffice&quot;.&quot;tb_baixar_vendas&quot;" type="V_WString" />
+            <Field name="NF Compra" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM &quot;backoffice&quot;.&quot;tb_baixar_vendas&quot;" type="V_WString" />
+            <Field name="financeira" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM &quot;backoffice&quot;.&quot;tb_baixar_vendas&quot;" type="V_WString" />
+            <Field name="Forma Pgto 1" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM &quot;backoffice&quot;.&quot;tb_baixar_vendas&quot;" type="V_WString" />
+            <Field name="Valor Pgto 1" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM &quot;backoffice&quot;.&quot;tb_baixar_vendas&quot;" type="Double" />
+            <Field name="Forma Pgto 2" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM &quot;backoffice&quot;.&quot;tb_baixar_vendas&quot;" type="V_WString" />
+            <Field name="Valor Pgto 2" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM &quot;backoffice&quot;.&quot;tb_baixar_vendas&quot;" type="Double" />
+            <Field name="Forma Pgto 3" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM &quot;backoffice&quot;.&quot;tb_baixar_vendas&quot;" type="V_WString" />
+            <Field name="Valor Pgto 3" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM &quot;backoffice&quot;.&quot;tb_baixar_vendas&quot;" type="Double" />
+            <Field name="Forma Pgto 4" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM &quot;backoffice&quot;.&quot;tb_baixar_vendas&quot;" type="V_WString" />
+            <Field name="Valor Pgto 4" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM &quot;backoffice&quot;.&quot;tb_baixar_vendas&quot;" type="Double" />
+            <Field name="Forma Pgto 5" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM &quot;backoffice&quot;.&quot;tb_baixar_vendas&quot;" type="V_WString" />
+            <Field name="Valor Pgto 5" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM &quot;backoffice&quot;.&quot;tb_baixar_vendas&quot;" type="Double" />
+            <Field name="CPF Vendedor" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM &quot;backoffice&quot;.&quot;tb_baixar_vendas&quot;" type="V_WString" />
+            <Field name="Nome Vendedor" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM &quot;backoffice&quot;.&quot;tb_baixar_vendas&quot;" type="V_WString" />
+            <Field name="CPF Cliente" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM &quot;backoffice&quot;.&quot;tb_baixar_vendas&quot;" type="V_WString" />
+            <Field name="Nome Cliente" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM &quot;backoffice&quot;.&quot;tb_baixar_vendas&quot;" type="V_WString" />
+            <Field name="UF Cliente" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM &quot;backoffice&quot;.&quot;tb_baixar_vendas&quot;" type="V_WString" />
+            <Field name="Cidade Cliente" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM &quot;backoffice&quot;.&quot;tb_baixar_vendas&quot;" type="V_WString" />
+            <Field name="Email Cliente" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM &quot;backoffice&quot;.&quot;tb_baixar_vendas&quot;" type="V_WString" />
+            <Field name="Fone Cliente" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM &quot;backoffice&quot;.&quot;tb_baixar_vendas&quot;" type="V_WString" />
+            <Field name="Plano Habilitação" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM &quot;backoffice&quot;.&quot;tb_baixar_vendas&quot;" type="V_WString" />
+            <Field name="Claro Sim" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM &quot;backoffice&quot;.&quot;tb_baixar_vendas&quot;" type="V_WString" />
+            <Field name="Tipo Habilitação" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM &quot;backoffice&quot;.&quot;tb_baixar_vendas&quot;" type="V_WString" />
+            <Field name="Tipo Pacote" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM &quot;backoffice&quot;.&quot;tb_baixar_vendas&quot;" type="V_WString" />
+            <Field name="Modalidade Venda" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM &quot;backoffice&quot;.&quot;tb_baixar_vendas&quot;" type="V_WString" />
+            <Field name="Operadora Origem" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM &quot;backoffice&quot;.&quot;tb_baixar_vendas&quot;" type="V_WString" />
+            <Field name="Desconto Plano" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM &quot;backoffice&quot;.&quot;tb_baixar_vendas&quot;" type="Double" />
+            <Field name="MP do Bem" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM &quot;backoffice&quot;.&quot;tb_baixar_vendas&quot;" type="V_WString" />
+            <Field name="Valor Pre" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM &quot;backoffice&quot;.&quot;tb_baixar_vendas&quot;" type="Double" />
+            <Field name="logradouro" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM &quot;backoffice&quot;.&quot;tb_baixar_vendas&quot;" type="V_WString" />
+            <Field name="numero" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM &quot;backoffice&quot;.&quot;tb_baixar_vendas&quot;" type="V_WString" />
+            <Field name="complemento" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM &quot;backoffice&quot;.&quot;tb_baixar_vendas&quot;" type="V_WString" />
+            <Field name="bairro" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM &quot;backoffice&quot;.&quot;tb_baixar_vendas&quot;" type="V_WString" />
+            <Field name="cidade" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM &quot;backoffice&quot;.&quot;tb_baixar_vendas&quot;" type="V_WString" />
+            <Field name="cep" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM &quot;backoffice&quot;.&quot;tb_baixar_vendas&quot;" type="V_WString" />
+            <Field name="uf" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM &quot;backoffice&quot;.&quot;tb_baixar_vendas&quot;" type="V_WString" />
+            <Field name="item" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM &quot;backoffice&quot;.&quot;tb_baixar_vendas&quot;" type="V_WString" />
+            <Field name="mpb" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM &quot;backoffice&quot;.&quot;tb_baixar_vendas&quot;" type="V_WString" />
+            <Field name="Valor Plano Anterior" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM &quot;backoffice&quot;.&quot;tb_baixar_vendas&quot;" type="Double" />
+            <Field name="Score cliente" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM &quot;backoffice&quot;.&quot;tb_baixar_vendas&quot;" type="V_WString" />
+            <Field name="Plano Antigo" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|SELECT * FROM &quot;backoffice&quot;.&quot;tb_baixar_vendas&quot;" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="546" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords>44CC39D39B5CB2C75DC82BF961F90898062EA9845</Passwords>
+          <File RecordLimit="" FileFormat="23">odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|"backoffice"."tb_vendas_x_custo"</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DSN=DW
+Table="backoffice"."tb_vendas_x_custo"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="id" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|&quot;backoffice&quot;.&quot;tb_vendas_x_custo&quot;" type="Int32" />
+            <Field name="pedidovenda_id" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|&quot;backoffice&quot;.&quot;tb_vendas_x_custo&quot;" type="V_WString" />
+            <Field name="regional" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|&quot;backoffice&quot;.&quot;tb_vendas_x_custo&quot;" type="V_WString" />
+            <Field name="filial" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|&quot;backoffice&quot;.&quot;tb_vendas_x_custo&quot;" type="V_WString" />
+            <Field name="Numero Pedido" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|&quot;backoffice&quot;.&quot;tb_vendas_x_custo&quot;" type="V_WString" />
+            <Field name="Numero Contrato" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|&quot;backoffice&quot;.&quot;tb_vendas_x_custo&quot;" type="V_WString" />
+            <Field name="Tipo Pedido" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|&quot;backoffice&quot;.&quot;tb_vendas_x_custo&quot;" type="V_WString" />
+            <Field name="data_pedido" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|&quot;backoffice&quot;.&quot;tb_vendas_x_custo&quot;" type="DateTime" />
+            <Field name="hora" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|&quot;backoffice&quot;.&quot;tb_vendas_x_custo&quot;" type="V_WString" />
+            <Field name="vendedor" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|&quot;backoffice&quot;.&quot;tb_vendas_x_custo&quot;" type="V_WString" />
+            <Field name="CPF Cliente" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|&quot;backoffice&quot;.&quot;tb_vendas_x_custo&quot;" type="V_WString" />
+            <Field name="tel" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|&quot;backoffice&quot;.&quot;tb_vendas_x_custo&quot;" type="V_WString" />
+            <Field name="Grupo Estoque" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|&quot;backoffice&quot;.&quot;tb_vendas_x_custo&quot;" type="V_WString" />
+            <Field name="Sub Grupo" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|&quot;backoffice&quot;.&quot;tb_vendas_x_custo&quot;" type="V_WString" />
+            <Field name="categoria" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|&quot;backoffice&quot;.&quot;tb_vendas_x_custo&quot;" type="V_WString" />
+            <Field name="Familia Estoque" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|&quot;backoffice&quot;.&quot;tb_vendas_x_custo&quot;" type="V_WString" />
+            <Field name="fabricante" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|&quot;backoffice&quot;.&quot;tb_vendas_x_custo&quot;" type="V_WString" />
+            <Field name="Modalidade Venda" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|&quot;backoffice&quot;.&quot;tb_vendas_x_custo&quot;" type="V_WString" />
+            <Field name="produto" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|&quot;backoffice&quot;.&quot;tb_vendas_x_custo&quot;" type="V_WString" />
+            <Field name="descricao" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|&quot;backoffice&quot;.&quot;tb_vendas_x_custo&quot;" type="V_WString" />
+            <Field name="serial" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|&quot;backoffice&quot;.&quot;tb_vendas_x_custo&quot;" type="V_WString" />
+            <Field name="qtde" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|&quot;backoffice&quot;.&quot;tb_vendas_x_custo&quot;" type="V_WString" />
+            <Field name="Valor Unitario" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|&quot;backoffice&quot;.&quot;tb_vendas_x_custo&quot;" type="Double" />
+            <Field name="Vaor Total" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|&quot;backoffice&quot;.&quot;tb_vendas_x_custo&quot;" type="Double" />
+            <Field name="Desconto Rateado" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|&quot;backoffice&quot;.&quot;tb_vendas_x_custo&quot;" type="Double" />
+            <Field name="Total Liquido Item" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|&quot;backoffice&quot;.&quot;tb_vendas_x_custo&quot;" type="Double" />
+            <Field name="Total Custo Medio" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|&quot;backoffice&quot;.&quot;tb_vendas_x_custo&quot;" type="Double" />
+            <Field name="Custo NF Entrada" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|&quot;backoffice&quot;.&quot;tb_vendas_x_custo&quot;" type="Double" />
+            <Field name="Juros Acrescidos" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|&quot;backoffice&quot;.&quot;tb_vendas_x_custo&quot;" type="Double" />
+            <Field name="Margem Bruta" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|&quot;backoffice&quot;.&quot;tb_vendas_x_custo&quot;" type="Double" />
+            <Field name="Margem Sobre Venda" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|&quot;backoffice&quot;.&quot;tb_vendas_x_custo&quot;" type="Double" />
+            <Field name="MP do Bem" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|&quot;backoffice&quot;.&quot;tb_vendas_x_custo&quot;" type="V_WString" />
+            <Field name="Recomposicao Margem Operadora" size="8190" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|&quot;backoffice&quot;.&quot;tb_vendas_x_custo&quot;" type="V_WString" />
+            <Field name="Taxa ADM Cartao" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|&quot;backoffice&quot;.&quot;tb_vendas_x_custo&quot;" type="Double" />
+            <Field name="Margem Liquida" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|&quot;backoffice&quot;.&quot;tb_vendas_x_custo&quot;" type="Double" />
+            <Field name="Porcentagem Margem Liquida" source="File: odbc:DSN=DW;UID=postgres;PWD=__EncPwd1__|&quot;backoffice&quot;.&quot;tb_vendas_x_custo&quot;" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="534" y="474" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Numero Pedido" />
+            <Field field="serial" />
+            <Field field="cod" />
+            <Field field="Data Pedido" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Numero Pedido" />
+            <Field field="serial" />
+            <Field field="cod" />
+            <Field field="data_pedido" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="Right_Numero Pedido" selected="True" rename="Right_Numero Pedido" />
+                <SelectField field="Right_serial" selected="True" rename="Right_serial" />
+                <SelectField field="Right_qtde" selected="True" rename="Right_qtde" />
+                <SelectField field="Right_cod" selected="True" rename="Right_cod" />
+                <SelectField field="Right_filial" selected="True" rename="Right_filial" />
+                <SelectField field="Right_id" selected="True" rename="Right_id" />
+                <SelectField field="Right_regional" selected="True" rename="Right_regional" />
+                <SelectField field="Right_Tipo Pedido" selected="True" rename="Right_Tipo Pedido" />
+                <SelectField field="Right_hora" selected="True" rename="Right_hora" />
+                <SelectField field="Right_CPF Cliente" selected="True" rename="Right_CPF Cliente" />
+                <SelectField field="Right_Grupo Estoque" selected="True" rename="Right_Grupo Estoque" />
+                <SelectField field="Right_categoria" selected="True" rename="Right_categoria" />
+                <SelectField field="Right_fabricante" selected="True" rename="Right_fabricante" />
+                <SelectField field="Right_Modalidade Venda" selected="True" rename="Right_Modalidade Venda" />
+                <SelectField field="Right_descricao" selected="True" rename="Right_descricao" />
+                <SelectField field="Right_MP do Bem" selected="True" rename="Right_MP do Bem" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="246" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="serial" type="V_WString" size="8190" expression="substring([Serial],1)" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>serial=substring([Serial],1)</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="726" y="474" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="Ano" type="Double" size="8" expression="tonumber(substring([Data Pedido],0,4))" />
+            <FormulaField field="Total Liquido Item" type="FixedDecimal" size="19.2" expression="[Total Liquido Item]/10000" />
+            <FormulaField field="Mes" type="Double" size="8" expression="tonumber(substring([Data Pedido],5,2))" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Ano=tonumber(substring([Data Pedido],0,4))
+Total Liquido Item=[Total Liquido Item]/10000
+Mes=tonumber(substring([Data Pedido],5,2))</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="246" y="546" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="Numero Pedido" selected="True" />
+            <SelectField field="data_pedido" selected="True" />
+            <SelectField field="serial" selected="True" />
+            <SelectField field="qtde" selected="True" />
+            <SelectField field="Total Liquido Item" selected="True" type="FixedDecimal" size="19.2" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="342" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="qtde" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="918" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\BRENO~1.MEL\AppData\Local\Temp\Engine_12640_cbf96f3a50d14fb68cd79bb6801c0f5e_\Engine_10136_ae66d97a5c63413096cd2848fd4102ec_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="822" y="474" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="filial" selected="True" rename="Filial" />
+            <SelectField field="bairro" selected="True" rename="Bairro" />
+            <SelectField field="Right_Numero Pedido" selected="False" />
+            <SelectField field="Right_serial" selected="False" />
+            <SelectField field="Right_qtde" selected="True" rename="Qtde" type="Double" size="8" />
+            <SelectField field="Total Liquido Item" selected="True" rename="Valor Caixa" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="702" y="570" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="8">C:\DSM\Serviço\Dados\Metas.xls|`'Qtde# Dias$'`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <NoProgress>False</NoProgress>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Metas.xls
+Table=`'Qtde# Dias$'`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Mês" source="File: C:\DSM\Serviço\Dados\Metas.xls|`'Qtde# Dias$'`" type="Double" />
+            <Field name="Ano" source="File: C:\DSM\Serviço\Dados\Metas.xls|`'Qtde# Dias$'`" type="Double" />
+            <Field name="Loja" size="255" source="File: C:\DSM\Serviço\Dados\Metas.xls|`'Qtde# Dias$'`" type="V_WString" />
+            <Field name="Dias" source="File: C:\DSM\Serviço\Dados\Metas.xls|`'Qtde# Dias$'`" type="Double" />
+            <Field name="Data Aterior" source="File: C:\DSM\Serviço\Dados\Metas.xls|`'Qtde# Dias$'`" type="DateTime" />
+            <Field name="data calculo" size="255" source="File: C:\DSM\Serviço\Dados\Metas.xls|`'Qtde# Dias$'`" type="V_WString" />
+            <Field name="dias passados rua" source="File: C:\DSM\Serviço\Dados\Metas.xls|`'Qtde# Dias$'`" type="Double" />
+            <Field name="dias passados shop" source="File: C:\DSM\Serviço\Dados\Metas.xls|`'Qtde# Dias$'`" type="Double" />
+            <Field name="dias totais ruas" source="File: C:\DSM\Serviço\Dados\Metas.xls|`'Qtde# Dias$'`" type="Double" />
+            <Field name="dias totais shop" source="File: C:\DSM\Serviço\Dados\Metas.xls|`'Qtde# Dias$'`" type="Double" />
+            <Field name="dias faltam rua" source="File: C:\DSM\Serviço\Dados\Metas.xls|`'Qtde# Dias$'`" type="Double" />
+            <Field name="dias faltam shop" source="File: C:\DSM\Serviço\Dados\Metas.xls|`'Qtde# Dias$'`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
+        <Position x="810" y="570" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldType>Text</FieldType>
+          <Fields orderChanged="False">
+            <Field name="Loja" />
+            <Field name="data calculo" />
+            <Field name="*Unknown" />
+          </Fields>
+          <CopyOutput value="False" />
+          <Expression>uppercase(DecomposeUnicodeForMatch([_CurrentField_]))</Expression>
+          <ChangeFieldType value="True" />
+          <OutputFieldType type="V_WString" size="255" scale="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>uppercase(DecomposeUnicodeForMatch([_CurrentField_]))</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiFieldFormula" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="930" y="570" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="F5" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1014" y="486" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Filial" />
+            <Field field="Ano" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Loja" />
+            <Field field="Ano" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="Right_Ano" selected="True" rename="Right_Ano" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1098" y="474" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Field>Ano</Field>
+            <Operator>=</Operator>
+            <Operands>
+              <Operand>2016</Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Ano] = 2016</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1782" y="798" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="filial" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Loja" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="Right_Loja" selected="True" rename="Right_Loja" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="52">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="2430" y="786" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="55">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="2238" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\BRENO~1.MEL\AppData\Local\Temp\Engine_12640_cbf96f3a50d14fb68cd79bb6801c0f5e_\Engine_10136_e9e7504383f14e97bf7515bef6a1ca62_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="56">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1230" y="630" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\BRENO~1.MEL\AppData\Local\Temp\Engine_12640_cbf96f3a50d14fb68cd79bb6801c0f5e_\Engine_10136_8cf6cac94a85413fae4c0276bef5d2df_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="59">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="2538" y="786" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="Right_Loja" selected="False" />
+            <SelectField field="FAT. TIM" selected="True" type="FixedDecimal" size="19.2" />
+            <SelectField field="FAT. AP" selected="True" type="Double" size="8" />
+            <SelectField field="Right_Regional" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="60">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="2646" y="786" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="Tendencia Fat. AP. Consultor" type="Double" size="8" expression="IF [Filial] = &quot;01 - ALDEOTA&quot;&#xA;THEN &#xA;[Valor Caixa]/[dias passados rua]*[dias totais ruas]/MAX([FAT. AP],0)&#xA;else&#xA;[Valor Caixa]/[dias passados shop]*[dias totais shop]/MAX([FAT. AP],0)&#xA;endif" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Tendencia Fat. AP. Consultor=IF [Filial] = "01 - ALDEOTA"
+THE...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="62">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="2982" y="654" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="42" MaxRecords="">D:\usuario\Desktop\teste.tde</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <OutputOption>Overwrite</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>teste.tde</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="63">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="438" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\BRENO~1.MEL\AppData\Local\Temp\Engine_12640_cbf96f3a50d14fb68cd79bb6801c0f5e_\Engine_10136_525f7c1cb54347d2bf81f67a16f840e5_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="64">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="354" y="594" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\BRENO~1.MEL\AppData\Local\Temp\Engine_12640_cbf96f3a50d14fb68cd79bb6801c0f5e_\Engine_10136_d62f3f11d5134691969d7604602b49a9_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="65">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="630" y="474" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="68">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="2742" y="786" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="Ano" order="Ascending" />
+            <Field field="Data Pedido" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Ano - Ascending
+Data Pedido - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="69">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="2838" y="786" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <SelectFields>
+            <SelectField field="id" selected="True" />
+            <SelectField field="gsm" selected="True" />
+            <SelectField field="gsmportado" selected="True" />
+            <SelectField field="contrato" selected="True" />
+            <SelectField field="area" selected="True" />
+            <SelectField field="regional" selected="True" />
+            <SelectField field="Filial" selected="True" />
+            <SelectField field="Numero Pedido" selected="True" />
+            <SelectField field="Ano" selected="True" />
+            <SelectField field="Data Pedido" selected="True" />
+            <SelectField field="data_pedido" selected="False" />
+            <SelectField field="hora" selected="True" />
+            <SelectField field="Tipo Pedido" selected="True" />
+            <SelectField field="Cupom Fiscal" selected="True" />
+            <SelectField field="Cod Produto" selected="True" />
+            <SelectField field="Descricao Comercial" selected="True" />
+            <SelectField field="descricao" selected="True" />
+            <SelectField field="Grupo Estoque" selected="True" />
+            <SelectField field="subgrupo" selected="True" />
+            <SelectField field="familia" selected="True" />
+            <SelectField field="fabricante" selected="True" />
+            <SelectField field="categoria" selected="True" />
+            <SelectField field="Tipo Produto" selected="True" />
+            <SelectField field="serial" selected="True" />
+            <SelectField field="Valor Tabela" selected="True" />
+            <SelectField field="Valor Plano" selected="True" />
+            <SelectField field="descontos" selected="True" />
+            <SelectField field="juros" selected="True" />
+            <SelectField field="Total Item" selected="True" />
+            <SelectField field="voucher" selected="True" />
+            <SelectField field="Custo Inicial" selected="True" />
+            <SelectField field="impostos" selected="True" />
+            <SelectField field="Desconto Compra" selected="True" />
+            <SelectField field="Custo Total" selected="True" />
+            <SelectField field="fornecedor" selected="True" />
+            <SelectField field="DT Compra" selected="True" />
+            <SelectField field="NF Compra" selected="True" />
+            <SelectField field="financeira" selected="True" />
+            <SelectField field="Forma Pgto 1" selected="True" />
+            <SelectField field="Valor Pgto 1" selected="True" />
+            <SelectField field="Forma Pgto 2" selected="True" />
+            <SelectField field="Valor Pgto 2" selected="True" />
+            <SelectField field="Forma Pgto 3" selected="True" />
+            <SelectField field="Valor Pgto 3" selected="True" />
+            <SelectField field="Forma Pgto 4" selected="True" />
+            <SelectField field="Valor Pgto 4" selected="True" />
+            <SelectField field="Forma Pgto 5" selected="True" />
+            <SelectField field="Valor Pgto 5" selected="True" />
+            <SelectField field="CPF Vendedor" selected="True" />
+            <SelectField field="Nome Vendedor" selected="True" />
+            <SelectField field="CPF Cliente" selected="True" />
+            <SelectField field="Nome Cliente" selected="True" />
+            <SelectField field="UF Cliente" selected="True" />
+            <SelectField field="Cidade Cliente" selected="True" />
+            <SelectField field="Email Cliente" selected="True" />
+            <SelectField field="Fone Cliente" selected="True" />
+            <SelectField field="Plano Habilitação" selected="True" />
+            <SelectField field="Claro Sim" selected="True" />
+            <SelectField field="Tipo Habilitação" selected="True" />
+            <SelectField field="Tipo Pacote" selected="True" />
+            <SelectField field="Modalidade Venda" selected="True" />
+            <SelectField field="Operadora Origem" selected="True" />
+            <SelectField field="Desconto Plano" selected="True" />
+            <SelectField field="MP do Bem" selected="True" />
+            <SelectField field="Valor Pre" selected="True" />
+            <SelectField field="logradouro" selected="True" />
+            <SelectField field="numero" selected="True" />
+            <SelectField field="complemento" selected="True" />
+            <SelectField field="Bairro" selected="True" />
+            <SelectField field="cidade" selected="True" />
+            <SelectField field="cep" selected="True" />
+            <SelectField field="uf" selected="True" />
+            <SelectField field="item" selected="True" />
+            <SelectField field="mpb" selected="True" />
+            <SelectField field="Valor Plano Anterior" selected="True" />
+            <SelectField field="Score cliente" selected="True" />
+            <SelectField field="Plano Antigo" selected="True" />
+            <SelectField field="Qtde" selected="True" />
+            <SelectField field="Valor Caixa" selected="True" />
+            <SelectField field="Mês" selected="True" />
+            <SelectField field="Right_Ano" selected="True" />
+            <SelectField field="Loja" selected="True" />
+            <SelectField field="Dias" selected="True" />
+            <SelectField field="Data Aterior" selected="True" />
+            <SelectField field="data calculo" selected="True" />
+            <SelectField field="dias passados rua" selected="True" />
+            <SelectField field="dias passados shop" selected="True" />
+            <SelectField field="dias totais ruas" selected="True" />
+            <SelectField field="dias totais shop" selected="True" />
+            <SelectField field="dias faltam rua" selected="True" />
+            <SelectField field="dias faltam shop" selected="True" />
+            <SelectField field="FAT. TIM" selected="True" />
+            <SelectField field="FAT. AP" selected="True" />
+            <SelectField field="Tendencia Fat. AP. Consultor" selected="True" />
+            <SelectField field="cod" selected="True" />
+            <SelectField field="Right_cod" selected="True" />
+            <SelectField field="qtde2" selected="True" />
+            <SelectField field="Mes" selected="True" />
+            <SelectField field="Valor Caixa2" selected="True" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="67">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+        <Position x="390" y="510" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="False" />
+          <UpdateField_Name>PedidoVenda_id</UpdateField_Name>
+          <CreateField_Name>cod</CreateField_Name>
+          <CreateField_Type>Int32</CreateField_Type>
+          <CreateField_Size>254</CreateField_Size>
+          <OtherRows>Empty</OtherRows>
+          <NumRows value="1" />
+          <Expression>[Row-1:cod] +1</Expression>
+          <GroupByFields>
+            <Field field="Numero Pedido" />
+            <Field field="data_pedido" />
+            <Field field="serial" />
+          </GroupByFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Row-1:cod] +1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+    </Node>
+    <Node ToolID="66">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+        <Position x="438" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="False" />
+          <UpdateField_Name>PedidoVenda_id</UpdateField_Name>
+          <CreateField_Name>cod</CreateField_Name>
+          <CreateField_Type>Int32</CreateField_Type>
+          <CreateField_Size>254</CreateField_Size>
+          <OtherRows>Empty</OtherRows>
+          <NumRows value="1" />
+          <Expression>[Row-1:cod] +1</Expression>
+          <GroupByFields>
+            <Field field="Numero Pedido" />
+            <Field field="Data Pedido" />
+            <Field field="serial" />
+          </GroupByFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Row-1:cod] +1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+    </Node>
+    <Node ToolID="72">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="594" y="654" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\BRENO~1.MEL\AppData\Local\Temp\Engine_12640_cbf96f3a50d14fb68cd79bb6801c0f5e_\Engine_10136_0f675e45a6224a83aef5897b7d926fc6_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="87">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="570" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Field>Numero Pedido</Field>
+            <Operator>=</Operator>
+            <Operands>
+              <Operand>0001-0098083</Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Numero Pedido] = "0001-0098083"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="88">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="666" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\BRENO~1.MEL\AppData\Local\Temp\Engine_12640_cbf96f3a50d14fb68cd79bb6801c0f5e_\Engine_10136_2ac36f7335304ebb9cf3bc80f333c584_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="474" y="834" width="1086" height="214" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Container 20</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="24">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="499" y="902" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">Z:\BRENO\METAS.JAN.17.xlsx|` METAS JAN.17$`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>METAS.JAN.17.xlsx
+Table=` METAS JAN.17$`</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="MÊS REF." size="255" source="File: Z:\BRENO\METAS.JAN.17.xlsx|` METAS JAN.17$`" type="V_String" />
+                <Field name="2017-01-01" size="255" source="File: Z:\BRENO\METAS.JAN.17.xlsx|` METAS JAN.17$`" type="V_String" />
+                <Field name="F3" size="255" source="File: Z:\BRENO\METAS.JAN.17.xlsx|` METAS JAN.17$`" type="V_String" />
+                <Field name="F4" size="255" source="File: Z:\BRENO\METAS.JAN.17.xlsx|` METAS JAN.17$`" type="V_String" />
+                <Field name="F5" size="255" source="File: Z:\BRENO\METAS.JAN.17.xlsx|` METAS JAN.17$`" type="V_String" />
+                <Field name="F6" size="255" source="File: Z:\BRENO\METAS.JAN.17.xlsx|` METAS JAN.17$`" type="V_String" />
+                <Field name="F7" size="255" source="File: Z:\BRENO\METAS.JAN.17.xlsx|` METAS JAN.17$`" type="V_String" />
+                <Field name="F8" size="255" source="File: Z:\BRENO\METAS.JAN.17.xlsx|` METAS JAN.17$`" type="V_String" />
+                <Field name="F9" size="255" source="File: Z:\BRENO\METAS.JAN.17.xlsx|` METAS JAN.17$`" type="V_String" />
+                <Field name="F10" size="255" source="File: Z:\BRENO\METAS.JAN.17.xlsx|` METAS JAN.17$`" type="V_String" />
+                <Field name="F11" source="File: Z:\BRENO\METAS.JAN.17.xlsx|` METAS JAN.17$`" type="Double" />
+                <Field name="F12" source="File: Z:\BRENO\METAS.JAN.17.xlsx|` METAS JAN.17$`" type="Double" />
+                <Field name="F13" source="File: Z:\BRENO\METAS.JAN.17.xlsx|` METAS JAN.17$`" type="Double" />
+                <Field name="F14" source="File: Z:\BRENO\METAS.JAN.17.xlsx|` METAS JAN.17$`" type="Double" />
+                <Field name="F15" source="File: Z:\BRENO\METAS.JAN.17.xlsx|` METAS JAN.17$`" type="Double" />
+                <Field name="F16" source="File: Z:\BRENO\METAS.JAN.17.xlsx|` METAS JAN.17$`" type="Double" />
+                <Field name="F17" source="File: Z:\BRENO\METAS.JAN.17.xlsx|` METAS JAN.17$`" type="Double" />
+                <Field name="F18" source="File: Z:\BRENO\METAS.JAN.17.xlsx|` METAS JAN.17$`" type="Double" />
+                <Field name="F19" source="File: Z:\BRENO\METAS.JAN.17.xlsx|` METAS JAN.17$`" type="Double" />
+                <Field name="F20" source="File: Z:\BRENO\METAS.JAN.17.xlsx|` METAS JAN.17$`" type="Double" />
+                <Field name="F21" source="File: Z:\BRENO\METAS.JAN.17.xlsx|` METAS JAN.17$`" type="Double" />
+                <Field name="F22" source="File: Z:\BRENO\METAS.JAN.17.xlsx|` METAS JAN.17$`" type="Double" />
+                <Field name="F23" source="File: Z:\BRENO\METAS.JAN.17.xlsx|` METAS JAN.17$`" type="Double" />
+                <Field name="F24" source="File: Z:\BRENO\METAS.JAN.17.xlsx|` METAS JAN.17$`" type="Double" />
+                <Field name="F25" source="File: Z:\BRENO\METAS.JAN.17.xlsx|` METAS JAN.17$`" type="Double" />
+                <Field name="F26" size="255" source="File: Z:\BRENO\METAS.JAN.17.xlsx|` METAS JAN.17$`" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="25">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1435" y="962" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\BRENO~1.MEL\AppData\Local\Temp\Engine_12640_cbf96f3a50d14fb68cd79bb6801c0f5e_\Engine_10136_3ee86276ee8e4394af994cf43eb56f0a_.yxdb</TempFile>
+              <Layout>
+                <View1>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="26">
+          <GuiSettings>
+            <Position x="691" y="902" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Ranges">2-11</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="SelectRecords.yxmc" />
+        </Node>
+        <Node ToolID="27">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="595" y="902" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="MÊS REF." selected="False" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="28">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicRename.DynamicRename">
+            <Position x="787" y="902" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <RenameMode>FirstRow</RenameMode>
+              <Fields orderChanged="False">
+                <Field name="2016-12-01" />
+                <Field name="F3" />
+                <Field name="F4" />
+                <Field name="F5" />
+                <Field name="F6" />
+                <Field name="F7" />
+                <Field name="F8" />
+                <Field name="F9" />
+                <Field name="F10" />
+                <Field name="F11" />
+                <Field name="F12" />
+                <Field name="F13" />
+                <Field name="F14" />
+                <Field name="F15" />
+                <Field name="F16" />
+                <Field name="F17" />
+                <Field name="F18" />
+                <Field name="F19" />
+                <Field name="F20" />
+                <Field name="F21" />
+                <Field name="F22" />
+                <Field name="F23" />
+                <Field name="F24" />
+                <Field name="F25" />
+                <Field name="F26" />
+                <Field name="*Unknown" />
+              </Fields>
+              <Expression />
+              <FirstRow>
+                <OnError>Warn</OnError>
+              </FirstRow>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="META TIM" size="255" source="File: Z:\BRENO\METAS.JAN.17.xlsx|` METAS JAN.17$`" type="V_String" />
+                <Field name="VOZ" size="255" source="File: Z:\BRENO\METAS.JAN.17.xlsx|` METAS JAN.17$`" type="V_String" />
+                <Field name="CONTROLE" size="255" source="File: Z:\BRENO\METAS.JAN.17.xlsx|` METAS JAN.17$`" type="V_String" />
+                <Field name="WEB" size="255" source="File: Z:\BRENO\METAS.JAN.17.xlsx|` METAS JAN.17$`" type="V_String" />
+                <Field name="FIXO" size="255" source="File: Z:\BRENO\METAS.JAN.17.xlsx|` METAS JAN.17$`" type="V_String" />
+                <Field name="FAT. TIM" size="255" source="File: Z:\BRENO\METAS.JAN.17.xlsx|` METAS JAN.17$`" type="V_String" />
+                <Field name="FAT. AP" size="255" source="File: Z:\BRENO\METAS.JAN.17.xlsx|` METAS JAN.17$`" type="V_String" />
+                <Field name="PRE-PAGO" size="255" source="File: Z:\BRENO\METAS.JAN.17.xlsx|` METAS JAN.17$`" type="V_String" />
+                <Field name="Field_26" size="255" source="File: Z:\BRENO\METAS.JAN.17.xlsx|` METAS JAN.17$`" type="V_String" />
+                <Field name="Field_26_2" source="File: Z:\BRENO\METAS.JAN.17.xlsx|` METAS JAN.17$`" type="Double" />
+                <Field name="Field_26_3" source="File: Z:\BRENO\METAS.JAN.17.xlsx|` METAS JAN.17$`" type="Double" />
+                <Field name="Field_26_4" source="File: Z:\BRENO\METAS.JAN.17.xlsx|` METAS JAN.17$`" type="Double" />
+                <Field name="Field_26_5" source="File: Z:\BRENO\METAS.JAN.17.xlsx|` METAS JAN.17$`" type="Double" />
+                <Field name="Field_26_6" source="File: Z:\BRENO\METAS.JAN.17.xlsx|` METAS JAN.17$`" type="Double" />
+                <Field name="Field_26_7" source="File: Z:\BRENO\METAS.JAN.17.xlsx|` METAS JAN.17$`" type="Double" />
+                <Field name="Field_26_8" source="File: Z:\BRENO\METAS.JAN.17.xlsx|` METAS JAN.17$`" type="Double" />
+                <Field name="Field_26_9" source="File: Z:\BRENO\METAS.JAN.17.xlsx|` METAS JAN.17$`" type="Double" />
+                <Field name="Field_26_10" source="File: Z:\BRENO\METAS.JAN.17.xlsx|` METAS JAN.17$`" type="Double" />
+                <Field name="Field_26_11" source="File: Z:\BRENO\METAS.JAN.17.xlsx|` METAS JAN.17$`" type="Double" />
+                <Field name="Field_26_12" source="File: Z:\BRENO\METAS.JAN.17.xlsx|` METAS JAN.17$`" type="Double" />
+                <Field name="Field_26_13" source="File: Z:\BRENO\METAS.JAN.17.xlsx|` METAS JAN.17$`" type="Double" />
+                <Field name="Field_26_14" source="File: Z:\BRENO\METAS.JAN.17.xlsx|` METAS JAN.17$`" type="Double" />
+                <Field name="Field_26_15" source="File: Z:\BRENO\METAS.JAN.17.xlsx|` METAS JAN.17$`" type="Double" />
+                <Field name="Field_26_16" source="File: Z:\BRENO\METAS.JAN.17.xlsx|` METAS JAN.17$`" type="Double" />
+                <Field name="Field_26_17" size="255" source="File: Z:\BRENO\METAS.JAN.17.xlsx|` METAS JAN.17$`" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicRename" />
+        </Node>
+        <Node ToolID="29">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="883" y="902" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Field>META TIM</Field>
+                <Operator>IsNotNull</Operator>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>!IsNull([META TIM])</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="30">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="979" y="902" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="Field_26" selected="False" />
+                <SelectField field="Field_26_2" selected="False" />
+                <SelectField field="Field_26_3" selected="False" />
+                <SelectField field="Field_26_4" selected="False" />
+                <SelectField field="Field_26_5" selected="False" />
+                <SelectField field="Field_26_6" selected="False" />
+                <SelectField field="Field_26_7" selected="False" />
+                <SelectField field="Field_26_8" selected="False" />
+                <SelectField field="Field_26_9" selected="False" />
+                <SelectField field="Field_26_10" selected="False" />
+                <SelectField field="Field_26_11" selected="False" />
+                <SelectField field="Field_26_12" selected="False" />
+                <SelectField field="Field_26_13" selected="False" />
+                <SelectField field="Field_26_14" selected="False" />
+                <SelectField field="Field_26_15" selected="False" />
+                <SelectField field="Field_26_16" selected="False" />
+                <SelectField field="Field_26_17" selected="False" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="31">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+            <Position x="1075" y="902" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ErrorWarn>Warn</ErrorWarn>
+              <KeyFields>
+                <Field field="META TIM" />
+                <Field field="FAT. TIM" />
+                <Field field="FAT. AP" />
+              </KeyFields>
+              <DataFields>
+                <Field field="META TIM" selected="False" />
+                <Field field="VOZ" selected="True" />
+                <Field field="CONTROLE" selected="True" />
+                <Field field="WEB" selected="True" />
+                <Field field="FIXO" selected="True" />
+                <Field field="FAT. TIM" selected="False" />
+                <Field field="FAT. AP" selected="False" />
+                <Field field="PRE-PAGO" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </DataFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+        </Node>
+        <Node ToolID="32">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1171" y="926" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="META TIM" selected="True" rename="Loja" />
+                <SelectField field="Name" selected="True" rename="Segmento" />
+                <SelectField field="Value" selected="True" rename="Meta TIM" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="33">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="1267" y="914" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Field>Segmento</Field>
+                <Operator>=</Operator>
+                <Operands>
+                  <Operand>PRE-PAGO</Operand>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[Segmento] = "PRE-PAGO"</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="34">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1363" y="914" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="Segmento" selected="False" />
+                <SelectField field="Meta TIM" selected="False" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="35">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+            <Position x="1459" y="878" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <UniqueFields>
+                <Field field="Loja" />
+              </UniqueFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Unique: Loja</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="50">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="930" y="54" width="1165" height="286" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Container 20</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="38">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="955" y="194" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">D:\usuario\Documents\01.CONSOLIDADO_DEZ16 - NOVA.xlsx|`METAS$`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>01.CONSOLIDADO_DEZ16 - NOVA.xlsx
+Table=`METAS$`</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="MÊS REF." size="255" source="File: D:\usuario\Documents\01.CONSOLIDADO_DEZ16 - NOVA.xlsx|`METAS$`" type="V_String" />
+                <Field name="2016-12-01" size="255" source="File: D:\usuario\Documents\01.CONSOLIDADO_DEZ16 - NOVA.xlsx|`METAS$`" type="V_String" />
+                <Field name="F3" size="255" source="File: D:\usuario\Documents\01.CONSOLIDADO_DEZ16 - NOVA.xlsx|`METAS$`" type="V_String" />
+                <Field name="F4" size="255" source="File: D:\usuario\Documents\01.CONSOLIDADO_DEZ16 - NOVA.xlsx|`METAS$`" type="V_String" />
+                <Field name="F5" size="255" source="File: D:\usuario\Documents\01.CONSOLIDADO_DEZ16 - NOVA.xlsx|`METAS$`" type="V_String" />
+                <Field name="F6" size="255" source="File: D:\usuario\Documents\01.CONSOLIDADO_DEZ16 - NOVA.xlsx|`METAS$`" type="V_String" />
+                <Field name="F7" size="255" source="File: D:\usuario\Documents\01.CONSOLIDADO_DEZ16 - NOVA.xlsx|`METAS$`" type="V_String" />
+                <Field name="F8" size="255" source="File: D:\usuario\Documents\01.CONSOLIDADO_DEZ16 - NOVA.xlsx|`METAS$`" type="V_String" />
+                <Field name="F9" size="255" source="File: D:\usuario\Documents\01.CONSOLIDADO_DEZ16 - NOVA.xlsx|`METAS$`" type="V_String" />
+                <Field name="F10" size="255" source="File: D:\usuario\Documents\01.CONSOLIDADO_DEZ16 - NOVA.xlsx|`METAS$`" type="V_String" />
+                <Field name="F11" source="File: D:\usuario\Documents\01.CONSOLIDADO_DEZ16 - NOVA.xlsx|`METAS$`" type="Double" />
+                <Field name="F12" source="File: D:\usuario\Documents\01.CONSOLIDADO_DEZ16 - NOVA.xlsx|`METAS$`" type="Double" />
+                <Field name="F13" source="File: D:\usuario\Documents\01.CONSOLIDADO_DEZ16 - NOVA.xlsx|`METAS$`" type="Double" />
+                <Field name="F14" source="File: D:\usuario\Documents\01.CONSOLIDADO_DEZ16 - NOVA.xlsx|`METAS$`" type="Double" />
+                <Field name="F15" source="File: D:\usuario\Documents\01.CONSOLIDADO_DEZ16 - NOVA.xlsx|`METAS$`" type="Double" />
+                <Field name="F16" source="File: D:\usuario\Documents\01.CONSOLIDADO_DEZ16 - NOVA.xlsx|`METAS$`" type="Double" />
+                <Field name="F17" source="File: D:\usuario\Documents\01.CONSOLIDADO_DEZ16 - NOVA.xlsx|`METAS$`" type="Double" />
+                <Field name="F18" source="File: D:\usuario\Documents\01.CONSOLIDADO_DEZ16 - NOVA.xlsx|`METAS$`" type="Double" />
+                <Field name="F19" source="File: D:\usuario\Documents\01.CONSOLIDADO_DEZ16 - NOVA.xlsx|`METAS$`" type="Double" />
+                <Field name="F20" source="File: D:\usuario\Documents\01.CONSOLIDADO_DEZ16 - NOVA.xlsx|`METAS$`" type="Double" />
+                <Field name="F21" source="File: D:\usuario\Documents\01.CONSOLIDADO_DEZ16 - NOVA.xlsx|`METAS$`" type="Double" />
+                <Field name="F22" source="File: D:\usuario\Documents\01.CONSOLIDADO_DEZ16 - NOVA.xlsx|`METAS$`" type="Double" />
+                <Field name="F23" source="File: D:\usuario\Documents\01.CONSOLIDADO_DEZ16 - NOVA.xlsx|`METAS$`" type="Double" />
+                <Field name="F24" source="File: D:\usuario\Documents\01.CONSOLIDADO_DEZ16 - NOVA.xlsx|`METAS$`" type="Double" />
+                <Field name="F25" source="File: D:\usuario\Documents\01.CONSOLIDADO_DEZ16 - NOVA.xlsx|`METAS$`" type="Double" />
+                <Field name="F26" size="255" source="File: D:\usuario\Documents\01.CONSOLIDADO_DEZ16 - NOVA.xlsx|`METAS$`" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="39">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1891" y="254" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\BRENO~1.MEL\AppData\Local\Temp\Engine_12640_cbf96f3a50d14fb68cd79bb6801c0f5e_\Engine_10136_f80e1eeeb0094d0f99bbbe35634ec6ff_.yxdb</TempFile>
+              <Layout>
+                <View1>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="40">
+          <GuiSettings>
+            <Position x="1147" y="194" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Ranges">2-11</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="SelectRecords.yxmc" />
+        </Node>
+        <Node ToolID="41">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1051" y="194" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="MÊS REF." selected="False" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="42">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicRename.DynamicRename">
+            <Position x="1243" y="194" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <RenameMode>FirstRow</RenameMode>
+              <Fields orderChanged="False">
+                <Field name="2016-12-01" />
+                <Field name="F3" />
+                <Field name="F4" />
+                <Field name="F5" />
+                <Field name="F6" />
+                <Field name="F7" />
+                <Field name="F8" />
+                <Field name="F9" />
+                <Field name="F10" />
+                <Field name="F11" />
+                <Field name="F12" />
+                <Field name="F13" />
+                <Field name="F14" />
+                <Field name="F15" />
+                <Field name="F16" />
+                <Field name="F17" />
+                <Field name="F18" />
+                <Field name="F19" />
+                <Field name="F20" />
+                <Field name="F21" />
+                <Field name="F22" />
+                <Field name="F23" />
+                <Field name="F24" />
+                <Field name="F25" />
+                <Field name="F26" />
+                <Field name="*Unknown" />
+              </Fields>
+              <Expression />
+              <FirstRow>
+                <OnError>Warn</OnError>
+              </FirstRow>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="META TIM" size="255" source="File: D:\usuario\Documents\01.CONSOLIDADO_DEZ16 - NOVA.xlsx|`METAS$`" type="V_String" />
+                <Field name="VOZ" size="255" source="File: D:\usuario\Documents\01.CONSOLIDADO_DEZ16 - NOVA.xlsx|`METAS$`" type="V_String" />
+                <Field name="CONTROLE" size="255" source="File: D:\usuario\Documents\01.CONSOLIDADO_DEZ16 - NOVA.xlsx|`METAS$`" type="V_String" />
+                <Field name="WEB" size="255" source="File: D:\usuario\Documents\01.CONSOLIDADO_DEZ16 - NOVA.xlsx|`METAS$`" type="V_String" />
+                <Field name="FIXO" size="255" source="File: D:\usuario\Documents\01.CONSOLIDADO_DEZ16 - NOVA.xlsx|`METAS$`" type="V_String" />
+                <Field name="FAT. TIM" size="255" source="File: D:\usuario\Documents\01.CONSOLIDADO_DEZ16 - NOVA.xlsx|`METAS$`" type="V_String" />
+                <Field name="FAT. AP" size="255" source="File: D:\usuario\Documents\01.CONSOLIDADO_DEZ16 - NOVA.xlsx|`METAS$`" type="V_String" />
+                <Field name="PRE-PAGO" size="255" source="File: D:\usuario\Documents\01.CONSOLIDADO_DEZ16 - NOVA.xlsx|`METAS$`" type="V_String" />
+                <Field name="Field_26" size="255" source="File: D:\usuario\Documents\01.CONSOLIDADO_DEZ16 - NOVA.xlsx|`METAS$`" type="V_String" />
+                <Field name="Field_26_2" source="File: D:\usuario\Documents\01.CONSOLIDADO_DEZ16 - NOVA.xlsx|`METAS$`" type="Double" />
+                <Field name="Field_26_3" source="File: D:\usuario\Documents\01.CONSOLIDADO_DEZ16 - NOVA.xlsx|`METAS$`" type="Double" />
+                <Field name="Field_26_4" source="File: D:\usuario\Documents\01.CONSOLIDADO_DEZ16 - NOVA.xlsx|`METAS$`" type="Double" />
+                <Field name="Field_26_5" source="File: D:\usuario\Documents\01.CONSOLIDADO_DEZ16 - NOVA.xlsx|`METAS$`" type="Double" />
+                <Field name="Field_26_6" source="File: D:\usuario\Documents\01.CONSOLIDADO_DEZ16 - NOVA.xlsx|`METAS$`" type="Double" />
+                <Field name="Field_26_7" source="File: D:\usuario\Documents\01.CONSOLIDADO_DEZ16 - NOVA.xlsx|`METAS$`" type="Double" />
+                <Field name="Field_26_8" source="File: D:\usuario\Documents\01.CONSOLIDADO_DEZ16 - NOVA.xlsx|`METAS$`" type="Double" />
+                <Field name="Field_26_9" source="File: D:\usuario\Documents\01.CONSOLIDADO_DEZ16 - NOVA.xlsx|`METAS$`" type="Double" />
+                <Field name="Field_26_10" source="File: D:\usuario\Documents\01.CONSOLIDADO_DEZ16 - NOVA.xlsx|`METAS$`" type="Double" />
+                <Field name="Field_26_11" source="File: D:\usuario\Documents\01.CONSOLIDADO_DEZ16 - NOVA.xlsx|`METAS$`" type="Double" />
+                <Field name="Field_26_12" source="File: D:\usuario\Documents\01.CONSOLIDADO_DEZ16 - NOVA.xlsx|`METAS$`" type="Double" />
+                <Field name="Field_26_13" source="File: D:\usuario\Documents\01.CONSOLIDADO_DEZ16 - NOVA.xlsx|`METAS$`" type="Double" />
+                <Field name="Field_26_14" source="File: D:\usuario\Documents\01.CONSOLIDADO_DEZ16 - NOVA.xlsx|`METAS$`" type="Double" />
+                <Field name="Field_26_15" source="File: D:\usuario\Documents\01.CONSOLIDADO_DEZ16 - NOVA.xlsx|`METAS$`" type="Double" />
+                <Field name="Field_26_16" source="File: D:\usuario\Documents\01.CONSOLIDADO_DEZ16 - NOVA.xlsx|`METAS$`" type="Double" />
+                <Field name="Field_26_17" size="255" source="File: D:\usuario\Documents\01.CONSOLIDADO_DEZ16 - NOVA.xlsx|`METAS$`" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicRename" />
+        </Node>
+        <Node ToolID="43">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="1339" y="194" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Field>META TIM</Field>
+                <Operator>IsNotNull</Operator>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>!IsNull([META TIM])</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="44">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1435" y="194" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="Field_26" selected="False" />
+                <SelectField field="Field_26_2" selected="False" />
+                <SelectField field="Field_26_3" selected="False" />
+                <SelectField field="Field_26_4" selected="False" />
+                <SelectField field="Field_26_5" selected="False" />
+                <SelectField field="Field_26_6" selected="False" />
+                <SelectField field="Field_26_7" selected="False" />
+                <SelectField field="Field_26_8" selected="False" />
+                <SelectField field="Field_26_9" selected="False" />
+                <SelectField field="Field_26_10" selected="False" />
+                <SelectField field="Field_26_11" selected="False" />
+                <SelectField field="Field_26_12" selected="False" />
+                <SelectField field="Field_26_13" selected="False" />
+                <SelectField field="Field_26_14" selected="False" />
+                <SelectField field="Field_26_15" selected="False" />
+                <SelectField field="Field_26_16" selected="False" />
+                <SelectField field="Field_26_17" selected="False" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="45">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+            <Position x="1531" y="194" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ErrorWarn>Warn</ErrorWarn>
+              <KeyFields>
+                <Field field="META TIM" />
+                <Field field="FAT. TIM" />
+                <Field field="FAT. AP" />
+              </KeyFields>
+              <DataFields>
+                <Field field="META TIM" selected="False" />
+                <Field field="VOZ" selected="True" />
+                <Field field="CONTROLE" selected="True" />
+                <Field field="WEB" selected="True" />
+                <Field field="FIXO" selected="True" />
+                <Field field="FAT. TIM" selected="False" />
+                <Field field="FAT. AP" selected="False" />
+                <Field field="PRE-PAGO" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </DataFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+        </Node>
+        <Node ToolID="46">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1627" y="218" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="META TIM" selected="True" rename="Loja" />
+                <SelectField field="Name" selected="True" rename="Segmento" />
+                <SelectField field="Value" selected="True" rename="Meta TIM" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="47">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="1723" y="206" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Field>Segmento</Field>
+                <Operator>=</Operator>
+                <Operands>
+                  <Operand>PRE-PAGO</Operand>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[Segmento] = "PRE-PAGO"</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="48">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1819" y="206" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="Segmento" selected="False" />
+                <SelectField field="Meta TIM" selected="False" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="49">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+            <Position x="1915" y="170" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <UniqueFields>
+                <Field field="Loja" />
+              </UniqueFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Unique: Loja</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+        </Node>
+        <Node ToolID="51">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="2011" y="98" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="filial" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="Loja" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <SelectFields>
+                    <SelectField field="Right_Loja" selected="True" rename="Right_Loja" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="4" Connection="Join" />
+      <Destination ToolID="65" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="4" Connection="Right" />
+      <Destination ToolID="65" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Join" />
+      <Destination ToolID="72" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="64" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="67" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="63" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="66" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="18" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="18" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Join" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Join" />
+      <Destination ToolID="56" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="False" />
+      <Destination ToolID="37" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Unique" />
+      <Destination ToolID="37" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="True" />
+      <Destination ToolID="51" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="49" Connection="Unique" />
+      <Destination ToolID="51" Connection="Right" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="37" Connection="Join" />
+      <Destination ToolID="52" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="51" Connection="Join" />
+      <Destination ToolID="52" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="52" Connection="Output" />
+      <Destination ToolID="59" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="59" Connection="Output" />
+      <Destination ToolID="60" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="60" Connection="Output" />
+      <Destination ToolID="68" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="65" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="68" Connection="Output" />
+      <Destination ToolID="69" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="69" Connection="Output" />
+      <Destination ToolID="62" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="67" Connection="Output" />
+      <Destination ToolID="4" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="66" Connection="Output" />
+      <Destination ToolID="4" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="67" Connection="Output" />
+      <Destination ToolID="87" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="87" Connection="True" />
+      <Destination ToolID="88" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="28" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="True" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="False" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Output" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Output" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Output" />
+      <Destination ToolID="42" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="41" Connection="Output" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="42" Connection="Output" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="43" Connection="True" />
+      <Destination ToolID="44" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="44" Connection="Output" />
+      <Destination ToolID="45" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="45" Connection="Output" />
+      <Destination ToolID="46" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="46" Connection="Output" />
+      <Destination ToolID="47" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="47" Connection="False" />
+      <Destination ToolID="48" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="48" Connection="Output" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="48" Connection="Output" />
+      <Destination ToolID="49" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="51" Connection="Join" />
+      <Destination ToolID="55" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Resumo Vendas</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

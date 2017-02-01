@@ -1,0 +1,3191 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="10.5">
+  <Nodes>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="90" y="762" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">Z:\BRENO\base_criterios.xlsx|`modalidades$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>base_criterios.xlsx
+Table=`modalidades$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Modalidade Venda" size="255" source="File: Z:\BRENO\base_criterios.xlsx|`modalidades$`" type="V_String" />
+            <Field name="Tipo" size="255" source="File: Z:\BRENO\base_criterios.xlsx|`modalidades$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="690" y="570" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Modalidade Venda" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Modalidade Venda" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="Right_Modalidade Venda" selected="True" rename="Right_Modalidade Venda" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="186" y="762" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="774" y="498" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\BRENO~1.MEL\AppData\Local\Temp\Engine_4976_8e2e862c2d84432e8efed0a2915bf331_\Engine_3956_480d57c4c37e4d9da7627e24983e35b1_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1074" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\BRENO~1.MEL\AppData\Local\Temp\Engine_4976_8e2e862c2d84432e8efed0a2915bf331_\Engine_3956_a0d23b0c577c4ebdbe768610e4ffa573_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="762" y="654" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\BRENO~1.MEL\AppData\Local\Temp\Engine_4976_8e2e862c2d84432e8efed0a2915bf331_\Engine_3956_7ed10fb9393d43b29c8b6eff5befc032_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
+        <Position x="282" y="762" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldType>Text</FieldType>
+          <Fields orderChanged="False">
+            <Field name="Modalidade Venda" />
+            <Field name="Tipo" />
+            <Field name="*Unknown" />
+          </Fields>
+          <CopyOutput value="False" />
+          <Expression>uppercase(DecomposeUnicodeForMatch([_CurrentField_]))</Expression>
+          <ChangeFieldType value="True" />
+          <OutputFieldType type="V_String" size="255" scale="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>uppercase(DecomposeUnicodeForMatch([_CurrentField_]))</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiFieldFormula" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="498" y="810" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\BRENO~1.MEL\AppData\Local\Temp\Engine_4976_8e2e862c2d84432e8efed0a2915bf331_\Engine_3956_ee58d33670de4c778537e9fbd64e2005_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1002" y="582" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <SelectFields>
+            <SelectField field="Área" selected="True" />
+            <SelectField field="Regional" selected="True" />
+            <SelectField field="Filial" selected="True" />
+            <SelectField field="GSM" selected="True" />
+            <SelectField field="GSM Portado" selected="True" />
+            <SelectField field="Contrato" selected="True" />
+            <SelectField field="Número PV" selected="True" />
+            <SelectField field="Data Pedido" selected="True" />
+            <SelectField field="Tipo Pedido" selected="True" />
+            <SelectField field="Cupom Fiscal" selected="True" />
+            <SelectField field="Nota Fiscal" selected="True" />
+            <SelectField field="Cod Produto" selected="True" />
+            <SelectField field="Descrição Comercial" selected="True" />
+            <SelectField field="Descrição" selected="True" />
+            <SelectField field="Grupo Estoque" selected="True" />
+            <SelectField field="Sub Grupo" selected="True" />
+            <SelectField field="Família" selected="True" />
+            <SelectField field="Fabricante" selected="True" />
+            <SelectField field="Categoria" selected="True" />
+            <SelectField field="Tipo Produto" selected="True" />
+            <SelectField field="Serial" selected="True" />
+            <SelectField field="Qtde" selected="True" />
+            <SelectField field="Valor Tabela" selected="True" />
+            <SelectField field="Valor Plano" selected="True" />
+            <SelectField field="Valor Caixa" selected="True" />
+            <SelectField field="Descontos" selected="True" />
+            <SelectField field="Juros" selected="True" />
+            <SelectField field="Total Item" selected="True" />
+            <SelectField field="Voucher" selected="True" />
+            <SelectField field="Custo Inicial" selected="True" />
+            <SelectField field="Impostos" selected="True" />
+            <SelectField field="Desconto Compra" selected="True" />
+            <SelectField field="Custo Total" selected="True" />
+            <SelectField field="Fornecedor" selected="True" />
+            <SelectField field="DT Compra" selected="True" />
+            <SelectField field="NF Compra" selected="True" />
+            <SelectField field="Financeira" selected="True" />
+            <SelectField field="Forma Pgto 1" selected="True" />
+            <SelectField field="Valor Pgto 1" selected="True" />
+            <SelectField field="Forma Pgto 2" selected="True" />
+            <SelectField field="Valor Pgto 2" selected="True" />
+            <SelectField field="Forma Pgto 3" selected="True" />
+            <SelectField field="Valor Pgto 3" selected="True" />
+            <SelectField field="Forma Pgto 4" selected="True" />
+            <SelectField field="Valor Pgto 4" selected="True" />
+            <SelectField field="Forma Pgto 5" selected="True" />
+            <SelectField field="Valor Pgto 5" selected="True" />
+            <SelectField field="Forma Pgto 6" selected="True" />
+            <SelectField field="Valor Pgto 6" selected="True" />
+            <SelectField field="Forma Pgto 7" selected="True" />
+            <SelectField field="Valor Pgto 7" selected="True" />
+            <SelectField field="Forma Pgto 8" selected="True" />
+            <SelectField field="Valor Pgto 8" selected="True" />
+            <SelectField field="Forma Pgto 9" selected="True" />
+            <SelectField field="Valor Pgto 9" selected="True" />
+            <SelectField field="Forma Pgto 10" selected="True" />
+            <SelectField field="Valor Pgto 10" selected="True" />
+            <SelectField field="CPF Vendedor" selected="True" />
+            <SelectField field="Nome Vendedor" selected="True" />
+            <SelectField field="CPF Cliente" selected="True" />
+            <SelectField field="Nome Cliente" selected="True" />
+            <SelectField field="UF Cliente" selected="True" />
+            <SelectField field="Cidade Cliente" selected="True" />
+            <SelectField field="Email Cliente" selected="True" />
+            <SelectField field="Fone Cliente" selected="True" />
+            <SelectField field="Plano Habilitação" selected="True" />
+            <SelectField field="Claro Sim" selected="True" />
+            <SelectField field="Tipo Habilitação" selected="True" />
+            <SelectField field="Grade Preços" selected="True" />
+            <SelectField field="Tipo Pacote" selected="True" />
+            <SelectField field="Modalidade Venda" selected="True" />
+            <SelectField field="Tipo" selected="True" rename="Tipo Modalidade" />
+            <SelectField field="Operadora Origem" selected="True" />
+            <SelectField field="Desconto Plano" selected="True" />
+            <SelectField field="MP do Bem" selected="True" />
+            <SelectField field="Valor Pre" selected="True" />
+            <SelectField field="Combo" selected="True" />
+            <SelectField field="Logradouro" selected="True" />
+            <SelectField field="Número" selected="True" />
+            <SelectField field="Complemento" selected="True" />
+            <SelectField field="Bairro" selected="True" />
+            <SelectField field="Cidade" selected="True" />
+            <SelectField field="CEP" selected="True" />
+            <SelectField field="UF" selected="True" />
+            <SelectField field="TV" selected="True" />
+            <SelectField field="Fixo" selected="True" />
+            <SelectField field="Móvel" selected="True" />
+            <SelectField field="Internet" selected="True" />
+            <SelectField field="Item" selected="True" />
+            <SelectField field="MPB" selected="True" />
+            <SelectField field="Valor Plano Anterior" selected="True" />
+            <SelectField field="Qtde Pontos" selected="True" />
+            <SelectField field="Score cliente" selected="True" />
+            <SelectField field="Plano Antigo" selected="True" />
+            <SelectField field="Dia Vencimento" selected="True" />
+            <SelectField field="Status ASPIX" selected="True" />
+            <SelectField field="Right_Modalidade Venda" selected="False" />
+            <SelectField field="id" selected="True" />
+            <SelectField field="Pedido" selected="True" />
+            <SelectField field="Right_Filial" selected="True" />
+            <SelectField field="DTCancelamento" selected="True" />
+            <SelectField field="StatusLinha" selected="True" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="210" y="906" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">Z:\BRENO\base_criterios.xlsx|`planos$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>base_criterios.xlsx
+Table=`planos$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="PLANO" size="255" source="File: Z:\BRENO\base_criterios.xlsx|`planos$`" type="V_String" />
+            <Field name="SEGMENTO Flat" size="255" source="File: Z:\BRENO\base_criterios.xlsx|`planos$`" type="V_String" />
+            <Field name="Franquia" source="File: Z:\BRENO\base_criterios.xlsx|`planos$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="330" y="906" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
+        <Position x="426" y="906" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldType>Text</FieldType>
+          <Fields orderChanged="False">
+            <Field name="PLANO" />
+            <Field name="SEGMENTO Flat" />
+            <Field name="*Unknown" />
+          </Fields>
+          <CopyOutput value="False" />
+          <Expression>uppercase(DecomposeUnicodeForMatch([_CurrentField_]))</Expression>
+          <ChangeFieldType value="True" />
+          <OutputFieldType type="V_String" size="255" scale="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>uppercase(DecomposeUnicodeForMatch([_CurrentField_]))</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiFieldFormula" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1290" y="678" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Plano Habilitação" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="PLANO" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1398" y="846" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\BRENO~1.MEL\AppData\Local\Temp\Engine_4976_8e2e862c2d84432e8efed0a2915bf331_\Engine_3956_6cb8d8cd6b7d4da7bde2fddd1cdc0632_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="546" y="906" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="PLANO" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Unique: PLANO</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="378" y="762" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="Modalidade Venda" />
+            <Field field="Tipo" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Unique: Modalidade Venda, Tipo</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1614" y="654" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <SelectFields>
+            <SelectField field="Área" selected="True" />
+            <SelectField field="Regional" selected="True" />
+            <SelectField field="Filial" selected="True" />
+            <SelectField field="GSM" selected="True" />
+            <SelectField field="GSM Portado" selected="True" />
+            <SelectField field="Contrato" selected="True" />
+            <SelectField field="Número PV" selected="True" />
+            <SelectField field="Data Pedido" selected="True" />
+            <SelectField field="Tipo Pedido" selected="True" />
+            <SelectField field="Cupom Fiscal" selected="True" />
+            <SelectField field="Nota Fiscal" selected="True" />
+            <SelectField field="Cod Produto" selected="True" />
+            <SelectField field="Descrição Comercial" selected="True" />
+            <SelectField field="Descrição" selected="True" />
+            <SelectField field="Grupo Estoque" selected="True" />
+            <SelectField field="Sub Grupo" selected="True" />
+            <SelectField field="Família" selected="True" />
+            <SelectField field="Fabricante" selected="True" />
+            <SelectField field="Categoria" selected="True" />
+            <SelectField field="Tipo Produto" selected="True" />
+            <SelectField field="Serial" selected="True" />
+            <SelectField field="Qtde" selected="True" />
+            <SelectField field="Valor Tabela" selected="True" />
+            <SelectField field="Valor Plano" selected="True" />
+            <SelectField field="Valor Caixa" selected="True" />
+            <SelectField field="Descontos" selected="True" />
+            <SelectField field="Juros" selected="True" />
+            <SelectField field="Total Item" selected="True" />
+            <SelectField field="Voucher" selected="True" />
+            <SelectField field="Custo Inicial" selected="True" />
+            <SelectField field="Impostos" selected="True" />
+            <SelectField field="Desconto Compra" selected="True" />
+            <SelectField field="Custo Total" selected="True" />
+            <SelectField field="Fornecedor" selected="True" />
+            <SelectField field="DT Compra" selected="True" />
+            <SelectField field="NF Compra" selected="True" />
+            <SelectField field="Financeira" selected="True" />
+            <SelectField field="Forma Pgto 1" selected="True" />
+            <SelectField field="Valor Pgto 1" selected="True" />
+            <SelectField field="Forma Pgto 2" selected="True" />
+            <SelectField field="Valor Pgto 2" selected="True" />
+            <SelectField field="Forma Pgto 3" selected="True" />
+            <SelectField field="Valor Pgto 3" selected="True" />
+            <SelectField field="Forma Pgto 4" selected="True" />
+            <SelectField field="Valor Pgto 4" selected="True" />
+            <SelectField field="Forma Pgto 5" selected="True" />
+            <SelectField field="Valor Pgto 5" selected="True" />
+            <SelectField field="Forma Pgto 6" selected="True" />
+            <SelectField field="Valor Pgto 6" selected="True" />
+            <SelectField field="Forma Pgto 7" selected="True" />
+            <SelectField field="Valor Pgto 7" selected="True" />
+            <SelectField field="Forma Pgto 8" selected="True" />
+            <SelectField field="Valor Pgto 8" selected="True" />
+            <SelectField field="Forma Pgto 9" selected="True" />
+            <SelectField field="Valor Pgto 9" selected="True" />
+            <SelectField field="Forma Pgto 10" selected="True" />
+            <SelectField field="Valor Pgto 10" selected="True" />
+            <SelectField field="CPF Vendedor" selected="True" />
+            <SelectField field="Nome Vendedor" selected="True" />
+            <SelectField field="CPF Cliente" selected="True" />
+            <SelectField field="Nome Cliente" selected="True" />
+            <SelectField field="UF Cliente" selected="True" />
+            <SelectField field="Cidade Cliente" selected="True" />
+            <SelectField field="Email Cliente" selected="True" />
+            <SelectField field="Fone Cliente" selected="True" />
+            <SelectField field="Plano Habilitação" selected="True" />
+            <SelectField field="SEGMENTO Flat" selected="True" />
+            <SelectField field="Franquia" selected="True" />
+            <SelectField field="Claro Sim" selected="True" />
+            <SelectField field="Tipo Habilitação" selected="True" />
+            <SelectField field="Grade Preços" selected="True" />
+            <SelectField field="Tipo Pacote" selected="True" />
+            <SelectField field="Modalidade Venda" selected="True" />
+            <SelectField field="Tipo Modalidade" selected="True" />
+            <SelectField field="Operadora Origem" selected="True" />
+            <SelectField field="Desconto Plano" selected="True" />
+            <SelectField field="MP do Bem" selected="True" />
+            <SelectField field="Valor Pre" selected="True" />
+            <SelectField field="Combo" selected="True" />
+            <SelectField field="Logradouro" selected="True" />
+            <SelectField field="Número" selected="True" />
+            <SelectField field="Complemento" selected="True" />
+            <SelectField field="Bairro" selected="True" />
+            <SelectField field="Cidade" selected="True" />
+            <SelectField field="CEP" selected="True" />
+            <SelectField field="UF" selected="True" />
+            <SelectField field="TV" selected="True" />
+            <SelectField field="Fixo" selected="True" />
+            <SelectField field="Móvel" selected="True" />
+            <SelectField field="Internet" selected="True" />
+            <SelectField field="Item" selected="True" />
+            <SelectField field="MPB" selected="True" />
+            <SelectField field="Valor Plano Anterior" selected="True" />
+            <SelectField field="Qtde Pontos" selected="True" />
+            <SelectField field="Score cliente" selected="True" />
+            <SelectField field="Plano Antigo" selected="True" />
+            <SelectField field="Dia Vencimento" selected="True" />
+            <SelectField field="Status ASPIX" selected="True" />
+            <SelectField field="PLANO" selected="False" />
+            <SelectField field="Pedido" selected="True" />
+            <SelectField field="Right_Filial" selected="True" />
+            <SelectField field="DTCancelamento" selected="True" />
+            <SelectField field="StatusLinha" selected="True" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="3450" y="882" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="42" MaxRecords="">C:\DSM\Serviço\Dados\Serviço_DEZ.tde</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <OutputOption>Overwrite</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Serviço_DEZ.tde</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="858" y="582" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="1434" y="678" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="1530" y="678" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="GSM" />
+            <Field field="Tipo Habilitação" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Unique: GSM, Tipo Habilitação</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="1674" y="810" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="8">C:\DSM\Serviço\Dados\Metas.xls|`Meta$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <NoProgress>False</NoProgress>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Metas.xls
+Table=`Meta$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Mês" source="File: C:\DSM\Serviço\Dados\Metas.xls|`Meta$`" type="Double" />
+            <Field name="Filial" size="255" source="File: C:\DSM\Serviço\Dados\Metas.xls|`Meta$`" type="V_WString" />
+            <Field name="Segmento" size="255" source="File: C:\DSM\Serviço\Dados\Metas.xls|`Meta$`" type="V_WString" />
+            <Field name="Valor" source="File: C:\DSM\Serviço\Dados\Metas.xls|`Meta$`" type="Double" />
+            <Field name="Meta TIM" source="File: C:\DSM\Serviço\Dados\Metas.xls|`Meta$`" type="Double" />
+            <Field name="Meta Fat TIM" source="File: C:\DSM\Serviço\Dados\Metas.xls|`Meta$`" type="Double" />
+            <Field name="F7" size="255" source="File: C:\DSM\Serviço\Dados\Metas.xls|`Meta$`" type="V_WString" />
+            <Field name="F8" size="255" source="File: C:\DSM\Serviço\Dados\Metas.xls|`Meta$`" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1998" y="750" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Filial" />
+            <Field field="SEGMENTO Flat" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Filial" />
+            <Field field="Segmento" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="Right_Filial" selected="True" rename="Right_Filial" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="1890" y="990" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="8">C:\DSM\Serviço\Dados\Metas.xls|`'Qtde# Dias$'`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <NoProgress>False</NoProgress>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Metas.xls
+Table=`'Qtde# Dias$'`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Mês" source="File: C:\DSM\Serviço\Dados\Metas.xls|`'Qtde# Dias$'`" type="Double" />
+            <Field name="Loja" size="255" source="File: C:\DSM\Serviço\Dados\Metas.xls|`'Qtde# Dias$'`" type="V_WString" />
+            <Field name="Dias" source="File: C:\DSM\Serviço\Dados\Metas.xls|`'Qtde# Dias$'`" type="Double" />
+            <Field name="Data Aterior" source="File: C:\DSM\Serviço\Dados\Metas.xls|`'Qtde# Dias$'`" type="DateTime" />
+            <Field name="F5" source="File: C:\DSM\Serviço\Dados\Metas.xls|`'Qtde# Dias$'`" type="DateTime" />
+            <Field name="data calculo" size="255" source="File: C:\DSM\Serviço\Dados\Metas.xls|`'Qtde# Dias$'`" type="V_WString" />
+            <Field name="dias passados rua" source="File: C:\DSM\Serviço\Dados\Metas.xls|`'Qtde# Dias$'`" type="Double" />
+            <Field name="dias passados shop" source="File: C:\DSM\Serviço\Dados\Metas.xls|`'Qtde# Dias$'`" type="Double" />
+            <Field name="dias totais ruas" source="File: C:\DSM\Serviço\Dados\Metas.xls|`'Qtde# Dias$'`" type="Double" />
+            <Field name="dias totais shop" source="File: C:\DSM\Serviço\Dados\Metas.xls|`'Qtde# Dias$'`" type="Double" />
+            <Field name="dias faltam rua" source="File: C:\DSM\Serviço\Dados\Metas.xls|`'Qtde# Dias$'`" type="Double" />
+            <Field name="dias faltam shop" source="File: C:\DSM\Serviço\Dados\Metas.xls|`'Qtde# Dias$'`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="2298" y="930" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Filial" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Loja" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="Right_Mês" selected="True" rename="Right_Mês" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="2106" y="750" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="2394" y="930" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="2862" y="882" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="Meta" type="Double" size="8" expression="if [Filial] = &quot;01 - ALDEOTA&quot; and [SEGMENTO] = &quot;VOZ&quot; then [Valor] &#xA;ELSEIF [Filial] = &quot;01 - ALDEOTA&quot; and [SEGMENTO] = &quot;CONTROLE&quot; then [Valor] &#xA;ELSEIF [Filial] = &quot;01 - ALDEOTA&quot; and [SEGMENTO] = &quot;WEB&quot; then [Valor] &#xA;ELSEIF [Filial] = &quot;01 - ALDEOTA&quot; and [SEGMENTO] = &quot;FIXO&quot; then [Valor]&#xA;ELSEIF [Filial] = &quot;01 - ALDEOTA&quot; and [SEGMENTO] = &quot;Meta Fat AP&quot; then [Valor]&#xA;ELSEIF [Filial] = &quot;01 - ALDEOTA&quot; and [SEGMENTO] = &quot;Meta Fat TIM&quot; then [Valor]&#xA;ELSEIF  [Filial] = &quot;02 - IGUATEMI&quot; and [SEGMENTO] = &quot;VOZ&quot; then [Valor]&#xA;ELSEIF [Filial] = &quot;02 - IGUATEMI&quot; and [SEGMENTO] = &quot;CONTROLE&quot; then [Valor]&#xA;ELSEIF [Filial] = &quot;02 - IGUATEMI&quot; and [SEGMENTO] = &quot;WEB&quot; then [Valor]&#xA;ELSEIF [Filial] = &quot;02 - IGUATEMI&quot; and [SEGMENTO] = &quot;FIXO&quot; then [Valor]&#xA;ELSEIF [Filial] = &quot;02 - IGUATEMI&quot; and [SEGMENTO] = &quot;Meta Fat AP&quot; then [Valor]&#xA;ELSEIF [Filial] = &quot;02 - IGUATEMI&quot; and [SEGMENTO] = &quot;Meta Fat TIM&quot; then [Valor]&#xA;ELSEIF  [Filial] = &quot;03 - BENFICA&quot; and [SEGMENTO] = &quot;VOZ&quot; then [Valor]&#xA;ELSEIF [Filial] = &quot;03 - BENFICA&quot; and [SEGMENTO] = &quot;CONTROLE&quot; then [Valor]&#xA;ELSEIF [Filial] = &quot;03 - BENFICA&quot; and [SEGMENTO] = &quot;WEB&quot; then [Valor]&#xA;ELSEIF [Filial] = &quot;03 - BENFICA&quot; and [SEGMENTO] = &quot;FIXO&quot; then [Valor]&#xA;ELSEIF [Filial] = &quot;03 - BENFICA&quot; and [SEGMENTO] = &quot;Meta Fat AP&quot; then [Valor]&#xA;ELSEIF [Filial] = &quot;03 - BENFICA&quot; and [SEGMENTO] = &quot;Meta Fat TIM&quot; then [Valor]&#xA;ELSEIF  [Filial] = &quot;05 - SOBRAL&quot; and [SEGMENTO] = &quot;VOZ&quot; then [Valor]&#xA;ELSEIF [Filial] = &quot;05 - SOBRAL&quot; and [SEGMENTO] = &quot;CONTROLE&quot; then [Valor]&#xA;ELSEIF [Filial] = &quot;05 - SOBRAL&quot; and [SEGMENTO] = &quot;WEB&quot; then [Valor]&#xA;ELSEIF [Filial] = &quot;05 - SOBRAL&quot; and [SEGMENTO] = &quot;FIXO&quot; then [Valor]&#xA;ELSEIF [Filial] = &quot;05 - SOBRAL&quot; and [SEGMENTO] = &quot;Meta Fat AP&quot; then [Valor]&#xA;ELSEIF [Filial] = &quot;05 - SOBRAL&quot; and [SEGMENTO] = &quot;Meta Fat TIM&quot; then [Valor]&#xA;ELSEIF  [Filial] = &quot;06 - JUAZEIRO&quot; and [SEGMENTO] = &quot;VOZ&quot; then [Valor]&#xA;ELSEIF [Filial] = &quot;06 - JUAZEIRO&quot; and [SEGMENTO] = &quot;CONTROLE&quot; then [Valor]&#xA;ELSEIF [Filial] = &quot;06 - JUAZEIRO&quot; and [SEGMENTO] = &quot;WEB&quot; then [Valor]&#xA;ELSEIF [Filial] = &quot;06 - JUAZEIRO&quot; and [SEGMENTO] = &quot;FIXO&quot; then [Valor]&#xA;ELSEIF [Filial] = &quot;06 - JUAZEIRO&quot; and [SEGMENTO] = &quot;Meta Fat AP&quot; then [Valor]&#xA;ELSEIF [Filial] = &quot;06 - JUAZEIRO&quot; and [SEGMENTO] = &quot;Meta Fat TIM&quot; then [Valor]&#xA;ELSEIF  [Filial] = &quot;08 - NORTH&quot; and [SEGMENTO] = &quot;VOZ&quot; then [Valor]&#xA;ELSEIF [Filial] = &quot;08 - NORTH&quot; and [SEGMENTO] = &quot;CONTROLE&quot; then [Valor]&#xA;ELSEIF [Filial] = &quot;08 - NORTH&quot; and [SEGMENTO] = &quot;WEB&quot; then [Valor]&#xA;ELSEIF [Filial] = &quot;08 - NORTH&quot; and [SEGMENTO] = &quot;FIXO&quot; then [Valor]&#xA;ELSEIF [Filial] = &quot;08 - NORTH&quot; and [SEGMENTO] = &quot;Meta Fat AP&quot; then [Valor]&#xA;ELSEIF [Filial] = &quot;08 - NORTH&quot; and [SEGMENTO] = &quot;Meta Fat TIM&quot; then [Valor]&#xA;ELSEIF  [Filial] = &quot;09 - VIA SUL&quot; and [SEGMENTO] = &quot;VOZ&quot; then [Valor]&#xA;ELSEIF [Filial] = &quot;09 - VIA SUL&quot; and [SEGMENTO] = &quot;CONTROLE&quot; then [Valor]&#xA;ELSEIF [Filial] = &quot;09 - VIA SUL&quot; and [SEGMENTO] = &quot;WEB&quot; then [Valor]&#xA;ELSEIF [Filial] = &quot;09 - VIA SUL&quot; and [SEGMENTO] = &quot;FIXO&quot; then [Valor]&#xA;ELSEIF [Filial] = &quot;09 - VIA SUL&quot; and [SEGMENTO] = &quot;Meta Fat AP&quot; then [Valor]&#xA;ELSEIF [Filial] = &quot;09 - VIA SUL&quot; and [SEGMENTO] = &quot;Meta Fat TIM&quot; then [Valor]&#xA;ELSEIF  [Filial] = &quot;07 - TECH JUAZEIRO&quot; and [SEGMENTO] = &quot;VOZ&quot; then [Valor] &#xA;ELSEIF [Filial] = &quot;07 - TECH JUAZEIRO&quot; and [SEGMENTO] = &quot;CONTROLE&quot; then [Valor]&#xA;ELSEIF [Filial] = &quot;07 - TECH JUAZEIRO&quot; and [SEGMENTO] = &quot;WEB&quot; then [Valor]&#xA;ELSEIF [Filial] = &quot;07 - TECH JUAZEIRO&quot; and [SEGMENTO] = &quot;FIXO&quot; then [Valor] &#xA;ELSEIF [Filial] = &quot;07 - TECH JUAZEIRO&quot; and [SEGMENTO] = &quot;Meta Fat AP&quot; then [Valor]&#xA;ELSEIF [Filial] = &quot;07 - TECH JUAZEIRO&quot; and [SEGMENTO] = &quot;Meta Fat TIM&quot; then [Valor] ELSE 0 ENDIF" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Meta=if [Filial] = "01 - ALDEOTA" and [SEGMENTO] = "VOZ" then...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="46">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="3054" y="882" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="Tendencia" type="Double" size="8" expression="IF [Filial] = '01 - ALDEOTA' THEN (([Count_Segmento]/max([dias passados rua],0))*Max([Dias],0))/Max([Meta],0)&#xA;ELSE (([Count_Segmento]/max([dias passados shop],0)))*Max([Dias],0)/Max([Meta],0) ENDIF" />
+            <FormulaField field="Tend. Grupo" type="Double" size="8" expression="if [SEGMENTO] = 'VOZ' THEN&#xA;(((Max([Meta],0) * Max([Tendencia],0))*100)/max([Meta TIM],0))&#xA;ELSEIF [SEGMENTO] = 'CONTROLE' THEN&#xA;(((Max([Meta],0) * Max([Tendencia],0))*100)/max([Meta TIM],0))&#xA;ELSEIF [SEGMENTO] = 'WEB' THEN&#xA;(((Max([Meta],0) * Max([Tendencia],0))*100)/max([Meta TIM],0))&#xA;ELSEIF [SEGMENTO] = 'FIXO' THEN&#xA;(((Max([Meta],0) * Max([Tendencia],0))*100)/max([Meta TIM],0))&#xA;else 0 endif" />
+            <FormulaField field="Tendencia Abs." type="Double" size="8" expression="IF [Filial] = '01 - ALDEOTA' THEN (([Count_Segmento]/max([dias passados rua],0))*Max([Dias],0))&#xA;ELSE (([Count_Segmento]/max([dias passados shop],0)))*Max([Dias],0)ENDIF" />
+            <FormulaField field="Tendencia Abs. Fat Tim" type="Double" size="8" expression="IF [Filial] = '01 - ALDEOTA' THEN ((max([Franquia],0)/max([dias passados rua],0))*Max([dias totais ruas],0))&#xA;ELSE ((max([Franquia],0)/max([dias passados shop],0)))*Max([Dias totais shop],0) ENDIF" />
+            <FormulaField field="Tendencia Fat TIM" type="Double" size="8" expression="IF [Filial] = '01 - ALDEOTA' THEN [Franquia]/max([dias passados rua],0)*Max([dias totais ruas],0)/MAX([Meta Fat TIM],0)&#xA;else MAX([Franquia],0)/max([dias passados shop],0)*MAX([dias totais shop],0)/MAX([Meta fat TIM],0)&#xA;&#xA;ENDIF&#xA;&#xA;&#xA;" />
+            <FormulaField field="Tendencia Abs. AP" type="Double" size="8" expression="if [Filial] = '01 - ALDEOTA' THEN [Valor Caixa]/[dias passados rua]*[dias totais ruas]&#xA;elseif [Filial] = '02 - IGUATEMI' THEN [Valor Caixa]/[dias passados shop]*[dias totais shop]&#xA;ELSE [Valor Caixa]/[dias passados shop]*[dias totais shop]&#xA;ENDIF" />
+            <FormulaField field="Tendencia Fat AP" type="Double" size="8" expression="if [Filial] = '01 - ALDEOTA' THEN [Valor Caixa]/max([dias passados rua],0)*max([dias totais ruas],0)/280000&#xA;elseif [Filial] = '02 - IGUATEMI' THEN [Valor Caixa]/max([dias passados shop],0)*max([dias totais shop],0)/820000&#xA;elseif [Filial] = '03 - BENFICA' THEN [Valor Caixa]/max([dias passados shop],0)*max([dias totais shop],0)/320000&#xA;elseif [Filial] = '05 - SOBRAL' THEN [Valor Caixa]/max([dias passados shop],0)*max([dias totais shop],0)/300000&#xA;elseif [Filial] = '06 - JUAZEIRO' THEN [Valor Caixa]/max([dias passados shop],0)*max([dias totais shop],0)/300000&#xA;elseif [Filial] = '08 - NORTH' THEN [Valor Caixa]/max([dias passados shop],0)*max([dias totais shop],0)/300000&#xA;elseif [Filial] = '09 - VIA SUL' THEN [Valor Caixa]/max([dias passados shop],0)*max([dias totais shop],0)/250000&#xA;elseif [Filial] = '07 - TECH JUAZEIRO' THEN [Valor Caixa]/max([dias passados shop],0)*max([dias totais shop],0)/230000&#xA;ELSE 0&#xA;ENDIF" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Tendencia=IF [Filial] = '01 - ALDEOTA' THEN (([Count_Segmento...
+Tend. Grupo=if [SEGMENTO] = 'VOZ' THEN
+(((Max([Meta],0) * Max...
+Tendencia Abs.=IF [Filial] = '01 - ALDEOTA' THEN (([Count_Seg...
+...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="47">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1518" y="822" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\BRENO~1.MEL\AppData\Local\Temp\Engine_4976_8e2e862c2d84432e8efed0a2915bf331_\Engine_3956_ea081d6dac974e16a7bbcbb565986023_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="70">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1758" y="594" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\BRENO~1.MEL\AppData\Local\Temp\Engine_4976_8e2e862c2d84432e8efed0a2915bf331_\Engine_3956_0df329135f584a02947d810e2ee5f451_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="71">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="2214" y="702" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\BRENO~1.MEL\AppData\Local\Temp\Engine_4976_8e2e862c2d84432e8efed0a2915bf331_\Engine_3956_5297a43c376643e59b23c6c08d276494_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="72">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
+        <Position x="1806" y="810" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldType>Text</FieldType>
+          <Fields orderChanged="False">
+            <Field name="Filial" />
+            <Field name="Segmento" />
+            <Field name="*Unknown" />
+          </Fields>
+          <CopyOutput value="False" />
+          <Expression>uppercase(DecomposeUnicodeForMatch([_CurrentField_]))</Expression>
+          <ChangeFieldType value="True" />
+          <OutputFieldType type="V_WString" size="255" scale="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>uppercase(DecomposeUnicodeForMatch([_CurrentField_]))</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiFieldFormula" />
+    </Node>
+    <Node ToolID="73">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
+        <Position x="1998" y="990" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldType>Text</FieldType>
+          <Fields orderChanged="False">
+            <Field name="Loja" />
+            <Field name="data calculo" />
+            <Field name="*Unknown" />
+          </Fields>
+          <CopyOutput value="False" />
+          <Expression>uppercase(DecomposeUnicodeForMatch([_CurrentField_]))</Expression>
+          <ChangeFieldType value="True" />
+          <OutputFieldType type="V_WString" size="255" scale="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>uppercase(DecomposeUnicodeForMatch([_CurrentField_]))</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiFieldFormula" />
+    </Node>
+    <Node ToolID="74">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1374" y="582" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\BRENO~1.MEL\AppData\Local\Temp\Engine_4976_8e2e862c2d84432e8efed0a2915bf331_\Engine_3956_40cbb85bc1104a27b577d2f43d30d9a4_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="75">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="2094" y="654" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\BRENO~1.MEL\AppData\Local\Temp\Engine_4976_8e2e862c2d84432e8efed0a2915bf331_\Engine_3956_6b62135c678248439a6681cde7558e83_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="77">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="2202" y="798" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="MP do Bem" selected="False" />
+            <SelectField field="MPB" selected="False" />
+            <SelectField field="Valor Plano Anterior" selected="False" />
+            <SelectField field="Score cliente" selected="False" />
+            <SelectField field="Plano Antigo" selected="False" />
+            <SelectField field="Right_Filial" selected="False" />
+            <SelectField field="id" selected="False" />
+            <SelectField field="F6" selected="False" />
+            <SelectField field="F96" selected="False" />
+            <SelectField field="F8" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="93">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="150" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="37">C:\DSM\Serviço\Dados\DEZ.xml</File>
+          <FormatSpecificOptions>
+            <ParseRoot>False</ParseRoot>
+            <OuterXML>False</OuterXML>
+            <IgnoreErrors>False</IgnoreErrors>
+            <XmlElement />
+            <ChildValues>True</ChildValues>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DEZ.xml</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Table" size="1460" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="id" size="6" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="GSM" size="12" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="GSMPortado" size="11" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Area" size="11" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Regional" size="9" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Filial" size="18" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Numero_x0020_Pedido" size="12" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Data_x0020_pedido" size="29" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Tipo_x0020_Pedido" size="9" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Cupom_x0020_Fiscal" size="5" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Cod_x0020_produto" size="14" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Descr_x0020_Comercial" size="37" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Descricao" size="42" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Grupo_x0020_Estoque" size="19" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="SubGrupo" size="19" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Familia" size="19" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Fabricante" size="9" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Categoria" size="12" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Tipo_x0020_Produto" size="2" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Serial" size="21" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Qtde" size="3" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Valor_x0020_Tabela" size="10" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Valor_x0020_Plano" size="9" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Valor_x0020_Caixa" size="10" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Descontos" size="9" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Juros" size="6" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Total_x0020_Item" size="10" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="voucher" size="8" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Custo_x0020_Inicial" size="9" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Impostos" size="8" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Desconto_x0020_Compra" size="7" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Custo_x0020_Total" size="9" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Fornecedor" size="15" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="DT_x0020_Compra" size="25" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="NF_x0020_Compra" size="7" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Financeira" size="23" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Forma_x0020_Pgto_x0020_1" size="31" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Valor_x0020_Pgto_x0020_1" size="9" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="CPF_x0020_Vendedor" size="12" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Nome_x0020_Vendedor" size="38" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="CPF_x0020_Cliente" size="15" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Nome_x0020_Cliente" size="51" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="UF_x0020_Cliente" size="2" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Cidade_x0020_Cliente" size="26" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Email_x0020_Cliente" size="35" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Fone_x0020_Cliente" size="14" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Plano_x0020_Habilitacao" size="35" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="CLARO_x0020_SIM" size="3" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Tipo_x0020_Habilitacao" size="1" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Modalidade_x0020_Venda" size="48" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Desconto_x0020_Plano" size="10" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="MP_x0020_do_x0020_BEM" size="3" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="VALOR_x0020_PRE" size="9" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Logradouro" size="63" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="numero" size="8" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Complemento" size="30" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="bairro" size="34" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Cidade" size="26" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="cep" size="9" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="uf" size="2" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Item" size="1" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="MPB" size="3" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Valor_x0020_Plano_x0020_Anterior" size="6" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Score_x0020_Cliente" size="1" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Contrato" size="10" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Tipo_x0020_Pacote" size="15" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Plano_x0020_Antigo" size="20" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Forma_x0020_Pgto_x0020_2" size="31" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Valor_x0020_Pgto_x0020_2" size="9" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Grade_x0020_Precos" size="102" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_WString" />
+            <Field name="Operadora_x0020_Origem" size="5" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Forma_x0020_Pgto_x0020_3" size="31" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Valor_x0020_Pgto_x0020_3" size="9" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Nota_x0020_Fiscal" size="10" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Forma_x0020_Pgto_x0020_4" size="31" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Valor_x0020_Pgto_x0020_4" size="9" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Forma_x0020_Pgto_x0020_5" size="6" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Valor_x0020_Pgto_x0020_5" size="6" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="98">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="2118" y="990" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="F5" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="102">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
+        <Position x="3198" y="882" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldType>Text</FieldType>
+          <Fields orderChanged="False">
+            <Field name="Área" />
+            <Field name="Regional" />
+            <Field name="Filial" />
+            <Field name="GSM" />
+            <Field name="GSM Portado" />
+            <Field name="Contrato" />
+            <Field name="Número PV" />
+            <Field name="Data Pedido" />
+            <Field name="Tipo Pedido" />
+            <Field name="Cupom Fiscal" />
+            <Field name="Nota Fiscal" />
+            <Field name="Cod Produto" />
+            <Field name="Descrição Comercial" />
+            <Field name="Descrição" />
+            <Field name="Grupo Estoque" />
+            <Field name="Sub Grupo" />
+            <Field name="Família" />
+            <Field name="Fabricante" />
+            <Field name="Categoria" />
+            <Field name="Tipo Produto" />
+            <Field name="Serial" />
+            <Field name="Qtde" />
+            <Field name="Valor Tabela" />
+            <Field name="Valor Plano" />
+            <Field name="Descontos" />
+            <Field name="Juros" />
+            <Field name="Voucher" />
+            <Field name="Custo Inicial" />
+            <Field name="Impostos" />
+            <Field name="Desconto Compra" />
+            <Field name="Custo Total" />
+            <Field name="Fornecedor" />
+            <Field name="DT Compra" />
+            <Field name="NF Compra" />
+            <Field name="Financeira" />
+            <Field name="Forma Pgto 1" />
+            <Field name="Valor Pgto 1" />
+            <Field name="Forma Pgto 2" />
+            <Field name="Valor Pgto 2" />
+            <Field name="Forma Pgto 3" />
+            <Field name="Valor Pgto 3" />
+            <Field name="Forma Pgto 4" />
+            <Field name="Valor Pgto 4" />
+            <Field name="Forma Pgto 5" />
+            <Field name="Valor Pgto 5" />
+            <Field name="CPF Vendedor" />
+            <Field name="Nome Vendedor" />
+            <Field name="CPF Cliente" />
+            <Field name="Nome Cliente" />
+            <Field name="UF Cliente" />
+            <Field name="Cidade Cliente" />
+            <Field name="Email Cliente" />
+            <Field name="Fone Cliente" />
+            <Field name="Plano Habilitação" />
+            <Field name="SEGMENTO Flat" />
+            <Field name="Claro Sim" />
+            <Field name="Tipo Habilitação" />
+            <Field name="Grade Preços" />
+            <Field name="Tipo Pacote" />
+            <Field name="Modalidade Venda" />
+            <Field name="Tipo Modalidade" />
+            <Field name="Operadora Origem" />
+            <Field name="Desconto Plano" />
+            <Field name="Valor Pre" />
+            <Field name="Logradouro" />
+            <Field name="Número" />
+            <Field name="Complemento" />
+            <Field name="Bairro" />
+            <Field name="Cidade" />
+            <Field name="CEP" />
+            <Field name="UF" />
+            <Field name="Item" />
+            <Field name="Segmento" />
+            <Field name="Loja" />
+            <Field name="data calculo" />
+            <Field name="*Unknown" />
+          </Fields>
+          <CopyOutput value="False" />
+          <Expression>uppercase(DecomposeUnicodeForMatch([_CurrentField_]))</Expression>
+          <ChangeFieldType value="True" />
+          <OutputFieldType type="V_WString" size="255" scale="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>uppercase(DecomposeUnicodeForMatch([_CurrentField_]))</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiFieldFormula" />
+    </Node>
+    <Node ToolID="107">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="2586" y="882" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="Total Item" selected="True" type="FixedDecimal" size="19.2" />
+            <SelectField field="Right_Mês" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="119">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="3390" y="1014" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\BRENO~1.MEL\AppData\Local\Temp\Engine_4976_8e2e862c2d84432e8efed0a2915bf331_\Engine_3956_f98dbbce26f144b8ae072adab4918c4a_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="120">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="2394" y="858" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\BRENO~1.MEL\AppData\Local\Temp\Engine_4976_8e2e862c2d84432e8efed0a2915bf331_\Engine_3956_ad0a07b37b2b4aab8f2321c3c8e836f3_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="128">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="246" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="Table" selected="False" />
+            <SelectField field="id" selected="False" />
+            <SelectField field="GSMPortado" selected="True" rename="GSM Portado" />
+            <SelectField field="Area" selected="True" rename="Área" />
+            <SelectField field="Numero_x0020_Pedido" selected="True" rename="Número PV" />
+            <SelectField field="Data_x0020_pedido" selected="True" rename="Data Pedido" />
+            <SelectField field="Tipo_x0020_Pedido" selected="True" rename="Tipo Pedido" />
+            <SelectField field="Cupom_x0020_Fiscal" selected="True" rename="Cupom Fiscal" />
+            <SelectField field="Cod_x0020_produto" selected="True" rename="Cod Produto" />
+            <SelectField field="Descr_x0020_Comercial" selected="True" rename="Descrição Comercial" />
+            <SelectField field="Descricao" selected="True" rename="Descrição" />
+            <SelectField field="Grupo_x0020_Estoque" selected="True" rename="Grupo Estoque" />
+            <SelectField field="SubGrupo" selected="True" rename="Sub Grupo" />
+            <SelectField field="Familia" selected="True" rename="Família" />
+            <SelectField field="Tipo_x0020_Produto" selected="True" rename="Tipo Produto" />
+            <SelectField field="Valor_x0020_Tabela" selected="True" rename="Valor Tabela" />
+            <SelectField field="Valor_x0020_Plano" selected="True" rename="Valor Plano" />
+            <SelectField field="Valor_x0020_Caixa" selected="True" rename="Valor Caixa" type="FixedDecimal" size="19.2" />
+            <SelectField field="Total_x0020_Item" selected="True" rename="Total Item" />
+            <SelectField field="voucher" selected="True" rename="Voucher" />
+            <SelectField field="Custo_x0020_Inicial" selected="True" rename="Custo Inicial" />
+            <SelectField field="Desconto_x0020_Compra" selected="True" rename="Desconto Compra" />
+            <SelectField field="Custo_x0020_Total" selected="True" rename="Custo Total" />
+            <SelectField field="DT_x0020_Compra" selected="True" rename="DT Compra" />
+            <SelectField field="NF_x0020_Compra" selected="True" rename="NF Compra" />
+            <SelectField field="Forma_x0020_Pgto_x0020_1" selected="True" rename="Forma Pgto 1" />
+            <SelectField field="Valor_x0020_Pgto_x0020_1" selected="True" rename="Valor Pgto 1" />
+            <SelectField field="CPF_x0020_Vendedor" selected="True" rename="CPF Vendedor" />
+            <SelectField field="Nome_x0020_Vendedor" selected="True" rename="Nome Vendedor" />
+            <SelectField field="CPF_x0020_Cliente" selected="True" rename="CPF Cliente" />
+            <SelectField field="Nome_x0020_Cliente" selected="True" rename="Nome Cliente" />
+            <SelectField field="UF_x0020_Cliente" selected="True" rename="UF Cliente" />
+            <SelectField field="Cidade_x0020_Cliente" selected="True" rename="Cidade Cliente" />
+            <SelectField field="Email_x0020_Cliente" selected="True" rename="Email Cliente" />
+            <SelectField field="Fone_x0020_Cliente" selected="True" rename="Fone Cliente" />
+            <SelectField field="Plano_x0020_Habilitacao" selected="True" rename="Plano Habilitação" />
+            <SelectField field="CLARO_x0020_SIM" selected="True" rename="Claro Sim" />
+            <SelectField field="Tipo_x0020_Habilitacao" selected="True" rename="Tipo Habilitação" />
+            <SelectField field="Modalidade_x0020_Venda" selected="True" rename="Modalidade Venda" />
+            <SelectField field="Desconto_x0020_Plano" selected="True" rename="Desconto Plano" />
+            <SelectField field="MP_x0020_do_x0020_BEM" selected="True" rename="MP do Bem" />
+            <SelectField field="VALOR_x0020_PRE" selected="True" rename="Valor Pre" />
+            <SelectField field="numero" selected="True" rename="Número" />
+            <SelectField field="bairro" selected="True" rename="Bairro" />
+            <SelectField field="cep" selected="True" rename="CEP" />
+            <SelectField field="uf" selected="True" rename="UF" />
+            <SelectField field="Valor_x0020_Plano_x0020_Anterior" selected="True" rename="Valor Plano Anterior" />
+            <SelectField field="Score_x0020_Cliente" selected="True" rename="Score cliente" />
+            <SelectField field="Tipo_x0020_Pacote" selected="True" rename="Tipo Pacote" />
+            <SelectField field="Plano_x0020_Antigo" selected="True" rename="Plano Antigo" />
+            <SelectField field="Forma_x0020_Pgto_x0020_2" selected="True" rename="Forma Pgto 2" />
+            <SelectField field="Valor_x0020_Pgto_x0020_2" selected="True" rename="Valor Pgto 2" />
+            <SelectField field="Grade_x0020_Precos" selected="True" rename="Grade Preços" />
+            <SelectField field="Operadora_x0020_Origem" selected="True" rename="Operadora Origem" />
+            <SelectField field="Forma_x0020_Pgto_x0020_3" selected="True" rename="Forma Pgto 3" />
+            <SelectField field="Valor_x0020_Pgto_x0020_3" selected="True" rename="Valor Pgto 3" />
+            <SelectField field="Nota_x0020_Fiscal" selected="True" rename="Nota Fiscal" />
+            <SelectField field="Forma_x0020_Pgto_x0020_4" selected="True" rename="Forma Pgto 4" />
+            <SelectField field="Valor_x0020_Pgto_x0020_4" selected="True" rename="Valor Pgto 4" />
+            <SelectField field="Forma_x0020_Pgto_x0020_5" selected="True" rename="Forma Pgto 5" />
+            <SelectField field="Valor_x0020_Pgto_x0020_5" selected="True" rename="Valor Pgto 5" />
+            <SelectField field="Forma_x0020_Pgto_x0020_4_1" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="133">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="3306" y="882" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="Área" selected="False" />
+            <SelectField field="Regional" selected="False" />
+            <SelectField field="Cupom Fiscal" selected="False" />
+            <SelectField field="Família" selected="False" />
+            <SelectField field="Categoria" selected="False" />
+            <SelectField field="Tipo Produto" selected="False" />
+            <SelectField field="Valor Plano" selected="False" />
+            <SelectField field="Fornecedor" selected="False" />
+            <SelectField field="CPF Cliente" selected="False" />
+            <SelectField field="Nome Cliente" selected="False" />
+            <SelectField field="UF Cliente" selected="False" />
+            <SelectField field="Cidade Cliente" selected="False" />
+            <SelectField field="Email Cliente" selected="False" />
+            <SelectField field="Fone Cliente" selected="False" />
+            <SelectField field="Claro Sim" selected="False" />
+            <SelectField field="Tipo Habilitação" selected="False" />
+            <SelectField field="Operadora Origem" selected="False" />
+            <SelectField field="Desconto Plano" selected="False" />
+            <SelectField field="Valor Pre" selected="False" />
+            <SelectField field="Logradouro" selected="False" />
+            <SelectField field="Número" selected="False" />
+            <SelectField field="Complemento" selected="False" />
+            <SelectField field="Bairro" selected="False" />
+            <SelectField field="Cidade" selected="False" />
+            <SelectField field="CEP" selected="False" />
+            <SelectField field="UF" selected="False" />
+            <SelectField field="Item" selected="False" />
+            <SelectField field="Loja" selected="False" />
+            <SelectField field="Grade Preços" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="146">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="330" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Field>Data Pedido</Field>
+            <Operator>&gt;=</Operator>
+            <Operands>
+              <Operand>2016-12-01</Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DateTimeFormat([Data Pedido],"%Y-%m-%d") &gt;= "2016-12-01"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="147">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="2478" y="918" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[Tipo Modalidade] = "ATIVACAO" OR
+[Tipo Modalidade] = "MIGRACAO" OR
+[Tipo Modalidade] = Null()</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Tipo Modalidade] = "ATIVACAO" OR
+[Tipo Modalidade] = "MIGRAC...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="149">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
+        <Position x="474" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldType>Text</FieldType>
+          <Fields orderChanged="False">
+            <Field name="GSM" />
+            <Field name="GSM Portado" />
+            <Field name="Área" />
+            <Field name="Regional" />
+            <Field name="Filial" />
+            <Field name="Número PV" />
+            <Field name="Data Pedido" />
+            <Field name="Tipo Pedido" />
+            <Field name="Cupom Fiscal" />
+            <Field name="Cod Produto" />
+            <Field name="Descrição Comercial" />
+            <Field name="Descrição" />
+            <Field name="Grupo Estoque" />
+            <Field name="Sub Grupo" />
+            <Field name="Família" />
+            <Field name="Fabricante" />
+            <Field name="Categoria" />
+            <Field name="Tipo Produto" />
+            <Field name="Serial" />
+            <Field name="Qtde" />
+            <Field name="Valor Tabela" />
+            <Field name="Valor Plano" />
+            <Field name="Descontos" />
+            <Field name="Juros" />
+            <Field name="Total Item" />
+            <Field name="Voucher" />
+            <Field name="Custo Inicial" />
+            <Field name="Impostos" />
+            <Field name="Desconto Compra" />
+            <Field name="Custo Total" />
+            <Field name="Fornecedor" />
+            <Field name="DT Compra" />
+            <Field name="NF Compra" />
+            <Field name="Financeira" />
+            <Field name="Forma Pgto 1" />
+            <Field name="Valor Pgto 1" />
+            <Field name="CPF Vendedor" />
+            <Field name="Nome Vendedor" />
+            <Field name="CPF Cliente" />
+            <Field name="Nome Cliente" />
+            <Field name="UF Cliente" />
+            <Field name="Cidade Cliente" />
+            <Field name="Email Cliente" />
+            <Field name="Fone Cliente" />
+            <Field name="Plano Habilitação" />
+            <Field name="Claro Sim" />
+            <Field name="Tipo Habilitação" />
+            <Field name="Modalidade Venda" />
+            <Field name="Desconto Plano" />
+            <Field name="MP do Bem" />
+            <Field name="Valor Pre" />
+            <Field name="Logradouro" />
+            <Field name="Número" />
+            <Field name="Complemento" />
+            <Field name="Bairro" />
+            <Field name="Cidade" />
+            <Field name="CEP" />
+            <Field name="UF" />
+            <Field name="Item" />
+            <Field name="MPB" />
+            <Field name="Valor Plano Anterior" />
+            <Field name="Score cliente" />
+            <Field name="Contrato" />
+            <Field name="Tipo Pacote" />
+            <Field name="Plano Antigo" />
+            <Field name="Forma Pgto 2" />
+            <Field name="Valor Pgto 2" />
+            <Field name="Grade Preços" />
+            <Field name="Operadora Origem" />
+            <Field name="Forma Pgto 3" />
+            <Field name="Valor Pgto 3" />
+            <Field name="Nota Fiscal" />
+            <Field name="Forma Pgto 4" />
+            <Field name="Valor Pgto 4" />
+            <Field name="Forma Pgto 5" />
+            <Field name="Valor Pgto 5" />
+            <Field name="*Unknown" />
+          </Fields>
+          <CopyOutput value="False" />
+          <Expression>uppercase(DecomposeUnicodeForMatch([_CurrentField_]))</Expression>
+          <ChangeFieldType value="True" />
+          <OutputFieldType type="V_WString" size="102" scale="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>uppercase(DecomposeUnicodeForMatch([_CurrentField_]))</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiFieldFormula" />
+    </Node>
+    <Node ToolID="152">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="2682" y="822" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\BRENO~1.MEL\AppData\Local\Temp\Engine_4976_8e2e862c2d84432e8efed0a2915bf331_\Engine_3956_7ff0593ca4d8468ead031dbfdaec0a14_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="154">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1902" y="798" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="F6" selected="False" />
+            <SelectField field="F7" selected="False" />
+            <SelectField field="F8" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="158">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="3378" y="738" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Field>Número PV</Field>
+            <Operator>=</Operator>
+            <Operands>
+              <Operand>0012-0005739</Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Número PV] = "0012-0005739"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="159">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="3522" y="714" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\BRENO~1.MEL\AppData\Local\Temp\Engine_4976_8e2e862c2d84432e8efed0a2915bf331_\Engine_3956_8cdccb0f58dc45aa80373b8293aebc14_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="160">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="582" y="486" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\BRENO~1.MEL\AppData\Local\Temp\Engine_4976_8e2e862c2d84432e8efed0a2915bf331_\Engine_3956_471be12211f44e6da995021cfd8d1b12_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="161">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="37">C:\DSM\Serviço\Dados\DEZ.xml</File>
+          <FormatSpecificOptions>
+            <ParseRoot>False</ParseRoot>
+            <OuterXML>False</OuterXML>
+            <IgnoreErrors>False</IgnoreErrors>
+            <XmlElement />
+            <ChildValues>True</ChildValues>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DEZ.xml</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Table" size="1460" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="id" size="6" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="GSM" size="12" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="GSMPortado" size="11" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Area" size="11" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Regional" size="9" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Filial" size="18" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Numero_x0020_Pedido" size="12" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Data_x0020_pedido" size="29" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Tipo_x0020_Pedido" size="9" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Cupom_x0020_Fiscal" size="5" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Cod_x0020_produto" size="14" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Descr_x0020_Comercial" size="37" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Descricao" size="42" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Grupo_x0020_Estoque" size="19" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="SubGrupo" size="19" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Familia" size="19" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Fabricante" size="9" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Categoria" size="12" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Tipo_x0020_Produto" size="2" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Serial" size="21" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Qtde" size="3" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Valor_x0020_Tabela" size="10" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Valor_x0020_Plano" size="9" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Valor_x0020_Caixa" size="10" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Descontos" size="9" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Juros" size="6" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Total_x0020_Item" size="10" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="voucher" size="8" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Custo_x0020_Inicial" size="9" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Impostos" size="8" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Desconto_x0020_Compra" size="7" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Custo_x0020_Total" size="9" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Fornecedor" size="15" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="DT_x0020_Compra" size="25" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="NF_x0020_Compra" size="7" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Financeira" size="23" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Forma_x0020_Pgto_x0020_1" size="31" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Valor_x0020_Pgto_x0020_1" size="9" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="CPF_x0020_Vendedor" size="12" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Nome_x0020_Vendedor" size="38" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="CPF_x0020_Cliente" size="15" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Nome_x0020_Cliente" size="51" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="UF_x0020_Cliente" size="2" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Cidade_x0020_Cliente" size="26" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Email_x0020_Cliente" size="35" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Fone_x0020_Cliente" size="14" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Plano_x0020_Habilitacao" size="35" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="CLARO_x0020_SIM" size="3" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Tipo_x0020_Habilitacao" size="1" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Modalidade_x0020_Venda" size="48" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Desconto_x0020_Plano" size="10" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="MP_x0020_do_x0020_BEM" size="3" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="VALOR_x0020_PRE" size="9" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Logradouro" size="63" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="numero" size="8" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Complemento" size="30" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="bairro" size="34" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Cidade" size="26" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="cep" size="9" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="uf" size="2" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Item" size="1" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="MPB" size="3" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Valor_x0020_Plano_x0020_Anterior" size="6" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Score_x0020_Cliente" size="1" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Contrato" size="10" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Tipo_x0020_Pacote" size="15" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Plano_x0020_Antigo" size="20" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Forma_x0020_Pgto_x0020_2" size="31" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Valor_x0020_Pgto_x0020_2" size="9" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Grade_x0020_Precos" size="102" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_WString" />
+            <Field name="Operadora_x0020_Origem" size="5" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Forma_x0020_Pgto_x0020_3" size="31" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Valor_x0020_Pgto_x0020_3" size="9" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Nota_x0020_Fiscal" size="10" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Forma_x0020_Pgto_x0020_4" size="31" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Valor_x0020_Pgto_x0020_4" size="9" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Forma_x0020_Pgto_x0020_5" size="6" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+            <Field name="Valor_x0020_Pgto_x0020_5" size="6" source="File: C:\DSM\Serviço\Dados\DEZ.xml" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="162">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="162" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="Table" selected="False" />
+            <SelectField field="id" selected="False" />
+            <SelectField field="GSMPortado" selected="True" rename="GSM Portado" />
+            <SelectField field="Area" selected="True" rename="Área" />
+            <SelectField field="Numero_x0020_Pedido" selected="True" rename="Número PV" />
+            <SelectField field="Data_x0020_pedido" selected="True" rename="Data Pedido" />
+            <SelectField field="Tipo_x0020_Pedido" selected="True" rename="Tipo Pedido" />
+            <SelectField field="Cupom_x0020_Fiscal" selected="True" rename="Cupom Fiscal" />
+            <SelectField field="Cod_x0020_produto" selected="True" rename="Cod Produto" />
+            <SelectField field="Descr_x0020_Comercial" selected="True" rename="Descrição Comercial" />
+            <SelectField field="Descricao" selected="True" rename="Descrição" />
+            <SelectField field="Grupo_x0020_Estoque" selected="True" rename="Grupo Estoque" />
+            <SelectField field="SubGrupo" selected="True" rename="Sub Grupo" />
+            <SelectField field="Familia" selected="True" rename="Família" />
+            <SelectField field="Tipo_x0020_Produto" selected="True" rename="Tipo Produto" />
+            <SelectField field="Valor_x0020_Tabela" selected="True" rename="Valor Tabela" />
+            <SelectField field="Valor_x0020_Plano" selected="True" rename="Valor Plano" />
+            <SelectField field="Valor_x0020_Caixa" selected="True" rename="Valor Caixa" type="FixedDecimal" size="19.2" />
+            <SelectField field="Total_x0020_Item" selected="True" rename="Total Item" />
+            <SelectField field="voucher" selected="True" rename="Voucher" />
+            <SelectField field="Custo_x0020_Inicial" selected="True" rename="Custo Inicial" />
+            <SelectField field="Desconto_x0020_Compra" selected="True" rename="Desconto Compra" />
+            <SelectField field="Custo_x0020_Total" selected="True" rename="Custo Total" />
+            <SelectField field="DT_x0020_Compra" selected="True" rename="DT Compra" />
+            <SelectField field="NF_x0020_Compra" selected="True" rename="NF Compra" />
+            <SelectField field="Forma_x0020_Pgto_x0020_1" selected="True" rename="Forma Pgto 1" />
+            <SelectField field="Valor_x0020_Pgto_x0020_1" selected="True" rename="Valor Pgto 1" />
+            <SelectField field="CPF_x0020_Vendedor" selected="True" rename="CPF Vendedor" />
+            <SelectField field="Nome_x0020_Vendedor" selected="True" rename="Nome Vendedor" />
+            <SelectField field="CPF_x0020_Cliente" selected="True" rename="CPF Cliente" />
+            <SelectField field="Nome_x0020_Cliente" selected="True" rename="Nome Cliente" />
+            <SelectField field="UF_x0020_Cliente" selected="True" rename="UF Cliente" />
+            <SelectField field="Cidade_x0020_Cliente" selected="True" rename="Cidade Cliente" />
+            <SelectField field="Email_x0020_Cliente" selected="True" rename="Email Cliente" />
+            <SelectField field="Fone_x0020_Cliente" selected="True" rename="Fone Cliente" />
+            <SelectField field="Plano_x0020_Habilitacao" selected="True" rename="Plano Habilitação" />
+            <SelectField field="CLARO_x0020_SIM" selected="True" rename="Claro Sim" />
+            <SelectField field="Tipo_x0020_Habilitacao" selected="True" rename="Tipo Habilitação" />
+            <SelectField field="Modalidade_x0020_Venda" selected="True" rename="Modalidade Venda" />
+            <SelectField field="Desconto_x0020_Plano" selected="True" rename="Desconto Plano" />
+            <SelectField field="MP_x0020_do_x0020_BEM" selected="True" rename="MP do Bem" />
+            <SelectField field="VALOR_x0020_PRE" selected="True" rename="Valor Pre" />
+            <SelectField field="numero" selected="True" rename="Número" />
+            <SelectField field="bairro" selected="True" rename="Bairro" />
+            <SelectField field="cep" selected="True" rename="CEP" />
+            <SelectField field="uf" selected="True" rename="UF" />
+            <SelectField field="Valor_x0020_Plano_x0020_Anterior" selected="True" rename="Valor Plano Anterior" />
+            <SelectField field="Score_x0020_Cliente" selected="True" rename="Score cliente" />
+            <SelectField field="Tipo_x0020_Pacote" selected="True" rename="Tipo Pacote" />
+            <SelectField field="Plano_x0020_Antigo" selected="True" rename="Plano Antigo" />
+            <SelectField field="Forma_x0020_Pgto_x0020_2" selected="True" rename="Forma Pgto 2" />
+            <SelectField field="Valor_x0020_Pgto_x0020_2" selected="True" rename="Valor Pgto 2" />
+            <SelectField field="Grade_x0020_Precos" selected="True" rename="Grade Preços" />
+            <SelectField field="Operadora_x0020_Origem" selected="True" rename="Operadora Origem" />
+            <SelectField field="Forma_x0020_Pgto_x0020_3" selected="True" rename="Forma Pgto 3" />
+            <SelectField field="Valor_x0020_Pgto_x0020_3" selected="True" rename="Valor Pgto 3" />
+            <SelectField field="Nota_x0020_Fiscal" selected="True" rename="Nota Fiscal" />
+            <SelectField field="Forma_x0020_Pgto_x0020_4" selected="True" rename="Forma Pgto 4" />
+            <SelectField field="Valor_x0020_Pgto_x0020_4" selected="True" rename="Valor Pgto 4" />
+            <SelectField field="Forma_x0020_Pgto_x0020_5" selected="True" rename="Forma Pgto 5" />
+            <SelectField field="Valor_x0020_Pgto_x0020_5" selected="True" rename="Valor Pgto 5" />
+            <SelectField field="Forma_x0020_Pgto_x0020_4_1" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="163">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="234" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Field>Data Pedido</Field>
+            <Operator>&gt;=</Operator>
+            <Operands>
+              <Operand>2016-12-01</Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DateTimeFormat([Data Pedido],"%Y-%m-%d") &gt;= "2016-12-01"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="164">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
+        <Position x="414" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldType>Text</FieldType>
+          <Fields orderChanged="False">
+            <Field name="GSM" />
+            <Field name="GSM Portado" />
+            <Field name="Área" />
+            <Field name="Regional" />
+            <Field name="Filial" />
+            <Field name="Número PV" />
+            <Field name="Data Pedido" />
+            <Field name="Tipo Pedido" />
+            <Field name="Cupom Fiscal" />
+            <Field name="Cod Produto" />
+            <Field name="Descrição Comercial" />
+            <Field name="Descrição" />
+            <Field name="Grupo Estoque" />
+            <Field name="Sub Grupo" />
+            <Field name="Família" />
+            <Field name="Fabricante" />
+            <Field name="Categoria" />
+            <Field name="Tipo Produto" />
+            <Field name="Serial" />
+            <Field name="Qtde" />
+            <Field name="Valor Tabela" />
+            <Field name="Valor Plano" />
+            <Field name="Descontos" />
+            <Field name="Juros" />
+            <Field name="Total Item" />
+            <Field name="Voucher" />
+            <Field name="Custo Inicial" />
+            <Field name="Impostos" />
+            <Field name="Desconto Compra" />
+            <Field name="Custo Total" />
+            <Field name="Fornecedor" />
+            <Field name="DT Compra" />
+            <Field name="NF Compra" />
+            <Field name="Financeira" />
+            <Field name="Forma Pgto 1" />
+            <Field name="Valor Pgto 1" />
+            <Field name="CPF Vendedor" />
+            <Field name="Nome Vendedor" />
+            <Field name="CPF Cliente" />
+            <Field name="Nome Cliente" />
+            <Field name="UF Cliente" />
+            <Field name="Cidade Cliente" />
+            <Field name="Email Cliente" />
+            <Field name="Fone Cliente" />
+            <Field name="Plano Habilitação" />
+            <Field name="Claro Sim" />
+            <Field name="Tipo Habilitação" />
+            <Field name="Modalidade Venda" />
+            <Field name="Desconto Plano" />
+            <Field name="MP do Bem" />
+            <Field name="Valor Pre" />
+            <Field name="Logradouro" />
+            <Field name="Número" />
+            <Field name="Complemento" />
+            <Field name="Bairro" />
+            <Field name="Cidade" />
+            <Field name="CEP" />
+            <Field name="UF" />
+            <Field name="Item" />
+            <Field name="MPB" />
+            <Field name="Valor Plano Anterior" />
+            <Field name="Score cliente" />
+            <Field name="Contrato" />
+            <Field name="Tipo Pacote" />
+            <Field name="Plano Antigo" />
+            <Field name="Forma Pgto 2" />
+            <Field name="Valor Pgto 2" />
+            <Field name="Grade Preços" />
+            <Field name="Operadora Origem" />
+            <Field name="Forma Pgto 3" />
+            <Field name="Valor Pgto 3" />
+            <Field name="Nota Fiscal" />
+            <Field name="Forma Pgto 4" />
+            <Field name="Valor Pgto 4" />
+            <Field name="Forma Pgto 5" />
+            <Field name="Valor Pgto 5" />
+            <Field name="*Unknown" />
+          </Fields>
+          <CopyOutput value="False" />
+          <Expression>uppercase(DecomposeUnicodeForMatch([_CurrentField_]))</Expression>
+          <ChangeFieldType value="True" />
+          <OutputFieldType type="V_WString" size="102" scale="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>uppercase(DecomposeUnicodeForMatch([_CurrentField_]))</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiFieldFormula" />
+    </Node>
+    <Node ToolID="165">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="37">C:\DSM\Serviço\Dados\Ativações.xml</File>
+          <FormatSpecificOptions>
+            <ParseRoot>False</ParseRoot>
+            <OuterXML>False</OuterXML>
+            <IgnoreErrors>False</IgnoreErrors>
+            <XmlElement />
+            <ChildValues>True</ChildValues>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Ativações.xml</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Table" size="795" source="File: C:\DSM\Serviço\Dados\Ativações.xml" type="V_String" />
+            <Field name="StatusAtual" size="24" source="File: C:\DSM\Serviço\Dados\Ativações.xml" type="V_String" />
+            <Field name="StatusAspix" size="19" source="File: C:\DSM\Serviço\Dados\Ativações.xml" type="V_String" />
+            <Field name="DTAtivacao" size="25" source="File: C:\DSM\Serviço\Dados\Ativações.xml" type="V_String" />
+            <Field name="DTVenda" size="25" source="File: C:\DSM\Serviço\Dados\Ativações.xml" type="V_String" />
+            <Field name="Pedido" size="15" source="File: C:\DSM\Serviço\Dados\Ativações.xml" type="V_String" />
+            <Field name="Filial" size="18" source="File: C:\DSM\Serviço\Dados\Ativações.xml" type="V_String" />
+            <Field name="Vendedor" size="38" source="File: C:\DSM\Serviço\Dados\Ativações.xml" type="V_String" />
+            <Field name="GSM" size="11" source="File: C:\DSM\Serviço\Dados\Ativações.xml" type="V_String" />
+            <Field name="GSMProvisorio" size="11" source="File: C:\DSM\Serviço\Dados\Ativações.xml" type="V_String" />
+            <Field name="CPF" size="15" source="File: C:\DSM\Serviço\Dados\Ativações.xml" type="V_String" />
+            <Field name="Contrato" size="10" source="File: C:\DSM\Serviço\Dados\Ativações.xml" type="V_String" />
+            <Field name="DiaVcto" size="2" source="File: C:\DSM\Serviço\Dados\Ativações.xml" type="V_String" />
+            <Field name="Modalidade" size="48" source="File: C:\DSM\Serviço\Dados\Ativações.xml" type="V_String" />
+            <Field name="IdModalidadeVenda" size="4" source="File: C:\DSM\Serviço\Dados\Ativações.xml" type="V_String" />
+            <Field name="Motivo" size="1" source="File: C:\DSM\Serviço\Dados\Ativações.xml" type="V_String" />
+            <Field name="PlaOpera" size="35" source="File: C:\DSM\Serviço\Dados\Ativações.xml" type="V_String" />
+            <Field name="PlaAntigo" size="20" source="File: C:\DSM\Serviço\Dados\Ativações.xml" type="V_String" />
+            <Field name="Planos" size="23" source="File: C:\DSM\Serviço\Dados\Ativações.xml" type="V_String" />
+            <Field name="Categoria" size="17" source="File: C:\DSM\Serviço\Dados\Ativações.xml" type="V_String" />
+            <Field name="Grade" size="102" source="File: C:\DSM\Serviço\Dados\Ativações.xml" type="V_String" />
+            <Field name="TipoPacote" size="15" source="File: C:\DSM\Serviço\Dados\Ativações.xml" type="V_String" />
+            <Field name="IdPacote" size="2" source="File: C:\DSM\Serviço\Dados\Ativações.xml" type="V_String" />
+            <Field name="Pedido_id" size="6" source="File: C:\DSM\Serviço\Dados\Ativações.xml" type="V_String" />
+            <Field name="Ativacao_id" size="6" source="File: C:\DSM\Serviço\Dados\Ativações.xml" type="V_String" />
+            <Field name="Devolvido" size="3" source="File: C:\DSM\Serviço\Dados\Ativações.xml" type="V_String" />
+            <Field name="ValorCompra" size="9" source="File: C:\DSM\Serviço\Dados\Ativações.xml" type="V_String" />
+            <Field name="ValorVenda" size="9" source="File: C:\DSM\Serviço\Dados\Ativações.xml" type="V_String" />
+            <Field name="ValorCaixa" size="9" source="File: C:\DSM\Serviço\Dados\Ativações.xml" type="V_String" />
+            <Field name="ModalidadeOp" size="40" source="File: C:\DSM\Serviço\Dados\Ativações.xml" type="V_WString" />
+            <Field name="DescricaoOperadora" size="138" source="File: C:\DSM\Serviço\Dados\Ativações.xml" type="V_String" />
+            <Field name="Cliente" size="51" source="File: C:\DSM\Serviço\Dados\Ativações.xml" type="V_String" />
+            <Field name="FilialId" size="2" source="File: C:\DSM\Serviço\Dados\Ativações.xml" type="V_String" />
+            <Field name="ValorPre" size="9" source="File: C:\DSM\Serviço\Dados\Ativações.xml" type="V_String" />
+            <Field name="Fidelizacao" size="5" source="File: C:\DSM\Serviço\Dados\Ativações.xml" type="V_String" />
+            <Field name="DescricaoOperadora_xml:space" size="8" source="File: C:\DSM\Serviço\Dados\Ativações.xml" type="V_String" />
+            <Field name="IMEI" size="16" source="File: C:\DSM\Serviço\Dados\Ativações.xml" type="V_String" />
+            <Field name="IdGrade" size="4" source="File: C:\DSM\Serviço\Dados\Ativações.xml" type="V_String" />
+            <Field name="Aparelho" size="42" source="File: C:\DSM\Serviço\Dados\Ativações.xml" type="V_String" />
+            <Field name="CodigoComercial" size="32" source="File: C:\DSM\Serviço\Dados\Ativações.xml" type="V_String" />
+            <Field name="Portado" size="11" source="File: C:\DSM\Serviço\Dados\Ativações.xml" type="V_String" />
+            <Field name="DTCancelamento" size="25" source="File: C:\DSM\Serviço\Dados\Ativações.xml" type="V_String" />
+            <Field name="StatusLinha" size="9" source="File: C:\DSM\Serviço\Dados\Ativações.xml" type="V_String" />
+            <Field name="DTConfirmacao" size="25" source="File: C:\DSM\Serviço\Dados\Ativações.xml" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="166">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="150" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="Pedido" selected="True" />
+            <SelectField field="Filial" selected="True" />
+            <SelectField field="ValorCompra" selected="False" type="FixedDecimal" size="19.2" />
+            <SelectField field="ValorVenda" selected="False" type="FixedDecimal" size="19.2" />
+            <SelectField field="ValorCaixa" selected="False" type="FixedDecimal" size="19.2" />
+            <SelectField field="DTCancelamento" selected="True" />
+            <SelectField field="StatusLinha" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="167">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="558" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Filial" />
+            <Field field="Número PV" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Filial" />
+            <Field field="Pedido" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="Right_Filial" selected="True" rename="Right_Filial" />
+                <SelectField field="Right_GSM" selected="True" rename="Right_GSM" />
+                <SelectField field="Right_Contrato" selected="True" rename="Right_Contrato" />
+                <SelectField field="Right_Categoria" selected="True" rename="Right_Categoria" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="168">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="546" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\BRENO~1.MEL\AppData\Local\Temp\Engine_4976_8e2e862c2d84432e8efed0a2915bf331_\Engine_3956_d0e2bd1d54224fb9ac4504bc8089e35c_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="169">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="654" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\BRENO~1.MEL\AppData\Local\Temp\Engine_4976_8e2e862c2d84432e8efed0a2915bf331_\Engine_3956_e727ec9c7ff741deaf0a343e1f278e18_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="170">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="654" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\BRENO~1.MEL\AppData\Local\Temp\Engine_4976_8e2e862c2d84432e8efed0a2915bf331_\Engine_3956_b02f52b82f02473faf000660a363e51d_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="171">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="354" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Field>StatusLinha</Field>
+            <Operator>=</Operator>
+            <Operands>
+              <Operand>ATIVO</Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[StatusLinha] = "ATIVO"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="172">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="234" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="Pedido" type="V_String" size="15" expression="substring([Pedido],3)" />
+            <FormulaField field="StatusLinha" type="V_String" size="9" expression="if [StatusLinha] = null() then 'ATIVO' &#xA;else [StatusLinha] &#xA;endif" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Pedido=substring([Pedido],3)
+StatusLinha=if [StatusLinha] = null() then 'ATIVO' 
+else [Sta...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="173">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="990" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="Filial" order="Ascending" />
+            <Field field="GSM" order="Ascending" />
+            <Field field="Número PV" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Filial - Ascending
+GSM - Ascending
+Número PV - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="174">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="534" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\BRENO~1.MEL\AppData\Local\Temp\Engine_4976_8e2e862c2d84432e8efed0a2915bf331_\Engine_3956_ebf0d526265c4aefa6ccd4fef64fd9fe_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="175">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="786" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="Número PV" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Unique: Número PV</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="176">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1134" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\BRENO~1.MEL\AppData\Local\Temp\Engine_4976_8e2e862c2d84432e8efed0a2915bf331_\Engine_3956_fe66482204fe4d4da8ac2d9b96b9af69_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="177">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="894" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="178">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="678" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="179">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="2958" y="1074" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Área" action="GroupBy" rename="Área" />
+            <SummarizeField field="Regional" action="GroupBy" rename="Regional" />
+            <SummarizeField field="Filial" action="GroupBy" rename="Filial" />
+            <SummarizeField field="GSM" action="GroupBy" rename="GSM" />
+            <SummarizeField field="GSM Portado" action="GroupBy" rename="GSM Portado" />
+            <SummarizeField field="Contrato" action="GroupBy" rename="Contrato" />
+            <SummarizeField field="Número PV" action="GroupBy" rename="Número PV" />
+            <SummarizeField field="Data Pedido" action="GroupBy" rename="Data Pedido" />
+            <SummarizeField field="Tipo Pedido" action="GroupBy" rename="Tipo Pedido" />
+            <SummarizeField field="Cupom Fiscal" action="GroupBy" rename="Cupom Fiscal" />
+            <SummarizeField field="Nota Fiscal" action="GroupBy" rename="Nota Fiscal" />
+            <SummarizeField field="Cod Produto" action="GroupBy" rename="Cod Produto" />
+            <SummarizeField field="Descrição Comercial" action="GroupBy" rename="Descrição Comercial" />
+            <SummarizeField field="Descrição" action="GroupBy" rename="Descrição" />
+            <SummarizeField field="Grupo Estoque" action="GroupBy" rename="Grupo Estoque" />
+            <SummarizeField field="Sub Grupo" action="GroupBy" rename="Sub Grupo" />
+            <SummarizeField field="Família" action="GroupBy" rename="Família" />
+            <SummarizeField field="Fabricante" action="GroupBy" rename="Fabricante" />
+            <SummarizeField field="Categoria" action="GroupBy" rename="Categoria" />
+            <SummarizeField field="Tipo Produto" action="GroupBy" rename="Tipo Produto" />
+            <SummarizeField field="Serial" action="GroupBy" rename="Serial" />
+            <SummarizeField field="Qtde" action="GroupBy" rename="Qtde" />
+            <SummarizeField field="Valor Tabela" action="GroupBy" rename="Valor Tabela" />
+            <SummarizeField field="Valor Plano" action="GroupBy" rename="Valor Plano" />
+            <SummarizeField field="Valor Caixa" action="GroupBy" rename="Valor Caixa" />
+            <SummarizeField field="Descontos" action="GroupBy" rename="Descontos" />
+            <SummarizeField field="Juros" action="GroupBy" rename="Juros" />
+            <SummarizeField field="Total Item" action="GroupBy" rename="Total Item" />
+            <SummarizeField field="Voucher" action="GroupBy" rename="Voucher" />
+            <SummarizeField field="Custo Inicial" action="GroupBy" rename="Custo Inicial" />
+            <SummarizeField field="Impostos" action="GroupBy" rename="Impostos" />
+            <SummarizeField field="Desconto Compra" action="GroupBy" rename="Desconto Compra" />
+            <SummarizeField field="Custo Total" action="GroupBy" rename="Custo Total" />
+            <SummarizeField field="Fornecedor" action="GroupBy" rename="Fornecedor" />
+            <SummarizeField field="DT Compra" action="GroupBy" rename="DT Compra" />
+            <SummarizeField field="NF Compra" action="GroupBy" rename="NF Compra" />
+            <SummarizeField field="Financeira" action="GroupBy" rename="Financeira" />
+            <SummarizeField field="Forma Pgto 1" action="GroupBy" rename="Forma Pgto 1" />
+            <SummarizeField field="Valor Pgto 1" action="GroupBy" rename="Valor Pgto 1" />
+            <SummarizeField field="Forma Pgto 2" action="GroupBy" rename="Forma Pgto 2" />
+            <SummarizeField field="Valor Pgto 2" action="GroupBy" rename="Valor Pgto 2" />
+            <SummarizeField field="Forma Pgto 3" action="GroupBy" rename="Forma Pgto 3" />
+            <SummarizeField field="Valor Pgto 3" action="GroupBy" rename="Valor Pgto 3" />
+            <SummarizeField field="Forma Pgto 4" action="GroupBy" rename="Forma Pgto 4" />
+            <SummarizeField field="Valor Pgto 4" action="GroupBy" rename="Valor Pgto 4" />
+            <SummarizeField field="Forma Pgto 5" action="GroupBy" rename="Forma Pgto 5" />
+            <SummarizeField field="Valor Pgto 5" action="GroupBy" rename="Valor Pgto 5" />
+            <SummarizeField field="CPF Vendedor" action="GroupBy" rename="CPF Vendedor" />
+            <SummarizeField field="Nome Vendedor" action="GroupBy" rename="Nome Vendedor" />
+            <SummarizeField field="CPF Cliente" action="GroupBy" rename="CPF Cliente" />
+            <SummarizeField field="Nome Cliente" action="GroupBy" rename="Nome Cliente" />
+            <SummarizeField field="UF Cliente" action="GroupBy" rename="UF Cliente" />
+            <SummarizeField field="Cidade Cliente" action="GroupBy" rename="Cidade Cliente" />
+            <SummarizeField field="Email Cliente" action="GroupBy" rename="Email Cliente" />
+            <SummarizeField field="Fone Cliente" action="GroupBy" rename="Fone Cliente" />
+            <SummarizeField field="Plano Habilitação" action="GroupBy" rename="Plano Habilitação" />
+            <SummarizeField field="SEGMENTO Flat" action="GroupBy" rename="SEGMENTO Flat" />
+            <SummarizeField field="Franquia" action="GroupBy" rename="Franquia" />
+            <SummarizeField field="Claro Sim" action="GroupBy" rename="Claro Sim" />
+            <SummarizeField field="Tipo Habilitação" action="GroupBy" rename="Tipo Habilitação" />
+            <SummarizeField field="Grade Preços" action="GroupBy" rename="Grade Preços" />
+            <SummarizeField field="Tipo Pacote" action="GroupBy" rename="Tipo Pacote" />
+            <SummarizeField field="Modalidade Venda" action="GroupBy" rename="Modalidade Venda" />
+            <SummarizeField field="Tipo Modalidade" action="GroupBy" rename="Tipo Modalidade" />
+            <SummarizeField field="Operadora Origem" action="GroupBy" rename="Operadora Origem" />
+            <SummarizeField field="Desconto Plano" action="GroupBy" rename="Desconto Plano" />
+            <SummarizeField field="Valor Pre" action="GroupBy" rename="Valor Pre" />
+            <SummarizeField field="Logradouro" action="GroupBy" rename="Logradouro" />
+            <SummarizeField field="Número" action="GroupBy" rename="Número" />
+            <SummarizeField field="Complemento" action="GroupBy" rename="Complemento" />
+            <SummarizeField field="Bairro" action="GroupBy" rename="Bairro" />
+            <SummarizeField field="Cidade" action="GroupBy" rename="Cidade" />
+            <SummarizeField field="CEP" action="GroupBy" rename="CEP" />
+            <SummarizeField field="UF" action="GroupBy" rename="UF" />
+            <SummarizeField field="Item" action="GroupBy" rename="Item" />
+            <SummarizeField field="Mês" action="GroupBy" rename="Mês" />
+            <SummarizeField field="Segmento" action="GroupBy" rename="Segmento" />
+            <SummarizeField field="Valor" action="GroupBy" rename="Valor" />
+            <SummarizeField field="Meta TIM" action="GroupBy" rename="Meta TIM" />
+            <SummarizeField field="Meta Fat TIM" action="GroupBy" rename="Meta Fat TIM" />
+            <SummarizeField field="Loja" action="GroupBy" rename="Loja" />
+            <SummarizeField field="Dias" action="GroupBy" rename="Dias" />
+            <SummarizeField field="Data Aterior" action="GroupBy" rename="Data Aterior" />
+            <SummarizeField field="data calculo" action="GroupBy" rename="data calculo" />
+            <SummarizeField field="dias passados rua" action="GroupBy" rename="dias passados rua" />
+            <SummarizeField field="dias passados shop" action="GroupBy" rename="dias passados shop" />
+            <SummarizeField field="dias totais ruas" action="GroupBy" rename="dias totais ruas" />
+            <SummarizeField field="dias totais shop" action="GroupBy" rename="dias totais shop" />
+            <SummarizeField field="dias faltam rua" action="GroupBy" rename="dias faltam rua" />
+            <SummarizeField field="dias faltam shop" action="GroupBy" rename="dias faltam shop" />
+            <SummarizeField field="Meta" action="GroupBy" rename="Meta" />
+            <SummarizeField field="Segmento" action="Count" rename="Count_Segmento" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="181">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="3558" y="1062" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Número PV" action="GroupBy" rename="Número PV" />
+            <SummarizeField field="Segmento" action="GroupBy" rename="Segmento" />
+            <SummarizeField field="Segmento" action="Count" rename="Count" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="182">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="3702" y="1062" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\BRENO~1.MEL\AppData\Local\Temp\Engine_4976_8e2e862c2d84432e8efed0a2915bf331_\Engine_3956_6596f5b0da6941a797760638c25e2cfb_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="184">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="546" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\BRENO~1.MEL\AppData\Local\Temp\Engine_4976_8e2e862c2d84432e8efed0a2915bf331_\Engine_3956_acc69b7c22f94e4383eeec780f3cdaf5_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="185">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="450" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="DTCancelamento" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DTCancelamento - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="186">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1950" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Field>Número PV</Field>
+            <Operator>=</Operator>
+            <Operands>
+              <Operand>0001-0096902</Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Número PV] = "0001-0096902"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="187">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="2070" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\BRENO~1.MEL\AppData\Local\Temp\Engine_4976_8e2e862c2d84432e8efed0a2915bf331_\Engine_3956_6500f16a2e934d1db957b2a24bb16573_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="188">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1734" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Field>GSM</Field>
+            <Operator>=</Operator>
+            <Operands>
+              <Operand>85999989432</Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[GSM] = "85999989432"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="189">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1842" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\BRENO~1.MEL\AppData\Local\Temp\Engine_4976_8e2e862c2d84432e8efed0a2915bf331_\Engine_3956_2b9c1ca28b3746da87aa72f840b9af0c_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="183">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="2958" y="882" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Área" action="GroupBy" rename="Área" />
+            <SummarizeField field="Regional" action="GroupBy" rename="Regional" />
+            <SummarizeField field="Filial" action="GroupBy" rename="Filial" />
+            <SummarizeField field="GSM" action="GroupBy" rename="GSM" />
+            <SummarizeField field="GSM Portado" action="GroupBy" rename="GSM Portado" />
+            <SummarizeField field="Contrato" action="GroupBy" rename="Contrato" />
+            <SummarizeField field="Número PV" action="GroupBy" rename="Número PV" />
+            <SummarizeField field="Data Pedido" action="GroupBy" rename="Data Pedido" />
+            <SummarizeField field="Tipo Pedido" action="GroupBy" rename="Tipo Pedido" />
+            <SummarizeField field="Cupom Fiscal" action="GroupBy" rename="Cupom Fiscal" />
+            <SummarizeField field="Nota Fiscal" action="GroupBy" rename="Nota Fiscal" />
+            <SummarizeField field="Cod Produto" action="GroupBy" rename="Cod Produto" />
+            <SummarizeField field="Descrição Comercial" action="GroupBy" rename="Descrição Comercial" />
+            <SummarizeField field="Descrição" action="GroupBy" rename="Descrição" />
+            <SummarizeField field="Grupo Estoque" action="GroupBy" rename="Grupo Estoque" />
+            <SummarizeField field="Sub Grupo" action="GroupBy" rename="Sub Grupo" />
+            <SummarizeField field="Família" action="GroupBy" rename="Família" />
+            <SummarizeField field="Fabricante" action="GroupBy" rename="Fabricante" />
+            <SummarizeField field="Categoria" action="GroupBy" rename="Categoria" />
+            <SummarizeField field="Tipo Produto" action="GroupBy" rename="Tipo Produto" />
+            <SummarizeField field="Serial" action="GroupBy" rename="Serial" />
+            <SummarizeField field="Qtde" action="GroupBy" rename="Qtde" />
+            <SummarizeField field="Valor Tabela" action="GroupBy" rename="Valor Tabela" />
+            <SummarizeField field="Valor Plano" action="GroupBy" rename="Valor Plano" />
+            <SummarizeField field="Valor Caixa" action="GroupBy" rename="Valor Caixa" />
+            <SummarizeField field="Descontos" action="GroupBy" rename="Descontos" />
+            <SummarizeField field="Juros" action="GroupBy" rename="Juros" />
+            <SummarizeField field="Total Item" action="GroupBy" rename="Total Item" />
+            <SummarizeField field="Voucher" action="GroupBy" rename="Voucher" />
+            <SummarizeField field="Custo Inicial" action="GroupBy" rename="Custo Inicial" />
+            <SummarizeField field="Impostos" action="GroupBy" rename="Impostos" />
+            <SummarizeField field="Desconto Compra" action="GroupBy" rename="Desconto Compra" />
+            <SummarizeField field="Custo Total" action="GroupBy" rename="Custo Total" />
+            <SummarizeField field="Fornecedor" action="GroupBy" rename="Fornecedor" />
+            <SummarizeField field="DT Compra" action="GroupBy" rename="DT Compra" />
+            <SummarizeField field="NF Compra" action="GroupBy" rename="NF Compra" />
+            <SummarizeField field="Financeira" action="GroupBy" rename="Financeira" />
+            <SummarizeField field="Forma Pgto 1" action="GroupBy" rename="Forma Pgto 1" />
+            <SummarizeField field="Valor Pgto 1" action="GroupBy" rename="Valor Pgto 1" />
+            <SummarizeField field="Forma Pgto 2" action="GroupBy" rename="Forma Pgto 2" />
+            <SummarizeField field="Valor Pgto 2" action="GroupBy" rename="Valor Pgto 2" />
+            <SummarizeField field="Forma Pgto 3" action="GroupBy" rename="Forma Pgto 3" />
+            <SummarizeField field="Valor Pgto 3" action="GroupBy" rename="Valor Pgto 3" />
+            <SummarizeField field="Forma Pgto 4" action="GroupBy" rename="Forma Pgto 4" />
+            <SummarizeField field="Valor Pgto 4" action="GroupBy" rename="Valor Pgto 4" />
+            <SummarizeField field="Forma Pgto 5" action="GroupBy" rename="Forma Pgto 5" />
+            <SummarizeField field="Valor Pgto 5" action="GroupBy" rename="Valor Pgto 5" />
+            <SummarizeField field="CPF Vendedor" action="GroupBy" rename="CPF Vendedor" />
+            <SummarizeField field="Nome Vendedor" action="GroupBy" rename="Nome Vendedor" />
+            <SummarizeField field="CPF Cliente" action="GroupBy" rename="CPF Cliente" />
+            <SummarizeField field="Nome Cliente" action="GroupBy" rename="Nome Cliente" />
+            <SummarizeField field="UF Cliente" action="GroupBy" rename="UF Cliente" />
+            <SummarizeField field="Cidade Cliente" action="GroupBy" rename="Cidade Cliente" />
+            <SummarizeField field="Email Cliente" action="GroupBy" rename="Email Cliente" />
+            <SummarizeField field="Fone Cliente" action="GroupBy" rename="Fone Cliente" />
+            <SummarizeField field="Plano Habilitação" action="GroupBy" rename="Plano Habilitação" />
+            <SummarizeField field="SEGMENTO Flat" action="GroupBy" rename="SEGMENTO Flat" />
+            <SummarizeField field="Franquia" action="GroupBy" rename="Franquia" />
+            <SummarizeField field="Claro Sim" action="GroupBy" rename="Claro Sim" />
+            <SummarizeField field="Tipo Habilitação" action="GroupBy" rename="Tipo Habilitação" />
+            <SummarizeField field="Grade Preços" action="GroupBy" rename="Grade Preços" />
+            <SummarizeField field="Tipo Pacote" action="GroupBy" rename="Tipo Pacote" />
+            <SummarizeField field="Modalidade Venda" action="GroupBy" rename="Modalidade Venda" />
+            <SummarizeField field="Tipo Modalidade" action="GroupBy" rename="Tipo Modalidade" />
+            <SummarizeField field="Operadora Origem" action="GroupBy" rename="Operadora Origem" />
+            <SummarizeField field="Desconto Plano" action="GroupBy" rename="Desconto Plano" />
+            <SummarizeField field="Valor Pre" action="GroupBy" rename="Valor Pre" />
+            <SummarizeField field="Logradouro" action="GroupBy" rename="Logradouro" />
+            <SummarizeField field="Número" action="GroupBy" rename="Número" />
+            <SummarizeField field="Complemento" action="GroupBy" rename="Complemento" />
+            <SummarizeField field="Bairro" action="GroupBy" rename="Bairro" />
+            <SummarizeField field="Cidade" action="GroupBy" rename="Cidade" />
+            <SummarizeField field="CEP" action="GroupBy" rename="CEP" />
+            <SummarizeField field="UF" action="GroupBy" rename="UF" />
+            <SummarizeField field="Item" action="GroupBy" rename="Item" />
+            <SummarizeField field="Mês" action="GroupBy" rename="Mês" />
+            <SummarizeField field="Segmento" action="GroupBy" rename="Segmento" />
+            <SummarizeField field="Valor" action="GroupBy" rename="Valor" />
+            <SummarizeField field="Meta TIM" action="GroupBy" rename="Meta TIM" />
+            <SummarizeField field="Meta Fat TIM" action="GroupBy" rename="Meta Fat TIM" />
+            <SummarizeField field="Loja" action="GroupBy" rename="Loja" />
+            <SummarizeField field="Dias" action="GroupBy" rename="Dias" />
+            <SummarizeField field="Data Aterior" action="GroupBy" rename="Data Aterior" />
+            <SummarizeField field="data calculo" action="GroupBy" rename="data calculo" />
+            <SummarizeField field="dias passados rua" action="GroupBy" rename="dias passados rua" />
+            <SummarizeField field="dias passados shop" action="GroupBy" rename="dias passados shop" />
+            <SummarizeField field="dias totais ruas" action="GroupBy" rename="dias totais ruas" />
+            <SummarizeField field="dias totais shop" action="GroupBy" rename="dias totais shop" />
+            <SummarizeField field="dias faltam rua" action="GroupBy" rename="dias faltam rua" />
+            <SummarizeField field="dias faltam shop" action="GroupBy" rename="dias faltam shop" />
+            <SummarizeField field="Meta" action="GroupBy" rename="Meta" />
+            <SummarizeField field="Segmento" action="Count" rename="Count_Segmento" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Left" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Right" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="3" Connection="Join" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="17" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Unique" />
+      <Destination ToolID="17" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Right" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="17" Connection="Join" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Left" />
+      <Destination ToolID="74" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Unique" />
+      <Destination ToolID="3" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="173" Connection="Output" />
+      <Destination ToolID="3" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Unique" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="36" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="154" Connection="Output" />
+      <Destination ToolID="36" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="70" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="47" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="186" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="188" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Unique" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Output" />
+      <Destination ToolID="72" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="36" Connection="Join" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Left" />
+      <Destination ToolID="75" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Output" />
+      <Destination ToolID="73" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="39" Connection="Join" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="Join" />
+      <Destination ToolID="120" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="42" Connection="Output" />
+      <Destination ToolID="71" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="42" Connection="Output" />
+      <Destination ToolID="77" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="43" Connection="Output" />
+      <Destination ToolID="147" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="44" Connection="Output" />
+      <Destination ToolID="183" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="46" Connection="Output" />
+      <Destination ToolID="102" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="72" Connection="Output" />
+      <Destination ToolID="154" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="73" Connection="Output" />
+      <Destination ToolID="98" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="77" Connection="Output" />
+      <Destination ToolID="39" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="98" Connection="Output" />
+      <Destination ToolID="39" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="93" Connection="Output" />
+      <Destination ToolID="128" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="102" Connection="Output" />
+      <Destination ToolID="133" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="107" Connection="Output" />
+      <Destination ToolID="152" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="107" Connection="Output" />
+      <Destination ToolID="44" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="128" Connection="Output" />
+      <Destination ToolID="146" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="133" Connection="Output" />
+      <Destination ToolID="119" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="133" Connection="Output" />
+      <Destination ToolID="158" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="133" Connection="Output" />
+      <Destination ToolID="181" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="146" Connection="True" />
+      <Destination ToolID="149" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="147" Connection="True" />
+      <Destination ToolID="107" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="149" Connection="Output" />
+      <Destination ToolID="160" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="158" Connection="True" />
+      <Destination ToolID="159" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="161" Connection="Output" />
+      <Destination ToolID="162" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="162" Connection="Output" />
+      <Destination ToolID="163" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="163" Connection="True" />
+      <Destination ToolID="164" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="164" Connection="Output" />
+      <Destination ToolID="167" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="171" Connection="True" />
+      <Destination ToolID="167" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="164" Connection="Output" />
+      <Destination ToolID="174" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="165" Connection="Output" />
+      <Destination ToolID="166" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="166" Connection="Output" />
+      <Destination ToolID="172" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="167" Connection="Left" />
+      <Destination ToolID="169" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="167" Connection="Right" />
+      <Destination ToolID="170" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="167" Connection="Join" />
+      <Destination ToolID="178" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="167" Connection="Left" />
+      <Destination ToolID="178" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="171" Connection="True" />
+      <Destination ToolID="168" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="171" Connection="False" />
+      <Destination ToolID="185" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="172" Connection="Output" />
+      <Destination ToolID="171" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="173" Connection="Output" />
+      <Destination ToolID="176" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="175" Connection="Unique" />
+      <Destination ToolID="177" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="177" Connection="Output" />
+      <Destination ToolID="173" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="178" Connection="Output" />
+      <Destination ToolID="175" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="181" Connection="Output" />
+      <Destination ToolID="182" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="185" Connection="Output" />
+      <Destination ToolID="184" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="186" Connection="True" />
+      <Destination ToolID="187" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="188" Connection="True" />
+      <Destination ToolID="189" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="183" Connection="Output" />
+      <Destination ToolID="46" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Serviço DEZ</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
